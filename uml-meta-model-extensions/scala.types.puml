@@ -1,0 +1,44 @@
+@startuml Types and Type Profile 
+package "<<profile>> DottyTypes" {
+    class Type <<metaclass>>
+    class Dependent <<stereotype>> {
+        ids : String [1..*]
+    }
+    class Dependency <<metaclass>> 
+    class "Path Dependent" <<stereotype>> {
+        id : String 
+        members : String [1..*] 
+    }
+
+    class ScalaClass <<stereotype>>
+    class "Type " <<stereotype>> {
+        realTypeBounds : RealTypeBounds [0..1]
+    }
+
+    Type <-- Dependent
+    Dependency <-- "Path Dependent"
+    ScalaClass <|-- "Type "
+} 
+
+package "Types" {
+    class AndType<L,R>
+    class OrType <L,R>
+    class TypeProjection<L,R>
+    class ThisType
+    class RealTypeBounds<U,L>
+    class FunctionType<A,B>
+    hide members 
+}
+
+"<<profile>> DottyTypes" ..> Types : \n<<import>>
+
+hide class circle
+hide class methods 
+hide <<metaclass>> members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor Black
+}
+@enduml 

@@ -1,0 +1,46 @@
+@startuml Multiple ParameterSeqs
+
+' trait Universe {
+'  trait Needle {
+'    def combine(other: Needle): Needle
+'  }
+' }
+'
+' def combine(u: Universe)(n1: u.Needle, n2: u.Needle) = n1 combine n2
+
+class Universe <<trait>> 
+class Needle <<trait>> {
+    + combine (other:Needle): Needle
+}
+
+Universe +-- Needle 
+
+class Wrapper <<object>> {
+    {static}combine(s1:CombineSeq1,s2:CombineSeq2):<<dependent ids = ["u"]>> Needle
+}
+
+class CombineSeq1 <<paramSeq>> {
+    u : Universe 
+}
+
+class CombineSeq2 <<paramSeq>> {
+    <<dependent ids=["u"]>> n1 : Needle
+    <<dependent ids=["u"]>> n2 : Needle 
+}
+
+Wrapper +-- CombineSeq1
+Wrapper +-- CombineSeq2
+
+'path dependency 
+CombineSeq2 ..>  CombineSeq1 : <<pathDependent>>\n{id="u", members=["n1","n2"]}
+Wrapper ..> CombineSeq1 : <<pathDependent>>\n{id="u", members=["combine"]}
+
+hide class circle
+hide <<paramSeq>> methods
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor Black
+}
+@enduml 

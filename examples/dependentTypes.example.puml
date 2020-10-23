@@ -1,0 +1,33 @@
+@startuml Dependent Types 
+
+'trait Foo[A]{type B;def value:B}
+'object Bar { def foo[T](t:T,f:Foo[T]):f.B}
+
+class Foo<T> <<trait>> 
+
+class B <<type>> 
+
+Foo +-- B 
+
+class Bar <<object>> {
+    foo<T> (s1:FooSeq1) : <<dependent ids=["f"]>> B
+}
+
+Bar +-- FooSeq1 
+Bar ..> FooSeq1 : "<<path dependent id = """f""", method = """foo""" >>"
+
+class FooSeq1<T> <<paramseq>> {
+    t:T 
+    f:Foo<T>
+}
+
+
+hide class circle
+hide <<paramList>> methods
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor Black
+}
+@enduml

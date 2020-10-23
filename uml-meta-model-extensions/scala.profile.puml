@@ -1,0 +1,158 @@
+@startuml Scala Profile 
+package "<<profile>> Scala" #00 {
+
+    '---------------------------------------------------
+    'Metaclasses 
+    class "Class" <<metaclass>>
+    class "Operation" <<metaclass>>
+    class "Association" <<metaclass>>
+    class "Property" <<metaclass>>
+    class "Parameter" <<metaclass>>
+    class "Interface" <<metaclass>>
+
+    '---------------------------------------------------
+    'Interfaces 
+
+    abstract class AccessModifierElement {
+        isPrivateAccess : boolean 
+        privateAccessModifier : String 
+        isProtectedAccess : boolean 
+        protectedAccessModifier : String
+    }
+
+    abstract class ModifierElement {
+        isFinal : boolean 
+        isImplicit : boolean 
+        isInline : boolean 
+        isLazy : boolean 
+        isOpaque : boolean 
+        isOpen : boolean 
+        isOverride : boolean 
+        isSealed : boolean 
+    }
+
+    hide ModifierElement methods 
+
+    '---------------------------------------------------
+    'Class Stereotype 
+    class ScalaClass <<stereotype>> extends ModifierElement, AccessModifierElement
+
+    class Trait <<stereotype>> {
+        isSuper : boolean 
+    } 
+    class CaseClass <<stereotype>>
+    Class <-- ScalaClass
+    ScalaClass <-- Trait 
+    ScalaClass <-- CaseClass 
+
+    '---------------------------------------------------
+    'Class Properties 
+
+    class Var <<stereotype>> extends ModifierElement, AccessModifierElement
+    class Val <<stereotype>> extends ModifierElement, AccessModifierElement
+    class Type <<stereotype>> extends ModifierElement, AccessModifierElement
+
+    Property <-- Var 
+    Property <-- Val 
+    Property <-- Type 
+
+    ScalaClass <-- Val 
+    ScalaClass <-- Var 
+    ScalaClass <-- Type 
+
+    '---------------------------------------------------
+    'Class Parameter
+
+    class Using <<stereotype>> 
+    class Implicit <<stereotype>>
+
+    Parameter <-- Using
+    Parameter <-- Implicit  
+
+    '---------------------------------------------------
+    ' Associations
+
+    class GivenAs <<stereotype>> 
+    Association <-- GivenAs
+
+    '---------------------------------------------------
+    ' Operations 
+
+    class Def <<stereotype>> extends ModifierElement
+
+    Operation <-- "{required}" Def
+    ScalaClass <-- Def 
+
+    class ParamSeq <<stereotype>>
+
+    ScalaClass <-- ParamSeq
+    
+    '---------------------------------------------------
+    'Class Constructor 
+    class ClassConstr <<stereotype>> extends AccessModifierElement
+
+    Operation <-- ClassConstr
+
+    '---------------------------------------------------
+    'Extensions 
+    class Extension <<stereotype>> 
+    Interface <-- Extension 
+
+    '---------------------------------------------------
+    'Annotations 
+
+    class Annotated <<stereotype>> {
+        annotations:String [1..*]
+    }
+
+    class " Parameter " <<metaclass>>
+    class " Operation " <<metaclass>>
+    class " Class " <<metaclass>> 
+
+    Type -[hidden]- Annotated
+    Annotated --> " Parameter "
+    Annotated --> " Operation "
+    Annotated --> " Class " 
+
+    '---------------------------------------------------
+    'Enums 
+
+    class ScalaEnum <<stereotype>> 
+    class Case <<stereotype>> 
+
+    ScalaClass <-- ScalaEnum
+    ScalaClass <-- Case
+
+    '---------------------------------------------------
+    'Objects 
+
+    class Object <<stereotype>> {
+        isPackageObject : boolean 
+    }
+    ScalaClass <-- Object 
+
+    '---------------------------------------------------
+    'Given
+    
+    class GivenInstance <<stereotype>>
+    class GivenAlias <<stereotype>>  
+
+    ScalaClass <-- GivenInstance 
+    ScalaClass <-- GivenAlias 
+
+}
+
+hide class circle
+hide class methods 
+hide <<metaclass>> members 
+hide ClassConstr members 
+hide Operation members 
+hide Extension members 
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor Black
+}
+
+@enduml 
