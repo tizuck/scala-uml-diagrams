@@ -1,0 +1,14 @@
+@startuml
+class Foo <<caseclass>> {
+    bar:boolean 
+    showCounter(counter:Int):String
+}
+
+hide class circle
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor Black
+}
+@enduml 
