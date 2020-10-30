@@ -1,13 +1,14 @@
 @startuml Defineable 
-class Definable {
+abstract class Definable {
     identifier:String
 }
 
-Definable --> "*" Annotation : annotations 
-Definable --> "*" Modifier : modifiers
+Definable --> "    \n*" Annotation : annotations 
+Definable --> "      \n*" Modifier : modifiers
 
 hide class circle
-hide class methods
+hide class members
+hide Definable methods
 
 skinparam class {
     BackgroundColor White
