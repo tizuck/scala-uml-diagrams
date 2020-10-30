@@ -27,6 +27,10 @@ package "Types" {
     class ThisType
     class RealTypeBounds<U,L>
     class FunctionType<A,B>
+    class WildcardType
+    class Bounds<LO,HI>
+
+    WildcardType --> "0..1" Bounds 
     hide members 
 }
 

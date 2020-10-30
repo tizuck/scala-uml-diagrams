@@ -1,14 +1,21 @@
-@startuml "Two classes"
-class Class1 << case class >> {
-    
-}
-class BaseTrait << trait >> {
-    s : String
-    foo(s : String) : String
-}
-Class1 --|> BaseTrait : " "
-skinparam ClassBackgroundcolor White
-skinparam ClassArrowColor Black
-skinparam ClassBorderColor Black
-hide class circle
+@startuml need_to_find_id
+abstract class C << trait >>
+abstract class B << trait >>{
+    foo(numberValid : Map<Int,Bool>) (<< implicit >>guaranteedValidNumber : Int) : Int
+    }
+abstract class Int << trait >>
+abstract class A << trait >>{
+    << constr >>A(a : Int) (<< implicit >>c : CollectorContext) 
+    }
+A --+ E 
+abstract class E << type >>
+A --> "1" List : "<< var >>c " > 
+A --> "1" Bool : b  > 
+A --> "1" Int : a  > 
 @enduml
+
+Process finished with exit code 0
+
+
+
+
