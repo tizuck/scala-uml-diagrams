@@ -1,0 +1,48 @@
+@startuml
+
+package "<<profile>> Scala Class" #00 {
+    class Class <<metaclass>>
+    class ScalaClass <<stereotype>> extends AccessModifierElement,ModifierElement 
+    class Trait <<stereotype>> {
+        isSuper:boolean
+    }
+    class CaseClass <<stereotype>> 
+
+    abstract class AccessModifierElement {
+        isPrivateAccess : boolean 
+        privateAccessModifier : String 
+        isProtectedAccess : boolean 
+        protectedAccessModifier : String
+    }
+
+    abstract class ModifierElement {
+        isFinal : boolean 
+        isImplicit : boolean 
+        isInline : boolean 
+        isLazy : boolean 
+        isOpaque : boolean 
+        isOpen : boolean 
+        isOverride : boolean 
+        isSealed : boolean 
+    }
+
+    Class <-- ScalaClass
+    ScalaClass <-- CaseClass 
+    ScalaClass <-- Trait 
+
+}
+
+hide class circle
+hide class methods 
+hide <<metaclass>> members 
+hide CaseClass members 
+hide ScalaClass members 
+hide abstract methods
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor Black
+}
+
+@enduml 

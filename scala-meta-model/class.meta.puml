@@ -1,5 +1,10 @@
 @startuml Class
-class Class extends Defineable, Constructerable, Defines {
+
+abstract class Defineable
+abstract class Constructorable 
+abstract class Defines 
+
+class Class extends Defineable, Constructorable, Defines {
     isCaseClass : Boolean 
     isTrait : Boolean 
     isSuperTrait : Boolean 
@@ -11,12 +16,11 @@ Class --> "*" Export : exports
 Class *--left> "0..1  " Inherit : inherits
 Class *--> "*" Extension : "extensions"
 Class *--> "*" ClassParameterSeqLike : parameterSeqs \n{refines parameterSeqs}
-Class *--left> "*" ClassParameter : \nimplicits
 
 hide class circle
 hide class methods
 hide Defineable members
-hide Constructerable members 
+hide Constructorable members 
 hide Defines members 
 
 skinparam class {

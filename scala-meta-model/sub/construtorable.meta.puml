@@ -1,13 +1,13 @@
 @startuml Constructorabler
-class Constructorable 
+abstract class Constructorable 
 
 Constructorable *--> "*" TypeParameter : genericParameter 
-Constructorable *--> "*" Annotation : modAnnotations 
-Constructorable *--> "*" AccessModifier : accessModifiers
+Constructorable *--> "   \n\n*" Annotation : modAnnotations 
+Constructorable *--> "\n*" AccessModifier : accessModifiers
 Constructorable *--> "*" ParameterSeqLike : parameterSeqs
 
 hide class circle
-hide class methods
+hide class members
 
 skinparam class {
     BackgroundColor White

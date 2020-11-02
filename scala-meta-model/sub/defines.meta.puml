@@ -1,5 +1,5 @@
 @startuml Defines 
-class Defines {
+abstract class Defines {
     \n
     \n
     \n 
@@ -9,13 +9,14 @@ Defines *--left> "*" ValDef : vals
 Defines *--left> "*" DefDef : "\n defs" 
 Defines *--> "*" VarDef : vars
 Defines *--> "*" TypeDef : types
-Defines *--> "*" Class : classes
-Defines *--> "*" Enum  : enums 
+Defines *--> "    \n*" Class : classes
+Defines *--> "\n*" Enum  : enums 
 Defines *--right> "*\n" Object : "\nobjects" 
 Defines *--right> "*" Given : givens 
 
 hide class circle
 hide class methods
+hide Defines methods
 
 skinparam class {
     BackgroundColor White
