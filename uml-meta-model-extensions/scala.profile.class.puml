@@ -2,7 +2,7 @@
 
 package "<<profile>> Scala Class" #00 {
     class Class <<metaclass>>
-    class ScalaClass <<stereotype>> extends AccessModifierElement,ModifierElement 
+    class ScalaClass <<stereotype>>
     class Trait <<stereotype>> {
         isSuper:boolean
     }
@@ -26,9 +26,11 @@ package "<<profile>> Scala Class" #00 {
         isSealed : boolean 
     }
 
-    Class <-- ScalaClass : "{required}" 
-    ScalaClass <-- CaseClass 
-    ScalaClass <-- Trait 
+    Class <-- ScalaClass :  "\n\n{required}" 
+    ScalaClass <|-- CaseClass 
+    ScalaClass <|-- Trait 
+    ModifierElement <|--left- ScalaClass 
+    AccessModifierElement <|--right- ScalaClass
 
 }
 
@@ -44,5 +46,8 @@ skinparam class {
     ArrowColor Black
     BorderColor Black
 }
+
+
+
 
 @enduml 
