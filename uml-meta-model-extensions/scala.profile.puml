@@ -9,6 +9,8 @@ package "<<profile>> Scala" #00 {
     class "Property" <<metaclass>>
     class "Parameter" <<metaclass>>
     class "Interface" <<metaclass>>
+    class "Package" <<metaclass>>
+    class "Specialization" <<metaclass>>
 
     '---------------------------------------------------
     'Interfaces 
@@ -92,6 +94,7 @@ package "<<profile>> Scala" #00 {
     class Constr <<stereotype>> extends AccessModifierElement
 
     Operation <-- Constr
+    
 
     '---------------------------------------------------
     'Extensions 
@@ -126,9 +129,7 @@ package "<<profile>> Scala" #00 {
     '---------------------------------------------------
     'Objects 
 
-    class Object <<stereotype>> {
-        isPackageObject : boolean 
-    }
+    class Object <<stereotype>> 
     ScalaClass <-- Object 
 
     '---------------------------------------------------
@@ -140,12 +141,18 @@ package "<<profile>> Scala" #00 {
     ScalaClass <-- GivenInstance 
     ScalaClass <-- GivenAlias 
 
+    '---------------------------------------------------
+    'Packages
+
+    class Packageobject <<stereotype>>
+
+    Package <-- Packageobject
+
 }
 
 hide class circle
 hide class methods 
 hide <<metaclass>> members 
-hide ClassConstr members 
 hide Operation members 
 hide Extension members 
 
