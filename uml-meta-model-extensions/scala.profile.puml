@@ -52,11 +52,11 @@ package "<<profile>> Scala" #00 {
 
     class Var <<stereotype>> extends ModifierElement, AccessModifierElement
     class Val <<stereotype>> extends ModifierElement, AccessModifierElement
-    class Type <<stereotype>> extends ModifierElement, AccessModifierElement
+    class TypeRep <<stereotype>> extends ModifierElement, AccessModifierElement
 
     Property <-- Var 
     Property <-- Val 
-    Property <-- Type 
+    Property <-- TypeRep 
 
     ScalaClass <-- Val 
     ScalaClass <-- Var 
@@ -75,7 +75,11 @@ package "<<profile>> Scala" #00 {
     ' Associations
 
     class GivenAs <<stereotype>> 
+    class Ctorbind <<stereotype>> {
+        vals : String [*]
+    }
     Association <-- GivenAs
+    Association <-- Ctorbind
 
     '---------------------------------------------------
     ' Operations 
@@ -91,9 +95,9 @@ package "<<profile>> Scala" #00 {
     
     '---------------------------------------------------
     'Class Constructor 
-    class Constr <<stereotype>> extends AccessModifierElement
+    class Ctor <<stereotype>> extends AccessModifierElement
 
-    Operation <-- Constr
+    Operation <-- Ctor
     
 
     '---------------------------------------------------

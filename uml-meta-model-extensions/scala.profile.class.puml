@@ -9,10 +9,13 @@ package "<<profile>> Scala Class" #00 {
     class CaseClass <<stereotype>> 
 
     abstract class AccessModifierElement {
-        isPrivateAccess : boolean 
-        privateAccessModifier : String 
-        isProtectedAccess : boolean 
-        protectedAccessModifier : String
+        isObjectPrivate : boolean 
+        isClassPrivate : boolean  
+        isQualifiedPrivate : boolean 
+        privateAccessQualid : String 
+        isObjectProtected : boolean
+        isQualifiedProtected : boolean
+        protectedAccessQualid : String
     }
 
     abstract class ModifierElement {
