@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="440px" preserveAspectRatio="none" style="width:638px;height:440px;" version="1.1" viewBox="0 0 638 440" width="638px" zoomAndPan="magnify"><defs><filter height="300%" id="fwbibd788ttlg" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[b70ed3f7bfd66d7316744d2732cd9c52]
+cluster ScalaTypes--><polygon fill="#FFFFFF" filter="url(#fwbibd788ttlg)" points="16,6.3199,112,6.3199,119,29.9082,621,29.9082,621,433.3199,16,433.3199,16,6.3199" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="16" x2="119" y1="29.9082" y2="29.9082"/><text fill="#000000" font-family="Source Code Pro" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="90" x="20" y="22.0883">ScalaTypes</text><!--MD5=[7db35981a0dee99cffa5f3f2614b6acc]
+class Function_n--><rect codeLine="3" fill="#FFFFFF" filter="url(#fwbibd788ttlg)" height="40.1514" id="Function_n" style="stroke: #1B1F23; stroke-width: 1.5;" width="185" x="419.5" y="42.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="433" y="59.1214">«trait»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="70" x="422.5" y="74.1971">Function_n</text><rect fill="#FFFFFF" height="17.0757" style="stroke: #1B1F23; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" width="107" x="500.5" y="39.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="91" x="508.5" y="52.1214">T1, ... ,Tn,R</text><!--MD5=[fb6ab96a73254f6f55fccf822c2f87ae]
+class Tuple_n--><rect codeLine="4" fill="#FFFFFF" filter="url(#fwbibd788ttlg)" height="40.1514" id="Tuple_n" style="stroke: #1B1F23; stroke-width: 1.5;" width="167" x="217.5" y="42.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="218.5" y="59.1214">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="49" x="232.5" y="74.1971">Tuple_n</text><rect fill="#FFFFFF" height="17.0757" style="stroke: #1B1F23; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" width="86" x="301.5" y="39.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="302.5" y="52.1214">T1, ... ,Tn</text><!--MD5=[2624b266e3584263ddaabf39bb508708]
+class Union--><rect codeLine="7" fill="#FFFFFF" filter="url(#fwbibd788ttlg)" height="40.1514" id="Union" style="stroke: #1B1F23; stroke-width: 1.5;" width="90" x="492" y="242.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="493" y="259.1214">«trait»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="35" x="500" y="274.1971">Union</text><rect fill="#FFFFFF" height="17.0757" style="stroke: #1B1F23; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" width="37" x="548" y="239.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="21" x="556" y="252.1214">L,R</text><!--MD5=[3e9e85c672fedfc09a4eb00e1bd53162]
+class Intersection--><rect codeLine="8" fill="#FFFFFF" filter="url(#fwbibd788ttlg)" height="40.1514" id="Intersection" style="stroke: #1B1F23; stroke-width: 1.5;" width="129" x="472.5" y="142.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="493" y="159.1214">«trait»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="475.5" y="174.1971">Intersection</text><rect fill="#FFFFFF" height="17.0757" style="stroke: #1B1F23; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" width="37" x="567.5" y="139.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="21" x="575.5" y="152.1214">L,R</text><!--MD5=[7e6635f40e0afbc52f366717d8e78137]
+class ContextFunction_n--><rect codeLine="9" fill="#FFFFFF" filter="url(#fwbibd788ttlg)" height="40.1514" id="ContextFunction_n" style="stroke: #1B1F23; stroke-width: 1.5;" width="234" x="203" y="142.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="241" y="159.1214">«trait»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="119" x="206" y="174.1971">ContextFunction_n</text><rect fill="#FFFFFF" height="17.0757" style="stroke: #1B1F23; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" width="107" x="333" y="139.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="91" x="341" y="152.1214">T1, ... ,Tn,R</text><!--MD5=[d46c2b250771a091971291e023d6e4bc]
+class TypeLambda--><rect codeLine="10" fill="#FFFFFF" filter="url(#fwbibd788ttlg)" height="40.1514" id="TypeLambda" style="stroke: #1B1F23; stroke-width: 1.5;" width="192" x="219" y="242.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="232.5" y="259.1214">«trait»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="70" x="222" y="274.1971">TypeLambda</text><rect fill="#FFFFFF" height="17.0757" style="stroke: #1B1F23; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" width="114" x="300" y="239.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="98" x="308" y="252.1214">T1, ... , Tn,R</text><!--MD5=[83d178ffe23fcd8268f30742d3516ec3]
+class Bound--><rect codeLine="11" fill="#FFFFFF" filter="url(#fwbibd788ttlg)" height="25.0757" id="Bound" style="stroke: #1B1F23; stroke-width: 1.5;" width="150" x="32" y="49.8199"/><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="35" x="35" y="66.6214">Bound</text><rect fill="#FFFFFF" height="17.0757" style="stroke: #1B1F23; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" width="107" x="78" y="46.8199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="91" x="86" y="59.6214">LowerT,UpperT</text><!--MD5=[1f5eeb4f4a4bf252e8f8bddb52bdacbd]
+class LowerBound--><rect codeLine="12" fill="#FFFFFF" filter="url(#fwbibd788ttlg)" height="25.0757" id="LowerBound" style="stroke: #1B1F23; stroke-width: 1.5;" width="136" x="32" y="149.8199"/><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="70" x="35" y="166.6214">LowerBound</text><rect fill="#FFFFFF" height="17.0757" style="stroke: #1B1F23; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" width="58" x="113" y="146.8199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="42" x="121" y="159.6214">LowerT</text><!--MD5=[041351155e01569dbbb408c8b5282ced]
+class UpperBound--><rect codeLine="13" fill="#FFFFFF" filter="url(#fwbibd788ttlg)" height="25.0757" id="UpperBound" style="stroke: #1B1F23; stroke-width: 1.5;" width="136" x="32" y="249.8199"/><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="70" x="35" y="266.6214">UpperBound</text><rect fill="#FFFFFF" height="17.0757" style="stroke: #1B1F23; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" width="58" x="113" y="246.8199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="42" x="121" y="259.6214">UpperT</text><!--MD5=[3d4177ac58b4411586d067f34e84928f]
+class List--><rect codeLine="24" fill="#FFFFFF" filter="url(#fwbibd788ttlg)" height="64.6953" id="List" style="stroke: #1B1F23; stroke-width: 1.5;" width="106" x="258" y="347.3199"/><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="28" x="281" y="364.1214">List</text><rect fill="#FFFFFF" height="17.0757" style="stroke: #1B1F23; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" width="30" x="337" y="344.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="14" x="345" y="357.1214">+A</text><line style="stroke: #1B1F23; stroke-width: 1.5;" x1="259" x2="363" y1="372.3956" y2="372.3956"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="56" x="264" y="405.016">isSealed</text><line style="stroke: #1B1F23; stroke-width: 1.0;" x1="259" x2="262" y1="387.3005" y2="387.3005"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="98" x="262" y="390.7062">&lt;&lt;ScalaClass&gt;&gt;</text><line style="stroke: #1B1F23; stroke-width: 1.0;" x1="360" x2="363" y1="387.3005" y2="387.3005"/><!--MD5=[b07065dfc0d0e09965ec10bfc328bb3e]
+class Option--><rect codeLine="29" fill="#FFFFFF" filter="url(#fwbibd788ttlg)" height="64.6953" id="Option" style="stroke: #1B1F23; stroke-width: 1.5;" width="106" x="47" y="347.3199"/><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="42" x="63" y="364.1214">Option</text><rect fill="#FFFFFF" height="17.0757" style="stroke: #1B1F23; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" width="30" x="126" y="344.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="14" x="134" y="357.1214">+A</text><line style="stroke: #1B1F23; stroke-width: 1.5;" x1="48" x2="152" y1="372.3956" y2="372.3956"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="56" x="53" y="405.016">isSealed</text><line style="stroke: #1B1F23; stroke-width: 1.0;" x1="48" x2="51" y1="387.3005" y2="387.3005"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="98" x="51" y="390.7062">&lt;&lt;ScalaClass&gt;&gt;</text><line style="stroke: #1B1F23; stroke-width: 1.0;" x1="149" x2="152" y1="387.3005" y2="387.3005"/><path d="M399.5,342.3199 L399.5,376.3199 L364.2,380.3199 L399.5,384.3199 L399.5,417.6096 A0,0 0 0 0 399.5,417.6096 L604.5,417.6096 A0,0 0 0 0 604.5,417.6096 L604.5,352.3199 L594.5,342.3199 L399.5,342.3199 A0,0 0 0 0 399.5,342.3199 " fill="#FFFFFF" filter="url(#fwbibd788ttlg)" style="stroke: #1B1F23; stroke-width: 1.0;"/><path d="M594.5,342.3199 L594.5,352.3199 L604.5,352.3199 L594.5,342.3199 " fill="#FFFFFF" style="stroke: #1B1F23; stroke-width: 1.0;"/><text fill="#D73A49" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="144" x="405.5" y="360.0974">Other types of the</text><text fill="#D73A49" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="176" x="405.5" y="376.4198">Scala Standard Library</text><text fill="#D73A49" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="96" x="405.5" y="392.7422">are included</text><text fill="#D73A49" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="128" x="405.5" y="409.0647">in the appendix.</text><!--MD5=[7e0946a82c765c7aa74ce475176606c0]
+link Function_n to Intersection--><!--MD5=[da22a2bdfdf19ddc26a75f429897a5b9]
+link Intersection to Union--><!--MD5=[f4fcf28833e6933dff10fa9e7c76a42c]
+link ContextFunction_n to TypeLambda--><!--MD5=[07eab231c0c1b4ef4a980bb185191e0a]
+link TypeLambda to List--><!--MD5=[bc3b73c02f8d54557330fc08e570ab56]
+link Tuple_n to ContextFunction_n--><!--MD5=[b6bcf6eb2dcfb739dbcc7ae8d1df8f1d]
+link Bound to LowerBound--><!--MD5=[12af2feea695212e2eb6b00974b20527]
+link LowerBound to UpperBound--><!--MD5=[894e095d64d84dc5616335757a92a702]
+link UpperBound to Option--><!--MD5=[35c52f1bdb96bf5f6ab84b1030f6c647]
+@startuml types 
+
+package ScalaTypes {
+    abstract class Function_n< T1, ... ,Tn,R > <<trait>>
+    class Tuple_n<T1, ... ,Tn > <<caseclass>> {
+        + <<ctor>> Tuple_n(_1:T1, ..., _n:Tn)
+    } 
+    abstract class Union< L,R > <<trait>>
+    abstract class Intersection< L,R > <<trait>>
+    abstract class ContextFunction_n< T1, ... ,Tn,R > <<trait>>
+    abstract class TypeLambda< T1, ... , Tn,R > <<trait>>
+    class Bound< LowerT,UpperT >
+    class LowerBound< LowerT >
+    class UpperBound< UpperT >
+    Function_n -down[hidden]-> Intersection 
+    Intersection -down[hidden]-> Union 
+
+    ContextFunction_n -down[hidden]-> TypeLambda
+    TypeLambda -down[hidden]-> List
+    Tuple_n -down[hidden]-> ContextFunction_n
+    Bound -down[hidden]-> LowerBound 
+    LowerBound -down[hidden]-> UpperBound
+    UpperBound -down[hidden]-> Option
+
+    abstract class List< +A > {
+        - - <<ScalaClass>> - -
+        isSealed
+    }
+
+    abstract class Option< +A > {
+        - - <<ScalaClass>> - -
+        isSealed
+    }
+
+note right of List 
+        Other types of the
+        Scala Standard Library 
+        are included 
+        in the appendix. 
+end note 
+  
+
+hide circle
+hide methods
+hide attributes
+show Option attributes
+show List attributes 
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+skinparam linetype ortho
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+
+@enduml
+
+PlantUML version 1.2020.18(Wed Sep 30 21:40:44 CEST 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

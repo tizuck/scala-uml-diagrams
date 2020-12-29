@@ -1,0 +1,20 @@
+@startuml 
+abstract class Lambda <<interface>> {
+    reduce():Lambda 
+}
+class Variable {
+    identifier:String  
+}
+class Abstraction {
+    variable:Variable
+}
+class Application {
+    innerLambdaTermL : Lambda
+    innerLambdaTermR : Lambda 
+}
+Lambda <|-- Variable 
+Lambda <|-- Abstraction 
+Lambda <|-- Application 
+Abstraction --> "1" Lambda : " innerLambdaTerm"
+
+@enduml 

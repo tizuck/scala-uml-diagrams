@@ -1,0 +1,34 @@
+@startuml
+ package "MyModel                " <<metamodel>> {
+    class Node {
+        location:String 
+    }
+    class MainNode
+    MainNode " * source"  -- " * target" MainNode : Edge 
+    Node  " * local-\n  nodes" -- "1" MainNode 
+    MainNode --|> Node  
+ }
+hide circles 
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml 

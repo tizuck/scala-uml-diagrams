@@ -1,12 +1,8 @@
 @startuml
 
-package "<<profile>> Scala Class" #00 {
+package "<<profile>> Scala" #00 {
     class Class <<metaclass>>
     class ScalaClass <<stereotype>>
-    class Trait <<stereotype>> {
-        isSuper:boolean
-    }
-    class CaseClass <<stereotype>> 
 
     abstract class AccessModifierElement {
         isObjectPrivate : boolean 
@@ -30,27 +26,42 @@ package "<<profile>> Scala Class" #00 {
     }
 
     Class <-- ScalaClass :  "\n\n{required}" 
-    ScalaClass <|-- CaseClass 
-    ScalaClass <|-- Trait 
     ModifierElement <|--left- ScalaClass 
-    AccessModifierElement <|--right- ScalaClass
+    AccessModifierElement <|--right- ScalaClass 
 
 }
 
 hide class circle
 hide class methods 
 hide <<metaclass>> members 
-hide CaseClass members 
 hide ScalaClass members 
 hide abstract methods
 
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
 skinparam class {
     BackgroundColor White
-    ArrowColor Black
-    BorderColor Black
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
 }
 
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+skinparam linetype ortho
 
 
+skinparam stereotype {
+    FontColor #d73a49
+}
+
+hide circle
 
 @enduml 

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="309px" preserveAspectRatio="none" style="width:595px;height:309px;" version="1.1" viewBox="0 0 595 309" width="595px" zoomAndPan="magnify"><defs><filter height="300%" id="f15u6n9fngk4on" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[d8ab133e89d29590d3899cd44ef0a959]
+class Defineable--><rect codeLine="2" fill="#FFFFFF" filter="url(#f15u6n9fngk4on)" height="25.0757" id="Defineable" style="stroke: #1B1F23; stroke-width: 1.5;" width="76" x="78.5" y="7"/><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="70" x="81.5" y="23.8015">Defineable</text><!--MD5=[af2e38d02f001d6995fc9067fa42f2c1]
+class Constructorable--><rect codeLine="3" fill="#FFFFFF" filter="url(#f15u6n9fngk4on)" height="25.0757" id="Constructorable" style="stroke: #1B1F23; stroke-width: 1.5;" width="111" x="190" y="7"/><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="105" x="193" y="23.8015">Constructorable</text><!--MD5=[4591dc0fac4e74bd5d3d0bdec54f2370]
+class Defines--><rect codeLine="4" fill="#FFFFFF" filter="url(#f15u6n9fngk4on)" height="25.0757" id="Defines" style="stroke: #1B1F23; stroke-width: 1.5;" width="55" x="336" y="7"/><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="339" y="23.8015">Defines</text><!--MD5=[41e1c6cf192918703501b24b2053926c]
+class Class--><rect codeLine="6" fill="#FFFFFF" filter="url(#f15u6n9fngk4on)" height="74.5052" id="Class" style="stroke: #1B1F23; stroke-width: 1.5;" width="166" x="162.5" y="93"/><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="35" x="228" y="109.8015">Class</text><line style="stroke: #1B1F23; stroke-width: 1.5;" x1="163.5" x2="327.5" y1="118.0757" y2="118.0757"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="147" x="168.5" y="132.8863">isCaseClass : Boolean</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="119" x="168.5" y="146.6961">isTrait : Boolean</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="154" x="168.5" y="160.5059">isSuperTrait : Boolean</text><!--MD5=[f9bb3094b6d6f786926c56d9e97ecd1b]
+class Import--><rect fill="#FFFFFF" filter="url(#f15u6n9fngk4on)" height="33.0757" id="Import" style="stroke: #1B1F23; stroke-width: 1.5;" width="48" x="74.5" y="262"/><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="42" x="77.5" y="278.8015">Import</text><line style="stroke: #1B1F23; stroke-width: 1.5;" x1="75.5" x2="121.5" y1="287.0757" y2="287.0757"/><!--MD5=[f90107f70c7684b06af0beb802c8d883]
+class Export--><rect fill="#FFFFFF" filter="url(#f15u6n9fngk4on)" height="33.0757" id="Export" style="stroke: #1B1F23; stroke-width: 1.5;" width="48" x="172.5" y="262"/><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="42" x="175.5" y="278.8015">Export</text><line style="stroke: #1B1F23; stroke-width: 1.5;" x1="173.5" x2="219.5" y1="287.0757" y2="287.0757"/><!--MD5=[64822ab262cb0e43afe6e3200d64b90a]
+class Inherit--><rect fill="#FFFFFF" filter="url(#f15u6n9fngk4on)" height="33.0757" id="Inherit" style="stroke: #1B1F23; stroke-width: 1.5;" width="55" x="7" y="114"/><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="49" x="10" y="130.8015">Inherit</text><line style="stroke: #1B1F23; stroke-width: 1.5;" x1="8" x2="61" y1="139.0757" y2="139.0757"/><!--MD5=[b2aea1118518b698ec374f389bc4ef24]
+class Extension--><rect fill="#FFFFFF" filter="url(#f15u6n9fngk4on)" height="33.0757" id="Extension" style="stroke: #1B1F23; stroke-width: 1.5;" width="69" x="260" y="262"/><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="63" x="263" y="278.8015">Extension</text><line style="stroke: #1B1F23; stroke-width: 1.5;" x1="261" x2="328" y1="287.0757" y2="287.0757"/><!--MD5=[a15b76a3a092393f006a32f8788b2853]
+class ClassParameterSeqLike--><rect fill="#FFFFFF" filter="url(#f15u6n9fngk4on)" height="33.0757" id="ClassParameterSeqLike" style="stroke: #1B1F23; stroke-width: 1.5;" width="153" x="364" y="262"/><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="147" x="367" y="278.8015">ClassParameterSeqLike</text><line style="stroke: #1B1F23; stroke-width: 1.5;" x1="365" x2="516" y1="287.0757" y2="287.0757"/><!--MD5=[61a0eb89a0023df480444eaeff66ef2e]
+reverse link Defineable to Class--><path d="M145.72,45.19 C162.37,59.25 183.55,77.15 202.11,92.83 " fill="none" id="Defineable-backto-Class" style="stroke: #1B1F23; stroke-width: 1.0;"/><polygon fill="none" points="141.06,50.42,130.31,32.16,150.1,39.73,141.06,50.42" style="stroke: #1B1F23; stroke-width: 1.0;"/><!--MD5=[0a503e3ca034fd7068f8a0f96b5cea31]
+reverse link Constructorable to Class--><path d="M245.5,52.59 C245.5,65.22 245.5,79.79 245.5,92.83 " fill="none" id="Constructorable-backto-Class" style="stroke: #1B1F23; stroke-width: 1.0;"/><polygon fill="none" points="238.5,52.16,245.5,32.16,252.5,52.16,238.5,52.16" style="stroke: #1B1F23; stroke-width: 1.0;"/><!--MD5=[657f984005b3fe3d3fa38f89111bb1a4]
+reverse link Defines to Class--><path d="M335.81,46.08 C320.73,60.01 301.81,77.48 285.19,92.83 " fill="none" id="Defines-backto-Class" style="stroke: #1B1F23; stroke-width: 1.0;"/><polygon fill="none" points="331.43,40.59,350.87,32.16,340.93,50.88,331.43,40.59" style="stroke: #1B1F23; stroke-width: 1.0;"/><!--MD5=[389210ca9209647c2e6142af31cfdf74]
+link Class to Class--><path codeLine="12" d="M328.75,117.97 C348.71,118.95 363.5,123.13 363.5,130.5 C363.5,137.24 351.14,141.3 333.78,142.7 " fill="none" id="Class-to-Class" style="stroke: #1B1F23; stroke-width: 1.0;"/><polygon fill="#1B1F23" points="328.75,143.03,337.9838,146.4559,333.7401,142.7154,337.4805,138.4717,328.75,143.03" style="stroke: #1B1F23; stroke-width: 1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="96" x="393.5" y="127.2775">innerClasses</text><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="136" x="377.5" y="143.5999">{refines classes}</text><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="336.5207" y="140.2473">*</text><!--MD5=[051cf9cf2a0136e5267eed289a278ffa]
+link Class to Import--><path codeLine="13" d="M162.23,165.53 C147.81,174.39 134.07,185.14 123.5,198 C109.68,214.81 103.47,239.32 100.69,256.67 " fill="none" id="Class-to-Import" style="stroke: #1B1F23; stroke-width: 1.0;"/><polygon fill="#1B1F23" points="99.94,261.81,105.2097,253.4895,100.6691,256.8634,97.2952,252.3229,99.94,261.81" style="stroke: #1B1F23; stroke-width: 1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="56" x="124.5" y="219.7775">imports</text><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="91.092" y="250.4498">*</text><!--MD5=[e9c12f3dcc8549eaffbc8b2b1635e4d3]
+link Class to Export--><path codeLine="14" d="M209.91,168.28 C203.19,177.33 197.13,187.47 193.5,198 C186.95,217.01 188.82,240.1 191.65,256.49 " fill="none" id="Class-to-Export" style="stroke: #1B1F23; stroke-width: 1.0;"/><polygon fill="#1B1F23" points="192.64,261.77,194.9263,252.1902,191.7255,256.8543,187.0613,253.6535,192.64,261.77" style="stroke: #1B1F23; stroke-width: 1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="56" x="194.5" y="219.7775">exports</text><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="182.0364" y="250.3965">*</text><!--MD5=[9541d70f8f93ea6a47cf88d211fd5e03]
+link Inherit to Class--><path codeLine="15" d="M75.3,130.5 C96.44,130.5 150.32,130.5 150.32,130.5 " fill="none" id="Inherit-Class" style="stroke: #1B1F23; stroke-width: 1.0;"/><polygon fill="#1B1F23" points="162.32,130.5,156.32,126.5,150.32,130.5,156.32,134.5,162.32,130.5" style="stroke: #1B1F23; stroke-width: 1.0;"/><polygon fill="#1B1F23" points="62.08,130.5,71.08,134.5,67.08,130.5,71.08,126.5,62.08,130.5" style="stroke: #1B1F23; stroke-width: 1.0;"/><line style="stroke: #1B1F23; stroke-width: 1.0;" x1="67.08" x2="75.08" y1="130.5" y2="130.5"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="64" x="80.25" y="123.2775">inherits</text><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="32" x="69.9782" y="144.5214">0..1</text><!--MD5=[27f399765279218e04bf15faeefe13d1]
+link Class to Extension--><path codeLine="16" d="M261.6745,179.7176 C261.6745,179.7176 278.49,229.79 284.99,249.17 " fill="none" id="Class-Extension" style="stroke: #1B1F23; stroke-width: 1.0;"/><polygon fill="#1B1F23" points="289.18,261.65,290.1151,251.8456,287.5923,256.9088,282.5291,254.386,289.18,261.65" style="stroke: #1B1F23; stroke-width: 1.0;"/><line style="stroke: #1B1F23; stroke-width: 1.0;" x1="287.5923" x2="285.045" y1="256.9088" y2="249.325"/><polygon fill="#1B1F23" points="257.86,168.34,255.9747,175.3003,261.6745,179.7176,263.5598,172.7573,257.86,168.34" style="stroke: #1B1F23; stroke-width: 1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="80" x="280.5" y="219.7775">extensions</text><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="278.2093" y="250.5458">*</text><!--MD5=[f1ee08e7fb091233949c0e577f472a79]
+link Class to ClassParameterSeqLike--><path codeLine="17" d="M334.233,174.1461 C334.233,174.1461 358.96,189.7 369.5,198 C389.11,213.44 407.76,234.68 421.03,251.32 " fill="none" id="Class-ClassParameterSeqLike" style="stroke: #1B1F23; stroke-width: 1.0;"/><polygon fill="#1B1F23" points="429.29,261.98,426.9404,252.4155,426.2279,258.0273,420.6161,257.3149,429.29,261.98" style="stroke: #1B1F23; stroke-width: 1.0;"/><line style="stroke: #1B1F23; stroke-width: 1.0;" x1="426.2279" x2="421.325" y1="258.0273" y2="251.705"/><polygon fill="#1B1F23" points="323.85,168.13,327.0361,174.599,334.233,174.1461,331.0469,167.677,323.85,168.13" style="stroke: #1B1F23; stroke-width: 1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="104" x="439.5" y="211.7775">parameterSeqs</text><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="184" x="403.5" y="228.0999">{refines parameterSeqs}</text><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="416.0616" y="250.3711">*</text><!--MD5=[20b17f2d9d2d0d2bbf4eb3d1275627ad]
+@startuml Class
+
+abstract class Defineable
+abstract class Constructorable 
+abstract class Defines 
+
+class Class extends Defineable, Constructorable, Defines {
+    isCaseClass : Boolean 
+    isTrait : Boolean 
+    isSuperTrait : Boolean 
+}
+
+Class - -> "*" Class : innerClasses\n {refines classes}
+Class - -> "*" Import : imports
+Class - -> "*" Export : exports 
+Class *- -left> "0..1  " Inherit : inherits
+Class *- -> "*" Extension : "extensions"
+Class *- -> "*" ClassParameterSeqLike : parameterSeqs \n{refines parameterSeqs}
+
+hide class circle
+hide class methods
+hide Defineable members
+hide Constructorable members 
+hide Defines members 
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+
+hide circle
+@enduml
+
+PlantUML version 1.2020.18(Wed Sep 30 21:40:44 CEST 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

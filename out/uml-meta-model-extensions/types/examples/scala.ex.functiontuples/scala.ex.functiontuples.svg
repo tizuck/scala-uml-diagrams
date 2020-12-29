@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="260px" preserveAspectRatio="none" style="width:561px;height:260px;" version="1.1" viewBox="0 0 561 260" width="561px" zoomAndPan="magnify"><defs><filter height="300%" id="f18v0j50lez5a8" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[5f31e3d4ea23eae447a77a7d5f688d36]
+class Function2--><rect codeLine="3" fill="#FFFFFF" filter="url(#f18v0j50lez5a8)" height="56.1514" id="Function2" style="stroke: #1B1F23; stroke-width: 1.5;" width="143" x="7" y="17"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="17" y="33.8015">«trait»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="63" x="10" y="48.8772">Function2</text><rect fill="#FFFFFF" height="17.0757" style="stroke: #1B1F23; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" width="72" x="81" y="14"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="70" x="82" y="26.8015">+T1,+T2,-R</text><line style="stroke: #1B1F23; stroke-width: 1.5;" x1="8" x2="149" y1="57.1514" y2="57.1514"/><line style="stroke: #1B1F23; stroke-width: 1.5;" x1="8" x2="149" y1="65.1514" y2="65.1514"/><!--MD5=[b99c6d1bd0ea9ee53b151cd3246d8a37]
+class Tuple2--><rect codeLine="4" fill="#FFFFFF" filter="url(#f18v0j50lez5a8)" height="69.9612" id="Tuple2" style="stroke: #1B1F23; stroke-width: 1.5;" width="187" x="251" y="10"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="279.5" y="26.8015">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="42" x="297" y="41.8772">Tuple2</text><rect fill="#FFFFFF" height="17.0757" style="stroke: #1B1F23; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" width="51" x="390" y="7"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="391" y="19.8015">+T1,+T2</text><line style="stroke: #1B1F23; stroke-width: 1.5;" x1="252" x2="437" y1="50.1514" y2="50.1514"/><line style="stroke: #1B1F23; stroke-width: 1.5;" x1="252" x2="437" y1="58.1514" y2="58.1514"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="175" x="257" y="72.962">«ctor»Tuple2(_1.T1,_2:T2)</text><!--MD5=[4a969348660a3b1417829acb936d8c7f]
+class CollectStrategy--><rect codeLine="7" fill="#FFFFFF" filter="url(#f18v0j50lez5a8)" height="56.1514" id="CollectStrategy" style="stroke: #1B1F23; stroke-width: 1.5;" width="122" x="21.5" y="190"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="52.5" y="206.8015">«trait»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="105" x="24.5" y="221.8772">CollectStrategy</text><rect fill="#FFFFFF" height="17.0757" style="stroke: #1B1F23; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" width="9" x="137.5" y="187"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="7" x="138.5" y="199.8015">T</text><line style="stroke: #1B1F23; stroke-width: 1.5;" x1="22.5" x2="142.5" y1="230.1514" y2="230.1514"/><line style="stroke: #1B1F23; stroke-width: 1.5;" x1="22.5" x2="142.5" y1="238.1514" y2="238.1514"/><!--MD5=[e56e89c89e797a8adf9129661176b333]
+class UMLElementTuple--><rect codeLine="8" fill="#FFFFFF" filter="url(#f18v0j50lez5a8)" height="56.1514" id="UMLElementTuple" style="stroke: #1B1F23; stroke-width: 1.5;" width="111" x="286" y="190"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="303" y="206.8015">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="105" x="289" y="221.8772">UMLElementTuple</text><line style="stroke: #1B1F23; stroke-width: 1.5;" x1="287" x2="396" y1="230.1514" y2="230.1514"/><line style="stroke: #1B1F23; stroke-width: 1.5;" x1="287" x2="396" y1="238.1514" y2="238.1514"/><!--MD5=[109c6b8d00c3bbe1192370ec7b5b938e]
+reverse link Function2 to CollectStrategy--><path codeLine="10" d="M82.5,93.18 C82.5,93.18 82.5,189.83 82.5,189.83 " fill="none" id="Function2-backto-CollectStrategy" style="stroke: #1B1F23; stroke-width: 1.0;"/><polygon fill="none" points="75.5,93.18,82.5,73.18,89.5,93.18,75.5,93.18" style="stroke: #1B1F23; stroke-width: 1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="192" x="111.5" y="123.7775">&lt;&lt;bind T1 -&gt; UMLElement,</text><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="64" x="167.5" y="140.0999">T2 -&gt; T,</text><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="72" x="167.5" y="156.4223">R -&gt; T &gt;&gt;</text><!--MD5=[cda2ca8bf49a915a58782c223bb8f213]
+reverse link Tuple2 to UMLElementTuple--><path codeLine="11" d="M341.5,100.01 C341.5,100.01 341.5,189.89 341.5,189.89 " fill="none" id="Tuple2-backto-UMLElementTuple" style="stroke: #1B1F23; stroke-width: 1.0;"/><polygon fill="none" points="334.5,100.01,341.5,80.01,348.5,100.01,334.5,100.01" style="stroke: #1B1F23; stroke-width: 1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="192" x="353.5" y="131.7775">&lt;&lt;bind T1 -&gt; UMLElement,</text><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="144" x="409.5" y="148.0999">T2 -&gt; UMLElement&gt;&gt;</text><!--MD5=[818f451ee528359fafc7d1c4a1f0f912]
+link CollectStrategy to UMLElementTuple--><path codeLine="12" d="M143.55,218 C143.55,218 280.72,218 280.72,218 " fill="none" id="CollectStrategy-to-UMLElementTuple" style="stroke: #1B1F23; stroke-width: 1.0;"/><polygon fill="#1B1F23" points="285.72,218,276.72,214,280.72,218,276.72,222,285.72,218" style="stroke: #1B1F23; stroke-width: 1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="32" x="224.14" y="231.7775">pair</text><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="261.9468" y="213.8129">1</text><!--MD5=[38bad64c8f4b314b58be5c3694c2550f]
+@startuml
+skinparam defaultFontName Source Code Pro
+
+ abstract class Function2<+T1,+T2,-R> <<trait>>
+ class Tuple2<+T1,+T2> <<caseclass>> {
+     <<ctor>>Tuple2(_1.T1,_2:T2)
+ }
+ abstract class CollectStrategy<T> <<trait>> 
+ class UMLElementTuple <<caseclass>> 
+
+ Function2 <|- - CollectStrategy : "    <<bind T1 -> UMLElement,\n  T2 -> T,\n   R -> T >>"
+ Tuple2 <|- - UMLElementTuple : "<<bind T1 -> UMLElement,\n        T2 -> UMLElement>>"
+ CollectStrategy - -right> "1 " UMLElementTuple : "        pair "                  
+
+hide circle
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam linetype ortho
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml
+
+PlantUML version 1.2020.18(Wed Sep 30 21:40:44 CEST 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

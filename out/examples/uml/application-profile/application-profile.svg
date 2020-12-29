@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="385px" preserveAspectRatio="none" style="width:425px;height:385px;" version="1.1" viewBox="0 0 425 385" width="425px" zoomAndPan="magnify"><defs><filter height="300%" id="fkai4sh8t6dx8" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[c3183589fc9ff3f59fcbc1f5eadd3cc2]
+cluster ModelProfile--><polygon fill="#FFFFFF" filter="url(#fkai4sh8t6dx8)" points="16,6.3199,130,6.3199,137,29.9082,408,29.9082,408,378.3199,16,378.3199,16,6.3199" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="137" y1="29.9082" y2="29.9082"/><text fill="#000000" font-family="Source Code Pro" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="108" x="20" y="22.0883">ModelProfile</text><text fill="#000000" font-family="Source Code Pro" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="72" x="180" y="45.6767">«profile»</text><!--MD5=[41e1c6cf192918703501b24b2053926c]
+class Class--><rect codeLine="2" fill="#FFFFFF" filter="url(#fkai4sh8t6dx8)" height="56.1514" id="Class" style="stroke:#1B1F23;stroke-width:1.5;" width="79" x="293.5" y="60.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="294.5" y="77.1214">«metaclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="35" x="315.5" y="92.1971">Class</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="294.5" x2="371.5" y1="100.4713" y2="100.4713"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="294.5" x2="371.5" y1="108.4713" y2="108.4713"/><!--MD5=[3fee75583bb7a64f68d843a3c9534ab3]
+class Node--><rect codeLine="3" fill="#FFFFFF" filter="url(#fkai4sh8t6dx8)" height="69.9612" id="Node" style="stroke:#1B1F23;stroke-width:1.5;" width="117" x="274.5" y="176.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="291" y="193.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="28" x="319" y="208.1971">Node</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="275.5" x2="390.5" y1="216.4713" y2="216.4713"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="105" x="280.5" y="231.2819">location:String</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="275.5" x2="390.5" y1="238.2811" y2="238.2811"/><!--MD5=[da884e7f0b5d525fbdcb310b6c9aa688]
+class MainNode--><rect codeLine="6" fill="#FFFFFF" filter="url(#fkai4sh8t6dx8)" height="56.1514" id="MainNode" style="stroke:#1B1F23;stroke-width:1.5;" width="86" x="290" y="306.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="291" y="323.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="56" x="305" y="338.1971">MainNode</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="291" x2="375" y1="346.4713" y2="346.4713"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="291" x2="375" y1="354.4713" y2="354.4713"/><!--MD5=[b9be2c694e35ab9e85e666b830f85409]
+class Association--><rect codeLine="7" fill="#FFFFFF" filter="url(#fkai4sh8t6dx8)" height="56.1514" id="Association" style="stroke:#1B1F23;stroke-width:1.5;" width="83" x="93.5" y="60.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="96.5" y="77.1214">«metaclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="77" x="96.5" y="92.1971">Association</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="94.5" x2="175.5" y1="100.4713" y2="100.4713"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="94.5" x2="175.5" y1="108.4713" y2="108.4713"/><!--MD5=[2e2f8c8f62c4eb3bc59a59727cfd81a5]
+class Edge--><rect codeLine="8" fill="#FFFFFF" filter="url(#fkai4sh8t6dx8)" height="56.1514" id="Edge" style="stroke:#1B1F23;stroke-width:1.5;" width="86" x="32" y="183.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="33" y="200.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="28" x="61" y="215.1971">Edge</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="33" x2="117" y1="223.4713" y2="223.4713"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="33" x2="117" y1="231.4713" y2="231.4713"/><!--MD5=[8723f74a2dd5c040dc520ee79ed417e8]
+class LocalEdge--><rect codeLine="9" fill="#FFFFFF" filter="url(#fkai4sh8t6dx8)" height="56.1514" id="LocalEdge" style="stroke:#1B1F23;stroke-width:1.5;" width="86" x="153" y="183.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="154" y="200.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="63" x="164.5" y="215.1971">LocalEdge</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="154" x2="238" y1="223.4713" y2="223.4713"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="154" x2="238" y1="231.4713" y2="231.4713"/><!--MD5=[69e1ac07edd37a124e0e4edf628dc91e]
+reverse link Class to Node--><path codeLine="11" d="M333,121.5499 C333,138.3099 333,158.8099 333,175.8799 " fill="none" id="Class-backto-Node" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="333,116.4699,329,125.4699,333,121.4699,337,125.4699,333,116.4699" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[72dfa1ab8660b8bc7198cfbb59ce287d]
+reverse link Node to MainNode--><path codeLine="12" d="M333,266.4499 C333,280.1599 333,294.3099 333,306.0499 " fill="none" id="Node-backto-MainNode" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="326,266.3499,333,246.3499,340,266.3499,326,266.3499" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[722e4a35a96055701c175a501b67fa4b]
+reverse link Association to Edge--><path codeLine="13" d="M119.16,121.2699 C109.59,140.5699 97.52,164.8999 88.42,183.2599 " fill="none" id="Association-backto-Edge" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="121.53,116.4699,113.9515,122.76,119.3111,120.9506,121.1206,126.3102,121.53,116.4699" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[3b1b817ae1918e54de5d688eb75cebae]
+reverse link Association to LocalEdge--><path codeLine="14" d="M151.11,121.2699 C160.84,140.5699 173.1,164.8999 182.36,183.2599 " fill="none" id="Association-backto-LocalEdge" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="148.69,116.4699,149.1875,126.3062,150.9489,120.9305,156.3246,122.6919,148.69,116.4699" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[5b198778ee30ac22b1a6997fa16a7945]
+@startuml
+package ModelProfile <<profile>> {
+    class Class <<metaclass>> 
+    class Node <<stereotype>> {
+        location:String 
+    }
+    class MainNode <<stereotype>> 
+    class Association <<metaclass>>
+    class Edge <<stereotype>>
+    class LocalEdge <<stereotype>> 
+
+    Class <- - Node  
+    Node <|- - MainNode
+    Association <- - Edge
+    Association <- - LocalEdge
+
+hide circle
+ 
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+
+}
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

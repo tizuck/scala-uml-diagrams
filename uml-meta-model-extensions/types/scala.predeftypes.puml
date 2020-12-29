@@ -1,0 +1,74 @@
+@startuml types 
+
+package ScalaTypes {
+    abstract class Function_n< T1, ... ,Tn,R > <<trait>>
+    class Tuple_n<T1, ... ,Tn > <<caseclass>> {
+        + <<ctor>> Tuple_n(_1:T1, ..., _n:Tn)
+    } 
+    abstract class Union< L,R > <<trait>>
+    abstract class Intersection< L,R > <<trait>>
+    abstract class ContextFunction_n< T1, ... ,Tn,R > <<trait>>
+    abstract class TypeLambda< T1, ... , Tn,R > <<trait>>
+    class Bound< LowerT,UpperT >
+    class LowerBound< LowerT >
+    class UpperBound< UpperT >
+    Function_n -down[hidden]-> Intersection 
+    Intersection -down[hidden]-> Union 
+
+    ContextFunction_n -down[hidden]-> TypeLambda
+    TypeLambda -down[hidden]-> List
+    Tuple_n -down[hidden]-> ContextFunction_n
+    Bound -down[hidden]-> LowerBound 
+    LowerBound -down[hidden]-> UpperBound
+    UpperBound -down[hidden]-> Option
+
+    abstract class List< +A > {
+        -- <<ScalaClass>> --
+        isSealed
+    }
+
+    abstract class Option< +A > {
+        -- <<ScalaClass>> --
+        isSealed
+    }
+
+note right of List 
+        Other types of the
+        Scala Standard Library 
+        are included 
+        in the appendix. 
+end note 
+  
+
+hide circle
+hide methods
+hide attributes
+show Option attributes
+show List attributes 
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+skinparam linetype ortho
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+
+@enduml 

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="573px" preserveAspectRatio="none" style="width:723px;height:573px;" version="1.1" viewBox="0 0 723 573" width="723px" zoomAndPan="magnify"><defs><filter height="300%" id="f1mzl6bw9qn38d" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[460077f92c90f9a3f66e6eb6dfd1a54f]
+cluster Manufacturer--><polygon fill="#FFFFFF" filter="url(#f1mzl6bw9qn38d)" points="16,6.3199,130,6.3199,137,29.9082,210,29.9082,210,338.3199,16,338.3199,16,6.3199" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="137" y1="29.9082" y2="29.9082"/><text fill="#000000" font-family="Source Code Pro" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="108" x="20" y="22.0883">Manufacturer</text><text fill="#000000" font-family="Source Code Pro" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="72" x="81" y="45.6767">«profile»</text><!--MD5=[81f1837782ee088738596320ecf7ef93]
+cluster Types--><polygon fill="#FFFFFF" filter="url(#f1mzl6bw9qn38d)" points="427,180.3199,478,180.3199,485,203.9082,706,203.9082,706,338.3199,427,338.3199,427,180.3199" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="427" x2="485" y1="203.9082" y2="203.9082"/><text fill="#000000" font-family="Source Code Pro" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="45" x="431" y="196.0883">Types</text><!--MD5=[0d5799440b3bfefd92b00abfcd2c79b9]
+cluster Factory--><polygon fill="#FFFFFF" filter="url(#f1mzl6bw9qn38d)" points="371,404.3199,440,404.3199,447,427.9082,584,427.9082,584,566.3199,371,566.3199,371,404.3199" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="371" x2="447" y1="427.9082" y2="427.9082"/><text fill="#000000" font-family="Source Code Pro" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="63" x="375" y="420.0883">Factory</text><!--MD5=[41e1c6cf192918703501b24b2053926c]
+class Class--><rect codeLine="2" fill="#FFFFFF" filter="url(#f1mzl6bw9qn38d)" height="40.1514" id="Class" style="stroke:#1B1F23;stroke-width:1.5;" width="79" x="69.5" y="68.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="70.5" y="85.1214">«metaclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="35" x="91.5" y="100.1971">Class</text><!--MD5=[fc539fa3f3b7db9b31467e896d367b3b]
+class Device--><rect codeLine="3" fill="#FFFFFF" filter="url(#f1mzl6bw9qn38d)" height="89.5809" id="Device" style="stroke:#1B1F23;stroke-width:1.5;" width="138" x="40" y="224.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="67" y="241.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="42" x="88" y="256.1971">Device</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="41" x2="177" y1="264.4713" y2="264.4713"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="91" x="46" y="279.2819">author:String</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77" x="46" y="293.0917">color:Color</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="126" x="46" y="306.9015">volume:JavaInteger</text><!--MD5=[18eee71c88ab61f27581b8cbdd3ef5ee]
+class Color--><rect codeLine="12" fill="#FFFFFF" filter="url(#f1mzl6bw9qn38d)" height="89.5809" id="Color" style="stroke:#1B1F23;stroke-width:1.5;" width="93" x="588.5" y="224.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="91" x="589.5" y="241.1214">«enumeration»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="35" x="617.5" y="256.1971">Color</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="589.5" x2="680.5" y1="264.4713" y2="264.4713"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="21" x="594.5" y="279.2819">red</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="35" x="594.5" y="293.0917">green</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="28" x="594.5" y="306.9015">blue</text><!--MD5=[57103cc02ceb0e911eb14b175fadb708]
+class JavaInteger--><rect codeLine="17" fill="#FFFFFF" filter="url(#f1mzl6bw9qn38d)" height="25.0757" id="JavaInteger" style="stroke:#1B1F23;stroke-width:1.5;" width="83" x="470.5" y="256.8199"/><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="77" x="473.5" y="273.6214">JavaInteger</text><!--MD5=[9022e2192881f166c529fc3ae75dec7b]
+class TV--><rect codeLine="21" fill="#FFFFFF" filter="url(#f1mzl6bw9qn38d)" height="93.5809" id="TV" style="stroke:#1B1F23;stroke-width:1.5;" width="145" x="414.5" y="448.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="56" x="459" y="465.1214">«device»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="14" x="480" y="480.1971">TV</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="415.5" x2="558.5" y1="488.4713" y2="488.4713"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="133" x="420.5" y="503.2819">channel:JavaInteger</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="63" x="420.5" y="534.9015">volume=10</text><line style="stroke:#1B1F23;stroke-width:1.0;" x1="415.5" x2="452" y1="517.1861" y2="517.1861"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="70" x="452" y="520.5917">&lt;&lt;Device&gt;&gt;</text><line style="stroke:#1B1F23;stroke-width:1.0;" x1="522" x2="558.5" y1="517.1861" y2="517.1861"/><!--MD5=[1b821756084eda43b22040b26cb33e95]
+reverse link Class to Device--><path codeLine="8" d="M109,113.5299 C109,141.8499 109,189.2799 109,224.1899 " fill="none" id="Class-backto-Device" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="109,108.4799,105,117.4799,109,113.4799,113,117.4799,109,108.4799" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[fc053c4a8c7d887234a41eb8fe62ab10]
+link Manufacturer to Factory--><!--MD5=[0bfd6fdd240dfd977896a09000241e55]
+reverse link Manufacturer to Factory--><path d="M210.1423,139.751 C210.2031,140.0794 210.2642,140.409 210.3256,140.7398 C210.4486,141.4014 210.573,142.0679 210.6989,142.7392 C210.9506,144.0817 211.2082,145.4435 211.4718,146.8237 C213.5802,157.8654 216.0684,170.0883 218.9638,183.1187 C230.545,235.2399 248.64,300.2799 275,354.3199 C291.725,388.6099 317.18,423.0599 338.72,449.2062 C349.49,462.2793 359.2813,473.2765 366.5131,481.1397 C367.4171,482.1227 368.2811,483.0566 369.102,483.9395 C369.5125,484.381 369.9122,484.8097 370.3007,485.2253 C370.495,485.4332 370.6864,485.6378 370.8751,485.8391 " fill="none" id="Manufacturer-backto-Factory" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="210.1423,139.751,207.8461,149.3285,211.0518,144.6676,215.7127,147.8733,210.1423,139.751" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="308" y="225.0974"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="308" y="241.4198"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="308" y="257.7422"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="308" y="274.0647"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="308" y="290.3871"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="308" y="306.7095"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="56" x="276" y="323.032">«apply»</text><!--MD5=[5b741454414630f3fc2cc543d79dbbcb]
+link Manufacturer to Types--><!--MD5=[5b741454414630f3fc2cc543d79dbbcb]
+link Manufacturer to Types--><path d="M210.3476,90.0776 C210.6602,90.1075 210.9808,90.1383 211.3091,90.17 C216.5628,90.6773 223.8122,91.4154 232.4625,92.3946 C249.7631,94.353 272.6675,97.2762 296.4175,101.2474 C343.9175,109.1899 394.8,121.3249 411,138.3199 C420.9775,148.7849 427.4975,161.9724 431.6575,175.9087 C431.9175,176.7797 432.1683,177.6536 432.4101,178.53 C432.531,178.9682 432.6497,179.407 432.7662,179.8463 " fill="none" id="Manufacturer-to-Types" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="432.7662,179.8463,434.3264,170.1218,431.4849,175.0133,426.5935,172.1718,432.7662,179.8463" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="64" x="424" y="152.0974">«import»</text><!--MD5=[ca7e9345d4d5c68318384c5c74e1acc0]
+link Types to Factory--><!--MD5=[8d1763e84c3ea86af7921d63799f2d76]
+reverse link Types to Factory--><path d="M436.277,338.4397 C435.7563,341.4493 435.1329,344.4559 434.3927,347.4352 C431.4319,359.3524 426.6025,370.8324 419,380.3199 C412.75,388.1099 404.37,380.6299 398,388.3199 C394.2413,392.8537 391.1198,397.8766 388.5358,403.1998 C388.3743,403.5325 388.2149,403.8663 388.0576,404.2013 " fill="none" id="Types-backto-Factory" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="436.277,338.4397,430.8011,346.6259,435.4245,343.3664,438.684,347.9899,436.277,338.4397" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="64" x="430" y="376.0974">«import»</text><!--MD5=[62e7196c449dcd24eaaf87883e3ac471]
+@startuml
+package Manufacturer <<profile>> {
+    class Class <<metaclass>> 
+    class Device <<stereotype>>{
+        author:String 
+        color:Color 
+        volume:JavaInteger 
+    }
+    Class <- - Device 
+}
+
+package Types {
+    class Color <<enumeration>> {
+        red 
+        green 
+        blue 
+    }
+    class JavaInteger 
+}
+
+package Factory {
+    class TV <<device>> {
+        channel:JavaInteger
+        - - <<Device>> - -
+        volume=10
+    }
+}
+
+Manufacturer -[hidden]right- Factory 
+Manufacturer -[hidden]up- Types 
+Types -[hidden]down- Factory 
+Manufacturer <- - Factory : \n\n\n\n\n\n<<apply>> 
+Manufacturer - -> Types: <<import>> 
+Types <- - Factory : <<import>> 
+
+hide circle
+hide methods
+hide attributes
+show Device attributes
+show Color attributes 
+show TV attributes 
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

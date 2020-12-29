@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="477px" preserveAspectRatio="none" style="width:550px;height:477px;" version="1.1" viewBox="0 0 550 477" width="550px" zoomAndPan="magnify"><defs><filter height="300%" id="f18tfs9duokx1l" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[4df766bdf6c2a608c0594aabed01c610]
+cluster MyApplication--><polygon fill="#FFFFFF" filter="url(#f18tfs9duokx1l)" points="16,6.3199,139,6.3199,146,29.9082,381,29.9082,381,470.3199,16,470.3199,16,6.3199" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="146" y1="29.9082" y2="29.9082"/><text fill="#000000" font-family="Source Code Pro" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="117" x="20" y="22.0883">MyApplication</text><polygon fill="#FFFFFF" filter="url(#f18tfs9duokx1l)" points="405,220.8199,519,220.8199,526,244.4082,533,244.4082,533,275.9966,405,275.9966,405,220.8199" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="405" x2="526" y1="244.4082" y2="244.4082"/><text fill="#000000" font-family="Source Code Pro" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="108" x="409" y="236.5883">ModelProfile</text><text fill="#000000" font-family="Source Code Pro" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="72" x="437" y="260.1767">«profile»</text><!--MD5=[8a6c8d9bb2564ca6e3866887570d0a05]
+class CentralNode1--><rect codeLine="6" fill="#FFFFFF" filter="url(#f18tfs9duokx1l)" height="79.7711" id="CentralNode1" style="stroke:#1B1F23;stroke-width:1.5;" width="131" x="109.5" y="208.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="70" x="140" y="225.1214">«MainNode»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="84" x="133" y="240.1971">CentralNode1</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="110.5" x2="239.5" y1="248.4713" y2="248.4713"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="119" x="115.5" y="281.0917">location="Office"</text><line style="stroke:#1B1F23;stroke-width:1.0;" x1="110.5" x2="147" y1="263.3762" y2="263.3762"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="56" x="147" y="266.7819">&lt;&lt;Node&gt;&gt;</text><line style="stroke:#1B1F23;stroke-width:1.0;" x1="203" x2="239.5" y1="263.3762" y2="263.3762"/><!--MD5=[c012e30bae1905a5911e2d2b097d2ed0]
+class CentralNode2--><rect codeLine="10" fill="#FFFFFF" filter="url(#f18tfs9duokx1l)" height="79.7711" id="CentralNode2" style="stroke:#1B1F23;stroke-width:1.5;" width="138" x="106" y="366.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="70" x="140" y="383.1214">«MainNode»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="84" x="133" y="398.1971">CentralNode2</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="107" x2="243" y1="406.4713" y2="406.4713"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="126" x="112" y="439.0917">location="Kitchen"</text><line style="stroke:#1B1F23;stroke-width:1.0;" x1="107" x2="147" y1="421.3762" y2="421.3762"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="56" x="147" y="424.7819">&lt;&lt;Node&gt;&gt;</text><line style="stroke:#1B1F23;stroke-width:1.0;" x1="203" x2="243" y1="421.3762" y2="421.3762"/><!--MD5=[6beb5caa32696c3978241c5e7fd6f393]
+class LocalNode1--><rect codeLine="14" fill="#FFFFFF" filter="url(#f18tfs9duokx1l)" height="79.7711" id="LocalNode1" style="stroke:#1B1F23;stroke-width:1.5;" width="131" x="206.5" y="50.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="42" x="251" y="67.1214">«Node»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="70" x="237" y="82.1971">LocalNode1</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="207.5" x2="336.5" y1="90.4713" y2="90.4713"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="119" x="212.5" y="123.0917">location="Office"</text><line style="stroke:#1B1F23;stroke-width:1.0;" x1="207.5" x2="244" y1="105.3762" y2="105.3762"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="56" x="244" y="108.7819">&lt;&lt;Node&gt;&gt;</text><line style="stroke:#1B1F23;stroke-width:1.0;" x1="300" x2="336.5" y1="105.3762" y2="105.3762"/><!--MD5=[f05f7dcf0f3bc913a6ea29978ba899be]
+class LocalNode2--><rect codeLine="18" fill="#FFFFFF" filter="url(#f18tfs9duokx1l)" height="79.7711" id="LocalNode2" style="stroke:#1B1F23;stroke-width:1.5;" width="131" x="40.5" y="50.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="42" x="85" y="67.1214">«Node»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="70" x="71" y="82.1971">LocalNode2</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="41.5" x2="170.5" y1="90.4713" y2="90.4713"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="119" x="46.5" y="123.0917">location="Office"</text><line style="stroke:#1B1F23;stroke-width:1.0;" x1="41.5" x2="78" y1="105.3762" y2="105.3762"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="56" x="78" y="108.7819">&lt;&lt;Node&gt;&gt;</text><line style="stroke:#1B1F23;stroke-width:1.0;" x1="134" x2="170.5" y1="105.3762" y2="105.3762"/><!--MD5=[4e760bcde6cba2a507b1533a8724e566]
+link CentralNode1 to CentralNode2--><path codeLine="22" d="M175,288.6899 C175,312.4199 175,342.5499 175,366.2399 " fill="none" id="CentralNode1-CentralNode2" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="48" x="176" y="332.0974">«Edge»</text><!--MD5=[64b15a720b0a2152fc2d7b208a9b73f8]
+link LocalNode1 to CentralNode1--><path codeLine="23" d="M247.52,130.6899 C232.76,154.4199 214.03,184.5499 199.3,208.2399 " fill="none" id="LocalNode1-CentralNode1" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="88" x="228" y="174.0974">«LocalEdge»</text><!--MD5=[796a5ff589591fb363911f17f7e6d736]
+link LocalNode2 to CentralNode1--><path codeLine="24" d="M103.26,130.7299 C103.57,146.1099 105.69,163.5699 112,178.3199 C116.6,189.0599 123.59,199.2099 131.27,208.2599 " fill="none" id="LocalNode2-CentralNode1" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="88" x="113" y="174.0974">«LocalEdge»</text><!--MD5=[bfadbc13245e50c16b59225e0378e4ba]
+link MyApplication to ModelProfile--><path d="M381.1269,104.5243 C381.4342,105.0237 381.7488,105.535 382.0705,106.0577 C387.2172,114.4218 394.1719,125.7237 401.9188,138.3124 C417.4125,163.4899 436.075,193.8149 449.78,216.0799 " fill="none" id="MyApplication-to-ModelProfile" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="452.53,220.5499,451.2289,210.7874,449.9135,216.2892,444.4117,214.9738,452.53,220.5499" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="56" x="424" y="174.0974">«apply»</text><!--MD5=[302b1a40ec607174dcb76d558556bed5]
+@startuml
+package ModelProfile <<profile>> {
+
+}
+
+package MyApplication {
+    class CentralNode1 <<MainNode>> {
+        - - <<Node>> - -
+        location="Office"
+    }
+    class CentralNode2 <<MainNode>> {
+        - - <<Node>> - -
+        location="Kitchen"
+    } 
+    class LocalNode1 <<Node>> {
+        - - <<Node>> - -
+        location="Office"
+    }
+    class LocalNode2 <<Node>> {
+        - - <<Node>> - -
+        location="Office"
+    }
+    CentralNode1 - - CentralNode2 : <<Edge>>
+    LocalNode1 - - CentralNode1 : <<LocalEdge>>
+    LocalNode2 - - CentralNode1 : <<LocalEdge>>
+}
+
+MyApplication - -> ModelProfile : <<apply>>
+
+hide circle
+ 
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

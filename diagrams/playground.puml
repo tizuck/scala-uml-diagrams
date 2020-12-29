@@ -1,0 +1,48 @@
+@startjson
+{
+  "type": "Source",
+  "stats": [
+    {
+      "type": "Pkg",
+      "ref": {
+        "type": "Term.Name",
+        "value": "uml"
+      },
+      "stats": [
+        {
+          "type": "Defn.Trait",
+          "mods": [],
+          "name": {
+            "type": "Type.Name",
+            "value": "UMLNode"
+          },
+          "tparams": [],
+          "ctor": {
+            "type": "Ctor.Primary",
+            "mods": [],
+            "name": {
+              "type": "Name.Anonymous",
+              "value": ""
+            },
+            "paramss": []
+          },
+          "templ": {
+            "type": "Template",
+            "early": [],
+            "inits": [],
+            "self": {
+              "type": "Self",
+              "name": {
+                "type": "Name.Anonymous",
+                "value": ""
+              }
+            },
+            "stats": []
+          }
+        }
+      ]
+    }
+  ]
+}
+
+@endjson

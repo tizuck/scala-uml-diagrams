@@ -78,8 +78,10 @@ package "<<profile>> Scala" #00 {
     class Ctorbind <<stereotype>> {
         vals : String [*]
     }
+    class Objectdef <<stereotype>>
     Association <-- GivenAs
     Association <-- Ctorbind
+    Association <-- Objectdef 
 
     '---------------------------------------------------
     ' Operations 
@@ -159,6 +161,8 @@ hide class methods
 hide <<metaclass>> members 
 hide Operation members 
 hide Extension members 
+
+skinparam linetype ortho
 
 skinparam class {
     BackgroundColor White

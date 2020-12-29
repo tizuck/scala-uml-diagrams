@@ -1,0 +1,6 @@
+@startuml
+class pkg_1.ClassDefinition
+class pkg_2.ClassDefinition
+pkg_1.ClassDefinition --> pkg_2.ClassDefinition 
+pkg_1.ClassDefinition <|-- pkg_2.ClassDefinition 
+@enduml 

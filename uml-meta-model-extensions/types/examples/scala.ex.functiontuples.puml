@@ -1,0 +1,32 @@
+@startuml
+skinparam defaultFontName Source Code Pro
+
+ abstract class Function2<+T1,+T2,-R> <<trait>>
+ class Tuple2<+T1,+T2> <<caseclass>> {
+     <<ctor>>Tuple2(_1.T1,_2:T2)
+ }
+ abstract class CollectStrategy<T> <<trait>> 
+ class UMLElementTuple <<caseclass>> 
+
+ Function2 <|-- CollectStrategy : "    <<bind T1 -> UMLElement,\n  T2 -> T,\n   R -> T >>"
+ Tuple2 <|-- UMLElementTuple : "<<bind T1 -> UMLElement,\n        T2 -> UMLElement>>"
+ CollectStrategy --right> "1 " UMLElementTuple : "        pair "                  
+
+hide circle
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam linetype ortho
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml 

@@ -1,0 +1,11 @@
+@startuml
+class StereotypeContainer {
+    <<attr_ster taggedValue1,...,taggedValueN>> attribute
+    <<op_ster taggedValue1,...,taggedValueN>> operation()
+    operation2(<<param_ster taggedValue1,...,taggedValueN>> param:ParamType)
+    -- <<comp_ster>> --
+    taggedValue1 
+    ...
+    taggedValueN 
+}
+@enduml 

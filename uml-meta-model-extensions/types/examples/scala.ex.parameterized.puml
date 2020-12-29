@@ -1,0 +1,25 @@
+@startuml types 
+
+class TreeMap<A:UpperBound<Compareable<A>>,\nB>
+hide circle
+hide members 
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam linetype ortho
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+
+@enduml 

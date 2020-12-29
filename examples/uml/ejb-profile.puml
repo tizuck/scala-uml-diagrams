@@ -1,0 +1,66 @@
+@startuml
+package Manufacturer <<profile>> {
+    class Class <<metaclass>> 
+    class Device <<stereotype>>{
+        author:String 
+        color:Color 
+        volume:JavaInteger 
+    }
+    Class <-- Device 
+}
+
+package Types {
+    class Color <<enumeration>> {
+        red 
+        green 
+        blue 
+    }
+    class JavaInteger 
+}
+
+package Factory {
+    class TV <<device>> {
+        channel:JavaInteger
+        -- <<Device>> --
+        volume=10
+    }
+}
+
+Manufacturer -[hidden]right- Factory 
+Manufacturer -[hidden]up- Types 
+Types -[hidden]down- Factory 
+Manufacturer <-- Factory : <<apply>>\w 
+Manufacturer --> Types: <<import>> 
+Types <-- Factory : <<import>> 
+
+hide circle
+hide methods
+hide attributes
+show Device attributes
+show Color attributes 
+show TV attributes 
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+
+@enduml 

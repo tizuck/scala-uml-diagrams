@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="240px" preserveAspectRatio="none" style="width:238px;height:240px;" version="1.1" viewBox="0 0 238 240" width="238px" zoomAndPan="magnify"><defs><filter height="300%" id="f1sbdkmhlzlmir" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[d51cc1e8bc5d72b46a94d1aaaf94798a]
+cluster MyModel              --><polygon fill="#FFFFFF" filter="url(#f1sbdkmhlzlmir)" points="16,6.3199,211,6.3199,218,29.9082,221,29.9082,221,233.3199,16,233.3199,16,6.3199" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="218" y1="29.9082" y2="29.9082"/><text fill="#000000" font-family="Source Code Pro" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="63" x="20" y="22.0883">MyModel</text><text fill="#000000" font-family="Source Code Pro" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="88" x="78.5" y="45.6767">«metamodel»</text><!--MD5=[3fee75583bb7a64f68d843a3c9534ab3]
+class Node--><rect codeLine="2" fill="#FFFFFF" filter="url(#f1sbdkmhlzlmir)" height="54.8855" id="Node" style="stroke:#1B1F23;stroke-width:1.5;" width="117" x="56.5" y="60.3199"/><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="28" x="101" y="77.1214">Node</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="57.5" x2="172.5" y1="85.3956" y2="85.3956"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="105" x="62.5" y="100.2062">location:String</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="57.5" x2="172.5" y1="107.2054" y2="107.2054"/><!--MD5=[da884e7f0b5d525fbdcb310b6c9aa688]
+class MainNode--><rect codeLine="5" fill="#FFFFFF" filter="url(#f1sbdkmhlzlmir)" height="41.0757" id="MainNode" style="stroke:#1B1F23;stroke-width:1.5;" width="62" x="56" y="176.3199"/><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="56" x="59" y="193.1214">MainNode</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="57" x2="117" y1="201.3956" y2="201.3956"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="57" x2="117" y1="209.3956" y2="209.3956"/><!--MD5=[1aa3adaeb0d6cbb1080beab93a9369a3]
+link MainNode to MainNode--><path codeLine="6" d="M118.24,187.9599 C136.24,186.1499 153,189.1099 153,196.8199 C153,204.5299 136.24,207.4899 118.24,205.6799 " fill="none" id="MainNode-MainNode" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="32" x="159" y="201.5974">Edge</text><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="64" x="134.0146" y="182.8022">* source</text><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="64" x="134.0146" y="220.4211">* target</text><!--MD5=[52210b1a02fa35f02a213edfd76c2c54]
+link Node to MainNode--><path codeLine="7" d="M96.8,115.5399 C89.51,134.3599 83.38,159.1299 82.01,176.1599 " fill="none" id="Node-MainNode" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="64" x="23.4844" y="135.897">* local-</text><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="40" x="39.4844" y="152.2194">nodes</text><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="71.4816" y="164.9114">1</text><!--MD5=[c7c652f1c198c1473ea290995753ed47]
+link MainNode to Node--><path codeLine="8" d="M102.88,176.1599 C108.06,164.7199 112.86,149.7799 116.19,135.5099 " fill="none" id="MainNode-to-Node" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="109.36,133.9399,119.87,115.5399,123.12,136.4799,109.36,133.9399" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[ddee70d2d386cc94793d9560eeb26b28]
+@startuml
+ package "MyModel              " <<metamodel>> {
+    class Node {
+        location:String 
+    }
+    class MainNode
+    MainNode " * source"  - - " * target" MainNode : Edge 
+    Node  " * local-\n  nodes" - - "1" MainNode 
+    MainNode - -|> Node  
+ }
+hide circles 
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

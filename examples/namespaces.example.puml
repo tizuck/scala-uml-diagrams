@@ -1,0 +1,10 @@
+@startuml
+namespace pkg_1 {
+    class ClassDefinition 
+    ClassDefinition --> pkg_2.ClassDefinition
+    ClassDefinition <|-- pkg_2.ClassDefinition
+} 
+namespace pkg_2 { 
+    class ClassDefinition
+}
+@enduml 

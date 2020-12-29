@@ -14,7 +14,7 @@ GivenInstance --left|> Definable
 
 Given *--right> "*" TypeParameter : genericParameters
 Given *--left> "*"  UsingParameterSeq : usingParameters
-Given *--up> "1   " Type : asType
+Given *--up> "1   " Type : asTypee
 GivenInstance *--> "*" Import : imports 
 GivenInstance *--> "*" Export : exports
 GivenInstance *--> "*" Extension : extensions

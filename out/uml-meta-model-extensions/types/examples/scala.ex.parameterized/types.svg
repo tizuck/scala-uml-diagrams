@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="55px" preserveAspectRatio="none" style="width:283px;height:55px;" version="1.1" viewBox="0 0 283 55" width="283px" zoomAndPan="magnify"><defs><filter height="300%" id="f133asutg1hns8" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[0edaf59d72467900525267fa96001854]
+class TreeMap--><rect codeLine="2" fill="#FFFFFF" filter="url(#f133asutg1hns8)" height="34.1514" id="TreeMap" style="stroke: #1B1F23; stroke-width: 1.5;" width="262" x="7" y="7"/><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="49" x="10" y="28.3394">TreeMap</text><rect fill="#FFFFFF" height="32.1514" style="stroke: #1B1F23; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" width="205" x="67" y="4"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="203" x="68" y="16.8015">A:UpperBound&lt;Compareable&lt;A&gt;&gt;,</text><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="14" x="162.5" y="31.8772">+B</text><!--MD5=[eaea7e32c866de72f7f543e0c1076685]
+@startuml types 
+
+class TreeMap<A:UpperBound<Compareable<A>>,\n+B>
+hide circle
+hide members 
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam linetype ortho
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+
+@enduml
+
+PlantUML version 1.2020.18(Wed Sep 30 21:40:44 CEST 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

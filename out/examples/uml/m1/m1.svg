@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="74px" preserveAspectRatio="none" style="width:239px;height:74px;" version="1.1" viewBox="0 0 239 74" width="239px" zoomAndPan="magnify"><defs><filter height="300%" id="f1kuile6bumgb" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[db25027423b3b96a5b12184dc6d389a4]
+class Computer--><rect codeLine="2" fill="#FFFFFF" filter="url(#f1kuile6bumgb)" height="32" id="Computer" style="stroke:#1B1F23;stroke-width:1.5;" width="88" x="7" y="18"/><ellipse cx="22" cy="34" fill="#ADD1B2" rx="11" ry="11" style="stroke:#1B1F23;stroke-width:1.0;"/><path d="M24.7656,29.875 Q24.9219,29.6563 25.1094,29.5469 Q25.2969,29.4375 25.5156,29.4375 Q25.8906,29.4375 26.125,29.6953 Q26.3594,29.9531 26.3594,30.5625 L26.3594,32.0156 Q26.3594,32.625 26.125,32.8906 Q25.8906,33.1563 25.5156,33.1563 Q25.1719,33.1563 24.9688,32.9531 Q24.7656,32.7656 24.6563,32.25 Q24.6094,31.8906 24.4219,31.7031 Q24.0938,31.3281 23.4844,31.1094 Q22.875,30.8906 22.25,30.8906 Q21.4844,30.8906 20.8516,31.2188 Q20.2188,31.5469 19.7266,32.2969 Q19.2344,33.0469 19.2344,34.0781 L19.2344,35.1719 Q19.2344,36.4063 20.125,37.2266 Q21.0156,38.0469 22.6094,38.0469 Q23.5469,38.0469 24.2031,37.7969 Q24.5938,37.6406 25.0156,37.2031 Q25.2813,36.9375 25.4297,36.8594 Q25.5781,36.7813 25.7813,36.7813 Q26.1094,36.7813 26.3672,37.0391 Q26.625,37.2969 26.625,37.6406 Q26.625,37.9844 26.2813,38.3906 Q25.7813,38.9688 24.9844,39.2969 Q23.9063,39.75 22.6094,39.75 Q21.0938,39.75 19.8906,39.125 Q18.9063,38.625 18.2188,37.5547 Q17.5313,36.4844 17.5313,35.2031 L17.5313,34.0469 Q17.5313,32.7188 18.1484,31.5703 Q18.7656,30.4219 19.8594,29.8047 Q20.9531,29.1875 22.1875,29.1875 Q22.9219,29.1875 23.5703,29.3516 Q24.2188,29.5156 24.7656,29.875 Z " fill="#000000"/><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="56" x="36" y="38.2637">Computer</text><!--MD5=[df152c2476dc0702efc46fc22338464c]
+class Processor--><rect codeLine="3" fill="#FFFFFF" filter="url(#f1kuile6bumgb)" height="53.8098" id="Processor" style="stroke:#1B1F23;stroke-width:1.5;" width="95" x="130.5" y="7"/><ellipse cx="145.5" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#1B1F23;stroke-width:1.0;"/><path d="M148.2656,18.875 Q148.4219,18.6563 148.6094,18.5469 Q148.7969,18.4375 149.0156,18.4375 Q149.3906,18.4375 149.625,18.6953 Q149.8594,18.9531 149.8594,19.5625 L149.8594,21.0156 Q149.8594,21.625 149.625,21.8906 Q149.3906,22.1563 149.0156,22.1563 Q148.6719,22.1563 148.4688,21.9531 Q148.2656,21.7656 148.1563,21.25 Q148.1094,20.8906 147.9219,20.7031 Q147.5938,20.3281 146.9844,20.1094 Q146.375,19.8906 145.75,19.8906 Q144.9844,19.8906 144.3516,20.2188 Q143.7188,20.5469 143.2266,21.2969 Q142.7344,22.0469 142.7344,23.0781 L142.7344,24.1719 Q142.7344,25.4063 143.625,26.2266 Q144.5156,27.0469 146.1094,27.0469 Q147.0469,27.0469 147.7031,26.7969 Q148.0938,26.6406 148.5156,26.2031 Q148.7813,25.9375 148.9297,25.8594 Q149.0781,25.7813 149.2813,25.7813 Q149.6094,25.7813 149.8672,26.0391 Q150.125,26.2969 150.125,26.6406 Q150.125,26.9844 149.7813,27.3906 Q149.2813,27.9688 148.4844,28.2969 Q147.4063,28.75 146.1094,28.75 Q144.5938,28.75 143.3906,28.125 Q142.4063,27.625 141.7188,26.5547 Q141.0313,25.4844 141.0313,24.2031 L141.0313,23.0469 Q141.0313,21.7188 141.6484,20.5703 Q142.2656,19.4219 143.3594,18.8047 Q144.4531,18.1875 145.6875,18.1875 Q146.4219,18.1875 147.0703,18.3516 Q147.7188,18.5156 148.2656,18.875 Z " fill="#000000"/><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="63" x="159.5" y="27.2637">Processor</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="131.5" x2="224.5" y1="39" y2="39"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77" x="136.5" y="53.8105">core:String</text><!--MD5=[2f87a543127d26bf037df7a413f441fc]
+link Computer to Processor--><path codeLine="7" d="M95.15,34 C105.17,34 115.18,34 125.19,34 " fill="none" id="Computer-to-Processor" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="130.43,34,121.43,30,125.43,34,121.43,38,130.43,34" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="106.6155" y="29.6885">1</text><!--MD5=[8191e40effd62d4dd7ed58a46b0e08f2]
+@startuml
+
+class Computer
+class Processor {
+    core:String 
+}
+
+Computer - -right> "1 " Processor
+hide members 
+show Processor attributes 
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>
