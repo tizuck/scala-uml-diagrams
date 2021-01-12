@@ -1,0 +1,36 @@
+@startuml
+package animals {
+    abstract class Animal <<trait>> {
+        sound:String
+    }
+    class Dog << caseclass >> {
+        <<ctor>> Dog(sound:String)
+    } 
+
+    Animal <|-- Dog 
+}
+
+hide circle 
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml 

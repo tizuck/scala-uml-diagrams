@@ -1,0 +1,41 @@
+@startuml
+package ast {
+abstract class Expression << trait>>
+abstract class BinaryOp << caseclass >> {
+    --
+    <<ctor>> BinaryOp(expr1:Expression,expr2:Expression,op:String)   
+    -- <<scalaclass>> --
+    isSealed
+}  
+note "<<scalaclass>>\nisSealed" as N1 
+Expression -right- N1 
+Expression -[hidden]down- BinaryOp 
+BinaryOp --|> Expression : "      "
+}
+hide circle 
+hide Expression members 
+hide methods
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml

@@ -1,0 +1,43 @@
+@startuml
+class Ord<T> <<trait>> {
+    <<def>> compare(x:T,y:T):Int 
+}
+
+class listOrd< T > <<giveninstance>> {
+    <<using>> ord : Ord<T>
+    <<def>> compare(x:List<T>,y:List<T>):Int 
+}
+
+class intOrd <<giveninstance>> {
+    <<def>> compare(x:Int,y:Int):Int 
+}
+
+Ord <|.. listOrd : <<given>>
+Ord <|.. intOrd : <<given>>
+
+hide circle 
+
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml

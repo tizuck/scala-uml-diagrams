@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="206px" preserveAspectRatio="none" style="width:416px;height:206px;" version="1.1" viewBox="0 0 416 206" width="416px" zoomAndPan="magnify"><defs><filter height="300%" id="f3wa8ul452vlv" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[34c8d65a1d46f4bd017b92a6033f978f]
+class TypeContainer--><rect codeLine="1" fill="#FFFFFF" filter="url(#f3wa8ul452vlv)" height="56.1514" id="TypeContainer" style="stroke:#1B1F23;stroke-width:1.5;" width="97" x="180" y="7"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="204" y="23.8015">«trait»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="91" x="183" y="38.8772">TypeContainer</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="181" x2="276" y1="47.1514" y2="47.1514"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="181" x2="276" y1="55.1514" y2="55.1514"/><!--MD5=[56e4c9075fa7c9f4c09ef0a20c49f72c]
+class T--><rect codeLine="3" fill="#FFFFFF" filter="url(#f3wa8ul452vlv)" height="69.9612" id="T" style="stroke:#1B1F23;stroke-width:1.5;" width="229" x="7" y="123"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="42" x="100.5" y="139.8015">«type»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="7" x="118" y="154.8772">T</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="8" x2="235" y1="163.1514" y2="163.1514"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="217" x="13" y="177.962">_type:UpperBound&lt;Comparable&lt;T&gt;&gt;</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="8" x2="235" y1="184.9612" y2="184.9612"/><!--MD5=[c4ddf6651e30bfa82066c77a938e61ce]
+class Two--><rect codeLine="6" fill="#FFFFFF" filter="url(#f3wa8ul452vlv)" height="69.9612" id="Two" style="stroke:#1B1F23;stroke-width:1.5;" width="131" x="271" y="123"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="42" x="310" y="139.8015">«type»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="21" x="320.5" y="154.8772">Two</text><rect fill="#FFFFFF" height="17.0757" style="stroke:#1B1F23;stroke-width:1.0;stroke-dasharray:2.0,2.0;" width="9" x="396" y="120"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="7" x="397" y="132.8015">A</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="272" x2="401" y1="163.1514" y2="163.1514"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="119" x="277" y="177.962">_type:Tuple2&lt;A,A&gt;</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="272" x2="401" y1="184.9612" y2="184.9612"/><!--MD5=[cb2481981826939da4597a76fd0b8dfc]
+reverse link TypeContainer to Two--><path codeLine="10" d="M262.82,74.45 C276.6,89.89 292.36,107.55 305.76,122.56 " fill="none" id="TypeContainer-backto-Two" style="stroke:#1B1F23;stroke-width:1.0;"/><ellipse cx="258.0677" cy="69.1179" fill="#FFFFFF" rx="8" ry="8" style="stroke:#1B1F23;stroke-width:1.0;"/><line style="stroke:#1B1F23;stroke-width:1.0;" x1="263.3953" x2="252.74" y1="75.0858" y2="63.15"/><line style="stroke:#1B1F23;stroke-width:1.0;" x1="252.0998" x2="264.0356" y1="74.4456" y2="63.7902"/><!--MD5=[bdf20ff087bb376e07b5591d7b698b4b]
+reverse link TypeContainer to T--><path codeLine="11" d="M194.5,74.45 C180.85,89.89 165.23,107.55 151.95,122.56 " fill="none" id="TypeContainer-backto-T" style="stroke:#1B1F23;stroke-width:1.0;"/><ellipse cx="199.1865" cy="69.1394" fill="#FFFFFF" rx="8" ry="8" style="stroke:#1B1F23;stroke-width:1.0;"/><line style="stroke:#1B1F23;stroke-width:1.0;" x1="193.8829" x2="204.49" y1="75.1287" y2="63.15"/><line style="stroke:#1B1F23;stroke-width:1.0;" x1="193.1971" x2="205.1758" y1="63.8358" y2="74.4429"/><!--MD5=[2fab0b120cb5354023a7b4c984dcfce4]
+@startuml
+class TypeContainer <<trait>> 
+
+class T <<type>> {
+    _type:UpperBound<Comparable<T>>
+}
+class Two <A> <<type>> {
+    _type:Tuple2<A,A>
+}
+
+TypeContainer +- - Two 
+TypeContainer +- - T 
+
+hide circle 
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

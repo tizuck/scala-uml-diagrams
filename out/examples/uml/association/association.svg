@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="131px" preserveAspectRatio="none" style="width:166px;height:131px;" version="1.1" viewBox="0 0 166 131" width="166px" zoomAndPan="magnify"><defs><filter height="300%" id="f17g8haq4icdji" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[b2f23c4a06b9bc4c947f037f864aea3c]
+class Class01--><rect fill="#FFFFFF" filter="url(#f17g8haq4icdji)" height="25.0757" id="Class01" style="stroke:#1B1F23;stroke-width:1.5;" width="55" x="7" y="7"/><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="49" x="10" y="23.8015">Class01</text><!--MD5=[67b7f66b9c6b27d60ed6d0424460c06c]
+class Class02--><rect fill="#FFFFFF" filter="url(#f17g8haq4icdji)" height="25.0757" id="Class02" style="stroke:#1B1F23;stroke-width:1.5;" width="55" x="7" y="92"/><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="49" x="10" y="108.8015">Class02</text><!--MD5=[e34eefe962fcadefcbf83660cc436420]
+class Class03--><rect fill="#FFFFFF" filter="url(#f17g8haq4icdji)" height="25.0757" id="Class03" style="stroke:#1B1F23;stroke-width:1.5;" width="55" x="97" y="7"/><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="49" x="100" y="23.8015">Class03</text><!--MD5=[d53a23475d458e69a9e37a48405189e2]
+class Class04--><rect fill="#FFFFFF" filter="url(#f17g8haq4icdji)" height="25.0757" id="Class04" style="stroke:#1B1F23;stroke-width:1.5;" width="55" x="97" y="92"/><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="49" x="100" y="108.8015">Class04</text><!--MD5=[ce07364b962722f52a457ac36ef0fce1]
+link Class01 to Class02--><path codeLine="1" d="M34.5,32.04 C34.5,46.21 34.5,70.35 34.5,86.6 " fill="none" id="Class01-to-Class02" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="34.5,91.79,38.5,82.79,34.5,86.79,30.5,82.79,34.5,91.79" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[9f26e4cf005c83b204cebe9e5c293d65]
+link Class03 to Class04--><path codeLine="2" d="M124.5,32.04 C124.5,47.81 124.5,75.93 124.5,91.79 " fill="none" id="Class03-Class04" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[241d3fe6fc1ab80ac6b8ec9fc2a13d03]
+@startuml
+Class01 - -> Class02 
+Class03 - - Class04 
+
+hide circle 
+hide members 
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="104px" preserveAspectRatio="none" style="width:208px;height:104px;" version="1.1" viewBox="0 0 208 104" width="208px" zoomAndPan="magnify"><defs><filter height="300%" id="f1vzwehjnuocc7" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[a46ee5ce0ceb0380cf446a08a056dce4]
+class A--><rect codeLine="1" fill="#FFFFFF" filter="url(#f1vzwehjnuocc7)" height="83.7711" id="A" style="stroke:#1B1F23;stroke-width:1.5;" width="187" x="7" y="7"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="76" y="23.8015">«trait»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="7" x="97" y="38.8772">A</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="8" x2="193" y1="47.1514" y2="47.1514"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="91" x="13" y="61.962">«var» x : Int</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="175" x="13" y="75.7718">«val» y : Map&lt;String,Int&gt;</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="8" x2="193" y1="82.7711" y2="82.7711"/><!--MD5=[3d0a2faec45b23c7c6b90686d29b7b28]
+@startuml
+class A <<trait>> {
+    <<var>> x : Int 
+    <<val>> y : Map<String,Int>
+}
+
+hide circle 
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

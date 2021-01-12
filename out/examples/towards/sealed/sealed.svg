@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="280px" preserveAspectRatio="none" style="width:330px;height:280px;" version="1.1" viewBox="0 0 330 280" width="330px" zoomAndPan="magnify"><defs><filter height="300%" id="f1xxz08xsk56uz" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[09efeddd3c66cd721ee42b1d3c857031]
+cluster ast--><polygon fill="#FFFFFF" filter="url(#f1xxz08xsk56uz)" points="16,6.3199,49,6.3199,56,29.9082,313,29.9082,313,273.3199,16,273.3199,16,6.3199" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="56" y1="29.9082" y2="29.9082"/><text fill="#000000" font-family="Source Code Pro" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="20" y="22.0883">ast</text><!--MD5=[3637e2e3ff64f8c7ec072f5df5e3a1dc]
+class Expression--><rect codeLine="2" fill="#FFFFFF" filter="url(#f1xxz08xsk56uz)" height="40.1514" id="Expression" style="stroke:#1B1F23;stroke-width:1.5;" width="76" x="68" y="43.8199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="81.5" y="60.6214">«trait»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="70" x="71" y="75.6971">Expression</text><!--MD5=[9c50a735aad14d0b72e0abd308d44d5c]
+class BinaryOp--><rect codeLine="3" fill="#FFFFFF" filter="url(#f1xxz08xsk56uz)" height="93.5809" id="BinaryOp" style="stroke:#1B1F23;stroke-width:1.5;" width="106" x="80" y="163.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="94.5" y="180.1214">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="56" x="105" y="195.1971">BinaryOp</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="81" x2="185" y1="203.4713" y2="203.4713"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77" x="86" y="218.2819">op : String</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="56" x="86" y="249.9015">isSealed</text><line style="stroke:#1B1F23;stroke-width:1.0;" x1="81" x2="84" y1="232.1861" y2="232.1861"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="98" x="84" y="235.5917">&lt;&lt;scalaclass&gt;&gt;</text><line style="stroke:#1B1F23;stroke-width:1.0;" x1="182" x2="185" y1="232.1861" y2="232.1861"/><path d="M179.5,42.3199 L179.5,59.8199 L144.16,63.8199 L179.5,67.8199 L179.5,84.9648 A0,0 0 0 0 179.5,84.9648 L296.5,84.9648 A0,0 0 0 0 296.5,84.9648 L296.5,52.3199 L286.5,42.3199 L179.5,42.3199 A0,0 0 0 0 179.5,42.3199 " fill="#FFFFFF" filter="url(#f1xxz08xsk56uz)" style="stroke:#1B1F23;stroke-width:1.0;"/><path d="M286.5,42.3199 L286.5,52.3199 L296.5,52.3199 L286.5,42.3199 " fill="#FFFFFF" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#D73A49" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="96" x="185.5" y="60.0974">«scalaclass»</text><text fill="#D73A49" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="64" x="185.5" y="76.4198">isSealed</text><!--MD5=[0e865d03fb424509e9e23419d3f2d908]
+reverse link Expression to BinaryOp--><path codeLine="9" d="M69.95,99.5099 C63.23,109.9699 59.54,121.7599 64,133.3199 C68.11,143.9599 74.48,154.0299 81.72,163.1499 " fill="none" id="Expression-backto-BinaryOp" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="64.65,94.9299,82.75,83.9099,75.48,103.8099,64.65,94.9299" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="89" y="129.0974"/><!--MD5=[dbe84ce9f09017b0d0c27a8c803fd36b]
+link BinaryOp to Expression--><path codeLine="10" d="M124.39,163.2499 C119.78,138.5599 114.28,109.1399 110.51,88.9399 " fill="none" id="BinaryOp-to-Expression" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="109.59,84.0099,107.3037,93.5897,110.5045,88.9256,115.1687,92.1264,109.59,84.0099" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="40" x="127" y="129.0974">expr1</text><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="92.3497" y="104.7399">1</text><!--MD5=[dbe84ce9f09017b0d0c27a8c803fd36b]
+link BinaryOp to Expression--><path codeLine="11" d="M186.28,169.0999 C201.29,152.7999 210.9,133.5499 200,115.3199 C193.94,105.1899 170.62,92.6299 148.73,82.5699 " fill="none" id="BinaryOp-to-Expression-1" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="144.08,80.4599,150.6094,87.8333,148.6294,82.5343,153.9284,80.5543,144.08,80.4599" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="40" x="213" y="129.0974">expr2</text><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="152.1015" y="78.9007">1</text><!--MD5=[8e41985dacb20af89112bf38124fcec2]
+@startuml
+package ast {
+abstract class Expression << trait>>
+abstract class BinaryOp << caseclass >> {
+    op : String       
+    - - <<scalaclass>> - -
+    isSealed
+}  
+
+Expression <|- - BinaryOp : "   " 
+BinaryOp - -> "1 " Expression : " expr1   "
+BinaryOp - -> "1" Expression : " expr2"
+note "<<scalaclass>>\nisSealed" as N1 
+Expression -right- N1 
+}
+hide circle 
+hide Expression members 
+hide methods
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

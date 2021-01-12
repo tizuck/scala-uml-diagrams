@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="405px" preserveAspectRatio="none" style="width:805px;height:405px;" version="1.1" viewBox="0 0 805 405" width="805px" zoomAndPan="magnify"><defs><filter height="300%" id="flsvtnfiwei7d" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[e0cbd5d9ac13768cf3505d2bb427f4e9]
+cluster uml--><polygon fill="#FFFFFF" filter="url(#flsvtnfiwei7d)" points="16,6.3199,49,6.3199,56,29.9082,788,29.9082,788,398.3199,16,398.3199,16,6.3199" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="56" y1="29.9082" y2="29.9082"/><text fill="#000000" font-family="Source Code Pro" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="20" y="22.0883">uml</text><!--MD5=[4b0d444d6fd954fad8540ccf03fa2a65]
+class uml.Relationship--><rect codeLine="2" fill="#FFFFFF" filter="url(#flsvtnfiwei7d)" height="40.1514" id="uml.Relationship" style="stroke:#1B1F23;stroke-width:1.5;" width="90" x="492" y="242.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="498.5" y="259.1214">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="84" x="495" y="274.1971">Relationship</text><!--MD5=[156948cb7e0d9d6f1e7c8f0d907b358f]
+class uml.RelationshipInfo--><rect codeLine="3" fill="#FFFFFF" filter="url(#flsvtnfiwei7d)" height="40.1514" id="uml.RelationshipInfo" style="stroke:#1B1F23;stroke-width:1.5;" width="118" x="89" y="142.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="109.5" y="159.1214">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="112" x="92" y="174.1971">RelationshipInfo</text><!--MD5=[d2767930cd64984d0dbdf49c8cbbae3a]
+class uml.Note--><rect codeLine="4" fill="#FFFFFF" filter="url(#flsvtnfiwei7d)" height="40.1514" id="uml.Note" style="stroke:#1B1F23;stroke-width:1.5;" width="79" x="456.5" y="342.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="457.5" y="359.1214">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="28" x="482" y="374.1971">Note</text><!--MD5=[f50f0ab06e4036f575a1ca9766e78a8a]
+class uml.Compartment--><rect codeLine="5" fill="#FFFFFF" filter="url(#flsvtnfiwei7d)" height="40.1514" id="uml.Compartment" style="stroke:#1B1F23;stroke-width:1.5;" width="83" x="32.5" y="242.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="35.5" y="259.1214">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="77" x="35.5" y="274.1971">Compartment</text><!--MD5=[e80b755d8843d4d901477a8a98114cdd]
+class uml.Operation--><rect codeLine="6" fill="#FFFFFF" filter="url(#flsvtnfiwei7d)" height="40.1514" id="uml.Operation" style="stroke:#1B1F23;stroke-width:1.5;" width="79" x="188.5" y="242.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="189.5" y="259.1214">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="63" x="196.5" y="274.1971">Operation</text><!--MD5=[f56a4685cb4ca4925ee7867a666a708c]
+class uml.Parameter--><rect codeLine="7" fill="#FFFFFF" filter="url(#flsvtnfiwei7d)" height="40.1514" id="uml.Parameter" style="stroke:#1B1F23;stroke-width:1.5;" width="79" x="140.5" y="342.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="141.5" y="359.1214">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="63" x="148.5" y="374.1971">Parameter</text><!--MD5=[4f6aca297efcf092bdf943af035e19f8]
+class uml.Attribute--><rect codeLine="8" fill="#FFFFFF" filter="url(#flsvtnfiwei7d)" height="40.1514" id="uml.Attribute" style="stroke:#1B1F23;stroke-width:1.5;" width="79" x="651.5" y="342.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="652.5" y="359.1214">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="63" x="659.5" y="374.1971">Attribute</text><!--MD5=[1344c468506f8e7bd900f7a45298c9e9]
+class uml.Class--><rect codeLine="9" fill="#FFFFFF" filter="url(#flsvtnfiwei7d)" height="40.1514" id="uml.Class" style="stroke:#1B1F23;stroke-width:1.5;" width="79" x="283.5" y="342.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="284.5" y="359.1214">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="35" x="305.5" y="374.1971">Class</text><!--MD5=[1b2ae437a8f931f8118235355a8ebb06]
+class uml.GenericParameter--><rect codeLine="10" fill="#FFFFFF" filter="url(#flsvtnfiwei7d)" height="40.1514" id="uml.GenericParameter" style="stroke:#1B1F23;stroke-width:1.5;" width="118" x="617" y="242.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="637.5" y="259.1214">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="112" x="620" y="274.1971">GenericParameter</text><!--MD5=[afbcf4ee3aeb81f3351e2a6f0a3c353f]
+class uml.Package--><rect codeLine="11" fill="#FFFFFF" filter="url(#flsvtnfiwei7d)" height="40.1514" id="uml.Package" style="stroke:#1B1F23;stroke-width:1.5;" width="79" x="340.5" y="242.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="341.5" y="259.1214">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="49" x="355.5" y="274.1971">Package</text><!--MD5=[57829a327a816364e8e8a3369f0ff20d]
+class uml.StereotypeElement--><rect codeLine="12" fill="#FFFFFF" filter="url(#flsvtnfiwei7d)" height="40.1514" id="uml.StereotypeElement" style="stroke:#1B1F23;stroke-width:1.5;" width="125" x="279.5" y="142.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="317.5" y="159.1214">«trait»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="119" x="282.5" y="174.1971">StereotypeElement</text><!--MD5=[7b9f6577eaff6a7e3eb217a29bc788af]
+class uml.TaggedValue--><rect codeLine="13" fill="#FFFFFF" filter="url(#flsvtnfiwei7d)" height="40.1514" id="uml.TaggedValue" style="stroke:#1B1F23;stroke-width:1.5;" width="83" x="439.5" y="142.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="442.5" y="159.1214">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="77" x="442.5" y="174.1971">TaggedValue</text><!--MD5=[cdba5a4dfb160e6459d111c242367ee8]
+class uml.UMLElement--><rect codeLine="14" fill="#FFFFFF" filter="url(#flsvtnfiwei7d)" height="40.1514" id="uml.UMLElement" style="stroke:#1B1F23;stroke-width:1.5;" width="76" x="254" y="42.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="267.5" y="59.1214">«trait»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="70" x="257" y="74.1971">UMLElement</text><!--MD5=[ed1b2a16ef521fc73623445976d3164f]
+link uml.Operation to uml.Parameter--><!--MD5=[e43e563fc7cedbd92b2ce532576f9bda]
+link uml.Package to uml.Class--><!--MD5=[f65c1136c67e29e203f14d34e7757368]
+link uml.Relationship to uml.Note--><!--MD5=[79bc4b42df1e3d65f5f5864b1c710986]
+link uml.Relationship to uml.Attribute--><!--MD5=[af2e8e8e91b7352207c74e7636065fd4]
+reverse link uml.UMLElement to uml.TaggedValue--><path codeLine="20" d="M346.83,91.7499 C378.13,107.9799 416.52,127.8899 444.2,142.2399 " fill="none" id="uml.UMLElement-backto-uml.TaggedValue" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="343.42,97.8699,328.89,82.4499,349.87,85.4399,343.42,97.8699" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[ab12816a3544e1128c9095a2673c01a2]
+reverse link uml.UMLElement to uml.StereotypeElement--><path codeLine="21" d="M311.02,100.5899 C318.22,114.7099 326.12,130.1999 332.14,141.9999 " fill="none" id="uml.UMLElement-backto-uml.StereotypeElement" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="304.73,103.6799,301.88,82.6799,317.2,97.3199,304.73,103.6799" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[e53d3d677c27d2181574941d3de7813c]
+reverse link uml.UMLElement to uml.Compartment--><path codeLine="22" d="M277.44,101.2399 C266.17,126.6499 248.52,159.5099 225,182.3199 C193.78,212.5999 148.62,234.1499 115.83,247.0199 " fill="none" id="uml.UMLElement-backto-uml.Compartment" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="271.11,98.2099,285.24,82.4099,284.05,103.5699,271.11,98.2099" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[96b9f3d8202e4bf0f5fde0a9f9f400ad]
+reverse link uml.UMLElement to uml.RelationshipInfo--><path codeLine="23" d="M247.17,93.8299 C223.92,109.6499 196.24,128.4899 176.04,142.2399 " fill="none" id="uml.UMLElement-backto-uml.RelationshipInfo" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="243.42,87.9099,263.89,82.4499,251.3,99.4899,243.42,87.9099" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[2f735f5c44204e79f8da7ff45952153a]
+reverse link uml.StereotypeElement to uml.Package--><path codeLine="24" d="M356.83,201.5599 C362.2,215.4099 368.04,230.4599 372.51,241.9999 " fill="none" id="uml.StereotypeElement-backto-uml.Package" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="350.21,203.8599,349.51,182.6799,363.26,198.7999,350.21,203.8599" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[973801ab0e4fc94358486c29f0e4f633]
+reverse link uml.StereotypeElement to uml.GenericParameter--><path codeLine="25" d="M424.25,187.4499 C483.94,204.9699 563.29,228.2499 616.82,243.9599 " fill="none" id="uml.StereotypeElement-backto-uml.GenericParameter" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="422.04,194.0999,404.82,181.7499,425.98,180.6699,422.04,194.0999" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[d3a70ac9cd151190a94e7e429a792cc7]
+reverse link uml.StereotypeElement to uml.Class--><path codeLine="26" d="M330.76,202.0399 C327.59,214.7599 324.57,229.0399 323,242.3199 C318.84,277.3999 320.24,318.7099 321.62,342.2799 " fill="none" id="uml.StereotypeElement-backto-uml.Class" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="324.05,200.0499,336.02,182.5699,337.56,203.6999,324.05,200.0499" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[ba4c0df47cbc1123ace32dbfc85a8cff]
+reverse link uml.StereotypeElement to uml.Attribute--><path codeLine="27" d="M424.62,182.0299 C522.72,196.2399 708.31,188.8099 753,242.3199 C778.98,273.4299 741,317.2299 714.01,342.0899 " fill="none" id="uml.StereotypeElement-backto-uml.Attribute" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="423.32,188.8999,404.81,178.5799,425.72,175.1099,423.32,188.8999" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[c64105d118dc6f0f4e0df97d44e6ddb5]
+reverse link uml.StereotypeElement to uml.Parameter--><path codeLine="28" d="M260.04,180.6399 C226.47,192.1999 190.88,211.2299 171,242.3199 C151.46,272.8599 162.84,317.2599 172,342.2899 " fill="none" id="uml.StereotypeElement-backto-uml.Parameter" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="258.27,173.8599,279.45,174.6599,262.4,187.2399,258.27,173.8599" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[36b8bdc4b8a36e04438af5080c236987]
+reverse link uml.StereotypeElement to uml.Operation--><path codeLine="29" d="M304.33,195.6999 C286.39,211.1199 265.56,229.0299 250.19,242.2399 " fill="none" id="uml.StereotypeElement-backto-uml.Operation" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="300.02,190.1799,319.75,182.4499,309.15,200.7899,300.02,190.1799" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[dde3cc06a75bfc996dec32ba8213762b]
+reverse link uml.StereotypeElement to uml.Compartment--><path codeLine="30" d="M271.17,189.2199 C221.66,207.3299 157.23,230.8899 115.74,246.0599 " fill="none" id="uml.StereotypeElement-backto-uml.Compartment" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="268.82,182.6299,290.01,182.3299,273.63,195.7699,268.82,182.6299" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[54f8791d1309d7085736e37ff69ac64e]
+reverse link uml.StereotypeElement to uml.Note--><path codeLine="31" d="M387.23,194.6199 C404.28,207.9499 422.94,224.5199 437,242.3199 C461.87,273.7999 480.19,317.4599 489.37,342.1999 " fill="none" id="uml.StereotypeElement-backto-uml.Note" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="382.77,200.0299,370.94,182.4599,391.15,188.8099,382.77,200.0299" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[e8af4b7505a10b967f0d8c07f794fe3b]
+reverse link uml.StereotypeElement to uml.Relationship--><path codeLine="32" d="M398.12,191.5199 C430.49,207.7899 470.34,227.8199 499.04,242.2399 " fill="none" id="uml.StereotypeElement-backto-uml.Relationship" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="394.79,197.6799,380.06,182.4499,401.07,185.1699,394.79,197.6799" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[af48d4423e7d8ce1186634e30d6a520c]
+@startuml need_to_find_id
+package uml{
+    class uml.Relationship << caseclass >>
+    class uml.RelationshipInfo << caseclass >>
+    class uml.Note << caseclass >>
+    class uml.Compartment << caseclass >>
+    class uml.Operation << caseclass >>
+    class uml.Parameter << caseclass >>
+    class uml.Attribute << caseclass >>
+    class uml.Class << caseclass >>
+    class uml.GenericParameter << caseclass >>
+    class uml.Package << caseclass >>
+    abstract class uml.StereotypeElement << trait >>
+    class uml.TaggedValue << caseclass >>
+    abstract class uml.UMLElement << trait >>
+}
+uml.Parameter -[hidden]up- uml.Operation 
+uml.Class -[hidden]up- uml.Package
+uml.Note -[hidden]up- uml.Relationship
+uml.Attribute -[hidden]up- uml.Relationship
+uml.UMLElement <|- - uml.TaggedValue  
+uml.UMLElement <|- - uml.StereotypeElement 
+uml.UMLElement <|- - uml.Compartment  
+uml.UMLElement <|- - uml.RelationshipInfo  
+uml.StereotypeElement <|- - uml.Package 
+uml.StereotypeElement <|- - uml.GenericParameter 
+uml.StereotypeElement <|- - uml.Class 
+uml.StereotypeElement <|- - uml.Attribute 
+uml.StereotypeElement <|- - uml.Parameter 
+uml.StereotypeElement <|- - uml.Operation 
+uml.StereotypeElement <|- - uml.Compartment 
+uml.StereotypeElement <|- - uml.Note 
+uml.StereotypeElement <|- - uml.Relationship 
+
+hide circle 
+hide members 
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+
+
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

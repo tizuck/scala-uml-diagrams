@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="118px" preserveAspectRatio="none" style="width:355px;height:118px;" version="1.1" viewBox="0 0 355 118" width="355px" zoomAndPan="magnify"><defs><filter height="300%" id="f16lrc1k68knpc" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[e397d92a372d604814195374fa8ad6ce]
+class Max--><rect codeLine="1" fill="#FFFFFF" filter="url(#f16lrc1k68knpc)" height="97.5809" id="Max" style="stroke:#1B1F23;stroke-width:1.5;" width="334" x="7" y="7"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="149.5" y="23.8015">«trait»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="21" x="163.5" y="38.8772">Max</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="8" x2="340" y1="47.1514" y2="47.1514"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="8" x2="340" y1="55.1514" y2="55.1514"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="301" x="13" y="69.962">def max1&lt;T&gt;(x:T,y:T)(«using» ord:Ord&lt;T&gt;): T</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="322" x="13" y="83.7718">def max2&lt;T&gt;(x:T,y:T)(«implicit» ord:Ord&lt;T&gt;): T</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="308" x="13" y="97.5816">def max3&lt;T&gt;(x:T,y:T)(«byname» ord:Ord&lt;T&gt;): T</text><!--MD5=[86eefe62bdc88a09d331f38c2c0f8331]
+@startuml
+class Max <<trait>> {
+    def max1<T>(x:T,y:T)(<<using>> ord:Ord<T>): T
+    def max2<T>(x:T,y:T)(<<implicit>> ord:Ord<T>): T
+    def max3<T>(x:T,y:T)(<<byname>> ord:Ord<T>): T 
+}
+
+hide circle 
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

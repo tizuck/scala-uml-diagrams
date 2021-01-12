@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="279px" preserveAspectRatio="none" style="width:245px;height:279px;" version="1.1" viewBox="0 0 245 279" width="245px" zoomAndPan="magnify"><defs><filter height="300%" id="f1ey084duu5qyr" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[34a3abc76313d552f84721923c8dec68]
+cluster animals--><polygon fill="#FFFFFF" filter="url(#f1ey084duu5qyr)" points="16,6.3199,85,6.3199,92,29.9082,228,29.9082,228,272.3199,16,272.3199,16,6.3199" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="92" y1="29.9082" y2="29.9082"/><text fill="#000000" font-family="Source Code Pro" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="63" x="20" y="22.0883">animals</text><!--MD5=[7fd4401f5c5cb0e3d029c879cad30c04]
+class Animal--><rect codeLine="2" fill="#FFFFFF" filter="url(#f1ey084duu5qyr)" height="83.7711" id="Animal" style="stroke:#1B1F23;stroke-width:1.5;" width="131" x="56.5" y="42.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="97.5" y="59.1214">«trait»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="42" x="101" y="74.1971">Animal</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="57.5" x2="186.5" y1="82.4713" y2="82.4713"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="84" x="62.5" y="97.2819">sound:String</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="57.5" x2="186.5" y1="104.2811" y2="104.2811"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="119" x="62.5" y="119.0917">getSound():String</text><!--MD5=[454ed48f055567edc734f170f61b4daf]
+class Dog--><rect codeLine="6" fill="#FFFFFF" filter="url(#f1ey084duu5qyr)" height="69.9612" id="Dog" style="stroke:#1B1F23;stroke-width:1.5;" width="180" x="32" y="186.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="83.5" y="203.1214">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="21" x="111.5" y="218.1971">Dog</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="33" x2="211" y1="226.4713" y2="226.4713"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="33" x2="211" y1="234.4713" y2="234.4713"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="168" x="38" y="249.2819">«ctor» Dog(sound:String)</text><!--MD5=[5037e5108ae860e34ac250b7d2b84c09]
+reverse link Animal to Dog--><path codeLine="10" d="M122,146.6199 C122,160.1899 122,174.1099 122,186.1399 " fill="none" id="Animal-backto-Dog" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="115,146.5599,122,126.5599,129,146.5599,115,146.5599" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[f5352a0c0cdc1505ebb379b053e48ae6]
+@startuml
+package animals {
+    abstract class Animal <<trait>> {
+        sound:String
+        getSound():String  
+    }
+    class Dog << caseclass >> {
+        <<ctor>> Dog(sound:String)
+    } 
+
+    Animal <|- - Dog 
+}
+
+hide circle 
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="90px" preserveAspectRatio="none" style="width:404px;height:90px;" version="1.1" viewBox="0 0 404 90" width="404px" zoomAndPan="magnify"><defs><filter height="300%" id="f7t1v04vb266l" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[47de47a8b5f06cbc5e036fae0a9149b7]
+class Iterable--><rect codeLine="1" fill="#FFFFFF" filter="url(#f7t1v04vb266l)" height="69.9612" id="Iterable" style="stroke:#1B1F23;stroke-width:1.5;" width="383" x="7" y="7"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="161.5" y="23.8015">«trait»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="56" x="158" y="38.8772">Iterable</text><rect fill="#FFFFFF" height="17.0757" style="stroke:#1B1F23;stroke-width:1.0;stroke-dasharray:2.0,2.0;" width="23" x="370" y="4"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="7" x="378" y="16.8015">T</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="8" x2="389" y1="47.1514" y2="47.1514"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="8" x2="389" y1="55.1514" y2="55.1514"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="371" x="13" y="69.962">«def» foldLeft &lt;T2&gt; (z:T2)(op : Function&lt;T2,T,T2&gt;):T2</text><!--MD5=[576c91d11931f28d4b5daf437be2514d]
+@startuml
+   class Iterable < T > <<trait>> {
+       <<def>> foldLeft <T2> (z:T2)(op : Function<T2,T,T2>):T2 
+   }
+
+hide circle 
+
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

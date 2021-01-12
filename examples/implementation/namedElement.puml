@@ -1,0 +1,40 @@
+@startuml 
+uml.NamedElement <|-- uml.TaggedValue 
+uml.NamedElement <|-- uml.Stereotype 
+uml.TaggedValue -[hidden]down- uml.Stereotype 
+uml.NamedElement <|-- uml.UMLUnit 
+uml.NamedElement <|-- uml.GenericParameter 
+uml.GenericParameter -[hidden]down- uml.UMLUnit
+uml.NamedElement <|-- uml::externalReferences.ClassDefRef 
+uml.NamedElement <|-- uml.Class 
+uml.NamedElement <|-- uml.Attribute
+uml.Class -[hidden]down- uml.Attribute 
+uml.NamedElement <|-- uml.Parameter 
+uml.NamedElement <|-- uml.Operation 
+uml.Operation -[hidden]down- uml.Parameter
+
+hide circle 
+hide members 
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml 

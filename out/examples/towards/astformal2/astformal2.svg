@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="293px" preserveAspectRatio="none" style="width:343px;height:293px;" version="1.1" viewBox="0 0 343 293" width="343px" zoomAndPan="magnify"><defs><filter height="300%" id="fq1iq0x6mfb53" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[09efeddd3c66cd721ee42b1d3c857031]
+cluster ast--><polygon fill="#FFFFFF" filter="url(#fq1iq0x6mfb53)" points="16,6.3199,49,6.3199,56,29.9082,326,29.9082,326,286.3199,16,286.3199,16,6.3199" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="56" y1="29.9082" y2="29.9082"/><text fill="#000000" font-family="Source Code Pro" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="20" y="22.0883">ast</text><!--MD5=[3637e2e3ff64f8c7ec072f5df5e3a1dc]
+class Expression--><rect codeLine="2" fill="#FFFFFF" filter="url(#fq1iq0x6mfb53)" height="40.1514" id="Expression" style="stroke:#1B1F23;stroke-width:1.5;" width="76" x="36" y="43.8199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="49.5" y="60.6214">«trait»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="70" x="39" y="75.6971">Expression</text><!--MD5=[9c50a735aad14d0b72e0abd308d44d5c]
+class BinaryOp--><rect codeLine="3" fill="#FFFFFF" filter="url(#fq1iq0x6mfb53)" height="107.3907" id="BinaryOp" style="stroke:#1B1F23;stroke-width:1.5;" width="215" x="32.5" y="163.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="101.5" y="180.1214">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="56" x="112" y="195.1971">BinaryOp</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="33.5" x2="246.5" y1="203.4713" y2="203.4713"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="203" x="38.5" y="218.2819">«ctor pos=2» expr2:Expression</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="154" x="38.5" y="232.0917">«ctor pos=3» op:String</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="56" x="38.5" y="263.7113">isSealed</text><line style="stroke:#1B1F23;stroke-width:1.0;" x1="33.5" x2="91" y1="245.9959" y2="245.9959"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="98" x="91" y="249.4015">&lt;&lt;scalaclass&gt;&gt;</text><line style="stroke:#1B1F23;stroke-width:1.0;" x1="189" x2="246.5" y1="245.9959" y2="245.9959"/><path d="M147.5,42.3199 L147.5,59.8199 L112.16,63.8199 L147.5,67.8199 L147.5,84.9648 A0,0 0 0 0 147.5,84.9648 L264.5,84.9648 A0,0 0 0 0 264.5,84.9648 L264.5,52.3199 L254.5,42.3199 L147.5,42.3199 A0,0 0 0 0 147.5,42.3199 " fill="#FFFFFF" filter="url(#fq1iq0x6mfb53)" style="stroke:#1B1F23;stroke-width:1.0;"/><path d="M254.5,42.3199 L254.5,52.3199 L264.5,52.3199 L254.5,42.3199 " fill="#FFFFFF" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#D73A49" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="96" x="153.5" y="60.0974">«scalaclass»</text><text fill="#D73A49" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="64" x="153.5" y="76.4198">isSealed</text><!--MD5=[dbe84ce9f09017b0d0c27a8c803fd36b]
+link BinaryOp to Expression--><path codeLine="11" d="M87.32,163.3099 C80.64,153.9799 74.82,143.8499 71,133.3199 C65.91,119.2899 66.52,102.5799 68.47,89.1699 " fill="none" id="BinaryOp-to-Expression" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="69.31,84.0199,63.9003,92.25,68.4973,88.9534,71.7939,93.5504,69.31,84.0199" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="144" x="72" y="129.0974">«ctor pos=1» expr1</text><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="49.7409" y="104.7527">1</text><!--MD5=[dbe84ce9f09017b0d0c27a8c803fd36b]
+link BinaryOp to Expression--><path codeLine="12" d="M214.02,163.1699 C226.66,147.9799 232.49,131.2099 221,115.3199 C199.02,84.9199 176.36,95.6499 131.62,84.7599 " fill="none" id="BinaryOp-to-Expression-1" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="129.38,91.3899,112.2,78.9899,133.36,77.9699,129.38,91.3899" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="276" y="129.0974"/><!--MD5=[6366d1c5710001c275ed8c5bb2ae795b]
+link Expression to BinaryOp--><!--MD5=[55d2d0653e214de1d9559569701971ba]
+@startuml
+package ast {
+abstract class Expression << trait>>
+abstract class BinaryOp << caseclass >> {
+    <<ctor pos=2>> expr2:Expression
+    <<ctor pos=3>> op:String  
+    - - <<scalaclass>> - -
+    isSealed
+}  
+note "<<scalaclass>>\nisSealed" as N1 
+Expression -right- N1 
+BinaryOp - -> "1 " Expression : <<ctor pos=1>> expr1 
+BinaryOp - -|> Expression : "      "
+Expression -[hidden]down- BinaryOp 
+}
+hide circle 
+hide Expression members 
+hide methods
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

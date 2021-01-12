@@ -43,6 +43,9 @@ package "<<profile>> Scala" #00 {
         isSuper : boolean 
     } 
     class CaseClass <<stereotype>>
+    class Type <<stereotype>> {
+        isOpaque:Boolean 
+    }
     Class <-- ScalaClass
     ScalaClass <-- Trait 
     ScalaClass <-- CaseClass 
@@ -57,6 +60,7 @@ package "<<profile>> Scala" #00 {
     Property <-- Var 
     Property <-- Val 
     Property <-- TypeRep 
+    Property <-- Ctor 
 
     ScalaClass <-- Val 
     ScalaClass <-- Var 
@@ -67,14 +71,18 @@ package "<<profile>> Scala" #00 {
 
     class Using <<stereotype>> 
     class Implicit <<stereotype>>
+    class ByName <<stereotype>>
+    class Repeated <<stereotype>> 
 
     Parameter <-- Using
-    Parameter <-- Implicit  
+    Parameter <-- Implicit
+    Parameter <-- ByName   
+    Parameter <-- Repeated 
 
     '---------------------------------------------------
     ' Associations
 
-    class GivenAs <<stereotype>> 
+    class given <<stereotype>> 
     class Ctorbind <<stereotype>> {
         vals : String [*]
     }
@@ -97,7 +105,9 @@ package "<<profile>> Scala" #00 {
     
     '---------------------------------------------------
     'Class Constructor 
-    class Ctor <<stereotype>> extends AccessModifierElement
+    class Ctor <<stereotype>> extends AccessModifierElement {
+        pos : int [0..1]
+    }
 
     Operation <-- Ctor
     
@@ -153,6 +163,8 @@ package "<<profile>> Scala" #00 {
     class Packageobject <<stereotype>>
 
     Package <-- Packageobject
+
+    class Companion <<stereotype>>
 
 }
 

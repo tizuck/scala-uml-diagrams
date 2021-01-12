@@ -1,0 +1,101 @@
+@startuml need_to_find_id
+package uml{
+    class uml.Relationship << caseclass >>
+    class uml.PackageRef << caseclass >>
+    class uml.ClassRef << caseclass >>
+    class uml.ConcreteClass << caseclass >>
+    abstract class uml.RelationshipElement << trait >>
+    class uml.Note << caseclass >>
+    class uml.Compartment << caseclass >>
+    class uml.Operation << caseclass >>
+    class uml.Parameter << caseclass >>
+    class uml.Attribute << caseclass >>
+    class uml.Class << caseclass >>
+    class uml.externalReferences << object >>
+    class uml.GenericParameter << caseclass >>
+    class uml.Package << caseclass >>
+    class uml.UMLUnit << caseclass >>
+    abstract class uml.NamedElement << trait >>
+    abstract class uml.RelateableElement << trait >>
+    abstract class uml.PackageBodyElement << trait >>
+    abstract class uml.CompartmentElement << trait >>
+    abstract class uml.TopLevelElement << trait >>
+    abstract class uml.StereotypeElement << trait >>
+    class uml.Stereotype << caseclass >>
+    class uml.TaggedValue << caseclass >>
+    abstract class uml.UMLElement << trait >>
+}
+package uml::externalReferences{
+    class uml::externalReferences.ClassDefRef << caseclass >>
+}
+uml.UMLElement <|-- uml.TaggedValue 
+uml.UMLElement <|-- uml.Stereotype  
+uml.UMLElement <|-- uml.StereotypeElement 
+uml.UMLElement <|-- uml.TopLevelElement 
+uml.UMLElement <|-- uml.CompartmentElement 
+uml.UMLElement <|-- uml.PackageBodyElement 
+uml.UMLElement <|-- uml.RelateableElement 
+uml.UMLElement <|-- uml.NamedElement 
+uml.UMLElement <|-- uml.UMLUnit 
+uml.TopLevelElement <|-- uml.Package 
+uml.PackageBodyElement <|-- uml.Package 
+uml.StereotypeElement <|-- uml.Package 
+uml.RelateableElement <|-- uml.Package 
+uml.StereotypeElement <|-- uml.GenericParameter 
+uml.NamedElement <|-- uml.GenericParameter 
+uml.TopLevelElement <|-- uml::externalReferences.ClassDefRef 
+uml.TopLevelElement <|-- uml.Class 
+uml.StereotypeElement <|-- uml.Class 
+uml.PackageBodyElement <|-- uml.Class 
+uml.RelateableElement <|-- uml.Class 
+uml.NamedElement <|-- uml.Class 
+uml.CompartmentElement <|-- uml.Attribute 
+uml.StereotypeElement <|-- uml.Attribute 
+uml.NamedElement <|-- uml.Attribute 
+uml.StereotypeElement <|-- uml.Parameter 
+uml.NamedElement <|-- uml.Parameter 
+uml.CompartmentElement <|-- uml.Operation 
+uml.StereotypeElement <|-- uml.Operation 
+uml.NamedElement <|-- uml.Operation 
+uml.UMLElement <|-- uml.Compartment 
+uml.StereotypeElement <|-- uml.Compartment 
+uml.TopLevelElement <|-- uml.Note 
+uml.StereotypeElement <|-- uml.Note 
+uml.PackageBodyElement <|-- uml.Note 
+uml.UMLElement <|-- uml.RelationshipElement 
+uml.RelationshipElement <|-- uml.ConcreteClass 
+uml.RelationshipElement <|-- uml.ClassRef 
+uml.RelationshipElement <|-- uml.PackageRef 
+uml.UMLElement <|-- uml.RelationshipInfo  
+uml.TopLevelElement <|-- uml.Relationship 
+uml.PackageBodyElement <|-- uml.Relationship 
+uml.StereotypeElement <|-- uml.Relationship 
+uml.externalReferences +-- uml::externalReferences : << objectdef >>
+
+hide circle 
+hide members 
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+
+skinparam linetype ortho 
+@enduml

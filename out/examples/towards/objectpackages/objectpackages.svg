@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="303px" preserveAspectRatio="none" style="width:217px;height:303px;" version="1.1" viewBox="0 0 217 303" width="217px" zoomAndPan="magnify"><defs><filter height="300%" id="f1x5r05xj00apy" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[99eba6e841e10f0e903161ac505afb50]
+cluster A--><polygon fill="#FFFFFF" filter="url(#f1x5r05xj00apy)" points="16,6.3199,31,6.3199,38,29.9082,106,29.9082,106,114.3199,16,114.3199,16,6.3199" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="38" y1="29.9082" y2="29.9082"/><text fill="#000000" font-family="Source Code Pro" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="9" x="20" y="22.0883">A</text><!--MD5=[7ab6094aba2dbfe683d313850b4878bd]
+cluster B--><polygon fill="#FFFFFF" filter="url(#f1x5r05xj00apy)" points="53,172.3199,68,172.3199,75,195.9082,200,195.9082,200,296.3199,53,296.3199,53,172.3199" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="53" x2="75" y1="195.9082" y2="195.9082"/><text fill="#000000" font-family="Source Code Pro" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="9" x="57" y="188.0883">B</text><!--MD5=[2a1639c561dc85c855ecf21282708e0e]
+class A.B--><rect codeLine="2" fill="#FFFFFF" filter="url(#f1x5r05xj00apy)" height="56.1514" id="A.B" style="stroke:#1B1F23;stroke-width:1.5;" width="58" x="32" y="42.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="56" x="33" y="59.1214">«object»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="7" x="57.5" y="74.1971">B</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="33" x2="89" y1="82.4713" y2="82.4713"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="33" x2="89" y1="90.4713" y2="90.4713"/><!--MD5=[378b18254a1b2429f435e93f5e5cc50c]
+class C--><rect codeLine="6" fill="#FFFFFF" filter="url(#f1x5r05xj00apy)" height="56.1514" id="C" style="stroke:#1B1F23;stroke-width:1.5;" width="79" x="96.5" y="216.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="97.5" y="233.1214">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="7" x="132.5" y="248.1971">C</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="97.5" x2="174.5" y1="256.4713" y2="256.4713"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="97.5" x2="174.5" y1="264.4713" y2="264.4713"/><!--MD5=[57e5a6ab65e2b541ed7c8f7dc5873c18]
+reverse link A.B to B--><path codeLine="9" d="M61,113.7599 C61,126.2724 61,140.4568 61,154.7363 C61,158.3062 61,161.882 61,165.4392 C61,167.2177 61,168.9916 61,170.7578 C61,171.1993 61,171.6404 61,172.0809 " fill="none" id="A.B-backto-B" style="stroke:#1B1F23;stroke-width:1.0;"/><ellipse cx="61" cy="106.5699" fill="#FFFFFF" rx="8" ry="8" style="stroke:#1B1F23;stroke-width:1.0;"/><line style="stroke:#1B1F23;stroke-width:1.0;" x1="61" x2="61" y1="114.5699" y2="98.5699"/><line style="stroke:#1B1F23;stroke-width:1.0;" x1="53" x2="69" y1="106.5699" y2="106.5699"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="88" x="78" y="144.0974">«objectdef»</text><!--MD5=[905493f5ef76f7a40b71b2a8527b4c36]
+@startuml
+package A {
+    class A.B <<object>> 
+}
+
+package B {
+    class C <<caseclass>>
+}
+
+A.B +- - B : "  <<objectdef>>" 
+
+hide circle
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

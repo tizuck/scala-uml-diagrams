@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="201px" preserveAspectRatio="none" style="width:442px;height:201px;" version="1.1" viewBox="0 0 442 201" width="442px" zoomAndPan="magnify"><defs><filter height="300%" id="f1csan4gwpt3q0" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[d03ffa4109fe5ea4a3cd378faad930a8]
+class Greeting--><rect codeLine="2" fill="#FFFFFF" filter="url(#f1csan4gwpt3q0)" height="61.9612" id="Greeting" style="stroke:#1B1F23;stroke-width:1.5;" width="194" x="62" y="7"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="134.5" y="23.8015">«trait»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="56" x="131" y="38.8772">Greeting</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="63" x2="255" y1="47.1514" y2="47.1514"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="182" x="68" y="61.962">«ctor pos=1» name : String</text><!--MD5=[fc53e627ab85a94e660616758ae2dfda]
+class BobGreeting--><rect codeLine="6" fill="#FFFFFF" filter="url(#f1csan4gwpt3q0)" height="40.1514" id="BobGreeting" style="stroke:#1B1F23;stroke-width:1.5;" width="86" x="7" y="147"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="8" y="163.8015">«caseobject»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="77" x="11.5" y="178.8772">BobGreeting</text><!--MD5=[8bb903e8c7db58dea36cf97a7473bcf3]
+class EmmaGreeting--><rect codeLine="7" fill="#FFFFFF" filter="url(#f1csan4gwpt3q0)" height="40.1514" id="EmmaGreeting" style="stroke:#1B1F23;stroke-width:1.5;" width="90" x="223" y="147"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="226" y="163.8015">«caseobject»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="84" x="226" y="178.8772">EmmaGreeting</text><!--MD5=[db916f606164db517da54e48c6c3bc44]
+reverse link Greeting to BobGreeting--><path codeLine="9" d="M61.22,81.47 C55.73,86.69 50.88,92.51 47,99 C38.45,113.29 40.39,132.52 43.76,146.71 " fill="none" id="Greeting-backto-BobGreeting" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="56.98,75.9,77.02,69,65.65,86.89,56.98,75.9" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="176" x="48" y="112.7775">«ctorBin vals=["Bob"]»</text><!--MD5=[b3cf7c5edcdad2abf01de44895affc54]
+reverse link Greeting to EmmaGreeting--><path codeLine="10" d="M214.11,83.04 C219.39,88.18 224.46,93.55 229,99 C241.23,113.68 251.9,132.69 258.96,146.71 " fill="none" id="Greeting-backto-EmmaGreeting" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="209.03,87.88,198.95,69.24,218.45,77.53,209.03,87.88" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="192" x="242" y="112.7775">«ctorBind vals=["Emma"]»</text><!--MD5=[6c62ebcbc7c1002c7363d1eefe245cc2]
+@startuml
+
+abstract class Greeting << trait >> {
+    <<ctor pos=1>> name : String 
+}
+
+class BobGreeting <<caseobject>> 
+class EmmaGreeting <<caseobject>>
+
+Greeting <|- - BobGreeting : <<ctorBin vals=["Bob"]>>
+Greeting <|- - EmmaGreeting : <<ctorBind vals=["Emma"]>>
+
+hide circle  
+hide members 
+show Greeting attributes
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

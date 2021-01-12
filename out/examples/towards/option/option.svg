@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="203px" preserveAspectRatio="none" style="width:353px;height:203px;" version="1.1" viewBox="0 0 353 203" width="353px" zoomAndPan="magnify"><defs><filter height="300%" id="fkyzq8r20vmjn" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[b07065dfc0d0e09965ec10bfc328bb3e]
+class Option--><rect codeLine="2" fill="#FFFFFF" filter="url(#fkyzq8r20vmjn)" height="40.1514" id="Option" style="stroke:#1B1F23;stroke-width:1.5;" width="66" x="116" y="10"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="42" x="119" y="26.8015">«enum»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="42" x="119" y="41.8772">Option</text><rect fill="#FFFFFF" height="17.0757" style="stroke:#1B1F23;stroke-width:1.0;stroke-dasharray:2.0,2.0;" width="16" x="169" y="7"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="14" x="170" y="19.8015">+T</text><!--MD5=[9d096a8c3be2088af46118c867356e75]
+class Some--><rect codeLine="3" fill="#FFFFFF" filter="url(#fkyzq8r20vmjn)" height="61.9612" id="Some" style="stroke:#1B1F23;stroke-width:1.5;" width="138" x="7" y="128"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="42" x="46" y="144.8015">«case»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="28" x="53" y="159.8772">Some</text><rect fill="#FFFFFF" height="17.0757" style="stroke:#1B1F23;stroke-width:1.0;stroke-dasharray:2.0,2.0;" width="16" x="132" y="125"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="14" x="133" y="137.8015">+T</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="8" x2="144" y1="168.1514" y2="168.1514"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="126" x="13" y="182.962">«ctor pos=1» x : T</text><!--MD5=[23b93222029f5e808ee3d66414f1a838]
+class None--><rect codeLine="6" fill="#FFFFFF" filter="url(#fkyzq8r20vmjn)" height="40.1514" id="None" style="stroke:#1B1F23;stroke-width:1.5;" width="44" x="200" y="139"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="42" x="201" y="155.8015">«case»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="28" x="208" y="170.8772">None</text><!--MD5=[804644f45bb59a87e3716759bf52d236]
+reverse link Option to Some--><path codeLine="8" d="M98.43,53.49 C88.24,60.46 78.87,69.23 73,80 C65.15,94.4 65.39,112.61 67.83,127.82 " fill="none" id="Option-backto-Some" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="95.05,47.36,115.86,43.4,102.06,59.47,95.05,47.36" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="104" x="74" y="93.7775">&lt;&lt;bind T-&gt;T&gt;&gt;</text><!--MD5=[cdcf75f4f92eca3955dd496256e8fd0e]
+reverse link Option to None--><path codeLine="9" d="M174.83,66.99 C177.68,71.31 180.46,75.72 183,80 C194.5,99.41 205.83,122.64 213.28,138.68 " fill="none" id="Option-backto-None" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="168.8,70.57,163.22,50.13,180.33,62.63,168.8,70.57" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="152" x="193" y="93.7775">&lt;&lt;bind T-&gt;Nothing&gt;&gt;</text><!--MD5=[1603d4efe9a83560ff9c168b1dbf4197]
+@startuml
+
+class Option <+T> <<enum>>
+class Some<+T> <<case>> {
+    <<ctor pos=1>> x : T  
+}
+class None <<case>>
+
+Option <|- - Some : <<bind T->T>>
+Option <|- - None : <<bind T->Nothing>>
+
+hide circle 
+hide members 
+show Some attributes 
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

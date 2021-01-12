@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="255px" preserveAspectRatio="none" style="width:556px;height:255px;" version="1.1" viewBox="0 0 556 255" width="556px" zoomAndPan="magnify"><defs><filter height="300%" id="fukeg3on3hg0q" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[0a94d40ff7cc35fe71862456918c64e2]
+class Ord--><rect codeLine="1" fill="#FFFFFF" filter="url(#fukeg3on3hg0q)" height="69.9612" id="Ord" style="stroke:#1B1F23;stroke-width:1.5;" width="194" x="191" y="10"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="251" y="26.8015">«trait»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="21" x="265" y="41.8772">Ord</text><rect fill="#FFFFFF" height="17.0757" style="stroke:#1B1F23;stroke-width:1.0;stroke-dasharray:2.0,2.0;" width="23" x="365" y="7"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="7" x="373" y="19.8015">T</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="192" x2="384" y1="50.1514" y2="50.1514"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="192" x2="384" y1="58.1514" y2="58.1514"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="182" x="197" y="72.962">«def» compare(x:T,y:T):Int</text><!--MD5=[d798e429889ab4251ca56b93a967434c]
+class listOrd--><rect codeLine="5" fill="#FFFFFF" filter="url(#fukeg3on3hg0q)" height="83.7711" id="listOrd" style="stroke:#1B1F23;stroke-width:1.5;" width="278" x="7" y="158"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="105" x="81" y="174.8015">«giveninstance»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="49" x="109" y="189.8772">listOrd</text><rect fill="#FFFFFF" height="17.0757" style="stroke:#1B1F23;stroke-width:1.0;stroke-dasharray:2.0,2.0;" width="23" x="265" y="155"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="7" x="273" y="167.8015">T</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="8" x2="284" y1="198.1514" y2="198.1514"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="140" x="13" y="212.962">«using» ord : Ord&lt;T&gt;</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="8" x2="284" y1="219.9612" y2="219.9612"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="266" x="13" y="234.7718">«def» compare(x:List&lt;T&gt;,y:List&lt;T&gt;):Int</text><!--MD5=[6a0e8a6b6b01f84d20b2d3ecef48b3c2]
+class intOrd--><rect codeLine="10" fill="#FFFFFF" filter="url(#fukeg3on3hg0q)" height="69.9612" id="intOrd" style="stroke:#1B1F23;stroke-width:1.5;" width="222" x="320" y="165"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="105" x="378.5" y="181.8015">«giveninstance»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="42" x="410" y="196.8772">intOrd</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="321" x2="541" y1="205.1514" y2="205.1514"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="321" x2="541" y1="213.1514" y2="213.1514"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="210" x="326" y="227.962">«def» compare(x:Int,y:Int):Int</text><!--MD5=[fa7f3255599f41c02c06c394f05b3625]
+reverse link Ord to listOrd--><path codeLine="14" d="M242.38,95.15 C223.57,115.42 202.01,138.65 184.07,157.99 " fill="none" id="Ord-backto-listOrd" style="stroke:#1B1F23;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="237.4,90.23,256.13,80.34,247.66,99.76,237.4,90.23" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="56" x="227" y="123.7775">«given»</text><!--MD5=[67ebd3d62b85fc3f523c059c153f1ecf]
+reverse link Ord to intOrd--><path codeLine="15" d="M333.8,95 C355.06,117.75 379.81,144.23 399.02,164.78 " fill="none" id="Ord-backto-intOrd" style="stroke:#1B1F23;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="328.63,99.73,320.09,80.34,338.86,90.17,328.63,99.73" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="56" x="364" y="123.7775">«given»</text><!--MD5=[44754958666c21af0cbf27a92675233f]
+@startuml
+class Ord< T > <<trait>> {
+    <<def>> compare(x:T,y:T):Int 
+}
+
+class listOrd< T > <<giveninstance>> {
+    <<using>> ord : Ord<T>
+    <<def>> compare(x:List<T>,y:List<T>):Int 
+}
+
+class intOrd <<giveninstance>> {
+    <<def>> compare(x:Int,y:Int):Int 
+}
+
+Ord <|.. listOrd : <<given>>
+Ord <|.. intOrd : <<given>>
+
+hide circle 
+
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

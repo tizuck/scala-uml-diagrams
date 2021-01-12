@@ -5,7 +5,7 @@ package app::frontend::processor{
         filesPath : String  
         isVerbose : Boolean  
         isTextual : Boolean  
-        name : String) 
+        name : String
     }
     class app::frontend::processor.$Processor << object >>{
         apply (commands : List<Command>) : Processor 
@@ -15,8 +15,7 @@ package app::frontend::processor{
     
     }
     class app::frontend::processor.HelpProcessor << caseclass >>{
-        << ctor >>HelpProcessor (helpCmd : Help) 
-    
+        helpCmd : Help
     }
     class app::frontend::processor.GithubUMLDiagramProcessor << caseclass >>{
         outputPath : String

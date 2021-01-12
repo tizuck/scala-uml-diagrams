@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="251px" preserveAspectRatio="none" style="width:883px;height:251px;" version="1.1" viewBox="0 0 883 251" width="883px" zoomAndPan="magnify"><defs><filter height="300%" id="f1q9jrp8sekf38" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[66823ed09750f0ea3da93a83f1c4678f]
+cluster app::frontend--><polygon fill="#FFFFFF" filter="url(#f1q9jrp8sekf38)" points="16,6.3199,139,6.3199,146,29.9082,866,29.9082,866,244.3199,16,244.3199,16,6.3199" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="146" y1="29.9082" y2="29.9082"/><text fill="#000000" font-family="Source Code Pro" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="117" x="20" y="22.0883">app::frontend</text><!--MD5=[43534dbaac9be95103cde35b487fda6b]
+class app::frontend.Textual--><rect codeLine="2" fill="#FFFFFF" filter="url(#f1q9jrp8sekf38)" height="56.1514" id="app::frontend.Textual" style="stroke:#1B1F23;stroke-width:1.5;" width="79" x="32.5" y="165.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="33.5" y="182.1214">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="49" x="47.5" y="197.1971">Textual</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="33.5" x2="110.5" y1="205.4713" y2="205.4713"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="33.5" x2="110.5" y1="213.4713" y2="213.4713"/><!--MD5=[a5f069ba775587040503d02e8420d0b9]
+class app::frontend.InputPath--><rect codeLine="5" fill="#FFFFFF" filter="url(#f1q9jrp8sekf38)" height="69.9612" id="app::frontend.InputPath" style="stroke:#1B1F23;stroke-width:1.5;" width="89" x="146.5" y="158.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="152.5" y="175.1214">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="63" x="159.5" y="190.1971">InputPath</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="147.5" x2="234.5" y1="198.4713" y2="198.4713"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77" x="152.5" y="213.2819">path:String</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="147.5" x2="234.5" y1="220.2811" y2="220.2811"/><!--MD5=[80214eb363570d955ad0cd35b6c15f98]
+class app::frontend.Name--><rect codeLine="8" fill="#FFFFFF" filter="url(#f1q9jrp8sekf38)" height="69.9612" id="app::frontend.Name" style="stroke:#1B1F23;stroke-width:1.5;" width="89" x="270.5" y="158.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="276.5" y="175.1214">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="28" x="301" y="190.1971">Name</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="271.5" x2="358.5" y1="198.4713" y2="198.4713"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77" x="276.5" y="213.2819">name:String</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="271.5" x2="358.5" y1="220.2811" y2="220.2811"/><!--MD5=[053836693c1d392eaf63d5da9442b3c4]
+class app::frontend.OutputPath--><rect codeLine="11" fill="#FFFFFF" filter="url(#f1q9jrp8sekf38)" height="69.9612" id="app::frontend.OutputPath" style="stroke:#1B1F23;stroke-width:1.5;" width="89" x="394.5" y="158.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="400.5" y="175.1214">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="70" x="404" y="190.1971">OutputPath</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="395.5" x2="482.5" y1="198.4713" y2="198.4713"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77" x="400.5" y="213.2819">path:String</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="395.5" x2="482.5" y1="220.2811" y2="220.2811"/><!--MD5=[07f84f61f02e7f18b837fa183de6bf6a]
+class app::frontend.Verbose--><rect codeLine="14" fill="#FFFFFF" filter="url(#f1q9jrp8sekf38)" height="56.1514" id="app::frontend.Verbose" style="stroke:#1B1F23;stroke-width:1.5;" width="79" x="518.5" y="165.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="519.5" y="182.1214">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="49" x="533.5" y="197.1971">Verbose</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="519.5" x2="596.5" y1="205.4713" y2="205.4713"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="519.5" x2="596.5" y1="213.4713" y2="213.4713"/><!--MD5=[47150519e90465d9871013606bb49d97]
+class app::frontend.Help--><rect codeLine="17" fill="#FFFFFF" filter="url(#f1q9jrp8sekf38)" height="56.1514" id="app::frontend.Help" style="stroke:#1B1F23;stroke-width:1.5;" width="79" x="632.5" y="165.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="633.5" y="182.1214">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="28" x="658" y="197.1971">Help</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="633.5" x2="710.5" y1="205.4713" y2="205.4713"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="633.5" x2="710.5" y1="213.4713" y2="213.4713"/><!--MD5=[537dc2d3a4c0d23fde2923900af4f0dc]
+class app::frontend.Github--><rect codeLine="21" fill="#FFFFFF" filter="url(#f1q9jrp8sekf38)" height="69.9612" id="app::frontend.Github" style="stroke:#1B1F23;stroke-width:1.5;" width="103" x="746.5" y="158.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="759.5" y="175.1214">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="42" x="777" y="190.1971">Github</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="747.5" x2="848.5" y1="198.4713" y2="198.4713"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="91" x="752.5" y="213.2819">path : String</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="747.5" x2="848.5" y1="220.2811" y2="220.2811"/><!--MD5=[53724fcd28e4a7fbe1192bbd44a55e1b]
+class app::frontend.Command--><rect codeLine="25" fill="#FFFFFF" filter="url(#f1q9jrp8sekf38)" height="56.1514" id="app::frontend.Command" style="stroke:#1B1F23;stroke-width:1.5;" width="55" x="411.5" y="42.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="414.5" y="59.1214">«trait»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="414.5" y="74.1971">Command</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="412.5" x2="465.5" y1="82.4713" y2="82.4713"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="412.5" x2="465.5" y1="90.4713" y2="90.4713"/><!--MD5=[076e12c76fb15929b4170a1c3d7c1e09]
+reverse link app::frontend.Command to app::frontend.Github--><path codeLine="28" d="M486.4,82.9399 C544.5,97.7799 645.53,125.4999 729,158.3199 C734.72,160.5699 740.61,163.1099 746.42,165.7599 " fill="none" id="app::frontend.Command-backto-app::frontend.Github" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="484.39,89.6599,466.7,77.9899,487.81,76.0799,484.39,89.6599" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[3989f6816555cc8e06802a88d1857915]
+reverse link app::frontend.Command to app::frontend.Help--><path codeLine="29" d="M485,92.8299 C520.81,109.8799 571.55,134.6699 615,158.3199 C620.67,161.3999 626.58,164.7699 632.37,168.1399 " fill="none" id="app::frontend.Command-backto-app::frontend.Help" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="481.87,99.0999,466.78,84.2199,487.85,86.4399,481.87,99.0999" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[93ec68e70a58b7d15c59ae18f48070c9]
+reverse link app::frontend.Command to app::frontend.Verbose--><path codeLine="30" d="M479.93,112.9399 C496.96,130.2499 516.24,149.8599 531.38,165.2599 " fill="none" id="app::frontend.Command-backto-app::frontend.Verbose" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="474.74,117.6399,465.71,98.4699,484.72,107.8299,474.74,117.6399" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[c99088c70e3f1922abb4dcc95f8cd5f3]
+reverse link app::frontend.Command to app::frontend.OutputPath--><path codeLine="31" d="M439,118.5999 C439,131.6999 439,145.6699 439,157.8799 " fill="none" id="app::frontend.Command-backto-app::frontend.OutputPath" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="432,118.4699,439,98.4699,446,118.4699,432,118.4699" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[d5e906bda86373d92cb84ce17d43b6d4]
+reverse link app::frontend.Command to app::frontend.Name--><path codeLine="32" d="M396.97,112.3399 C381.69,127.2399 364.6,143.9199 350,158.1699 " fill="none" id="app::frontend.Command-backto-app::frontend.Name" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="392.28,107.1299,411.48,98.1699,402.05,117.1499,392.28,107.1299" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[19a2b077c397323e65b3e6f430e150a3]
+reverse link app::frontend.Command to app::frontend.InputPath--><path codeLine="33" d="M392.94,91.8699 C355.06,109.0099 300.13,134.3999 253,158.3199 C247.31,161.2099 241.37,164.3299 235.52,167.4599 " fill="none" id="app::frontend.Command-backto-app::frontend.InputPath" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="390.21,85.4299,411.32,83.5999,395.95,98.1899,390.21,85.4299" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[5543c023069bc53af68137752bfa00a2]
+reverse link app::frontend.Command to app::frontend.Textual--><path codeLine="34" d="M391.45,80.5699 C329.45,93.5399 218.36,119.9299 129,158.3199 C123.28,160.7799 117.44,163.7099 111.78,166.8099 " fill="none" id="app::frontend.Command-backto-app::frontend.Textual" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="390.22,73.6699,411.22,76.5399,393.02,87.3899,390.22,73.6699" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[4c51eaababc3e75847d7c8420e81d8d2]
+@startuml need_to_find_id
+package app::frontend{
+    class app::frontend.Textual << caseclass >>{
+    
+    }
+    class app::frontend.InputPath << caseclass >>{
+        path:String
+    }
+    class app::frontend.Name << caseclass >>{
+        name:String
+    }
+    class app::frontend.OutputPath << caseclass >>{
+        path:String
+    }
+    class app::frontend.Verbose << caseclass >>{
+    
+    }
+    class app::frontend.Help << caseclass >>{
+    
+    }
+
+    class app::frontend.Github << caseclass >>{
+        path : String  
+    }
+
+    abstract class app::frontend.Command << trait >>
+
+}
+app::frontend.Command <|- - app::frontend.Github 
+app::frontend.Command <|- - app::frontend.Help 
+app::frontend.Command <|- - app::frontend.Verbose 
+app::frontend.Command <|- - app::frontend.OutputPath 
+app::frontend.Command <|- - app::frontend.Name 
+app::frontend.Command <|- - app::frontend.InputPath 
+app::frontend.Command <|- - app::frontend.Textual
+
+hide circle 
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

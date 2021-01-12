@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="223px" preserveAspectRatio="none" style="width:502px;height:223px;" version="1.1" viewBox="0 0 502 223" width="502px" zoomAndPan="magnify"><defs><filter height="300%" id="fps4th5887tkz" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[47de47a8b5f06cbc5e036fae0a9149b7]
+class Iterable--><rect codeLine="1" fill="#FFFFFF" filter="url(#fps4th5887tkz)" height="69.9612" id="Iterable" style="stroke:#1B1F23;stroke-width:1.5;" width="481" x="7" y="10"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="210.5" y="26.8015">«trait»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="56" x="207" y="41.8772">Iterable</text><rect fill="#FFFFFF" height="17.0757" style="stroke:#1B1F23;stroke-width:1.0;stroke-dasharray:2.0,2.0;" width="23" x="468" y="7"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="7" x="476" y="19.8015">T</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="8" x2="487" y1="50.1514" y2="50.1514"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="8" x2="487" y1="58.1514" y2="58.1514"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="469" x="13" y="72.962">«def» foldLeft &lt;T2&gt; (p1 : FoldLeftP1&lt;T&gt; , p2:FoldLeftP2&lt;T,T2&gt; ): T2</text><!--MD5=[018e8650dbb84f20a243573489b4913f]
+class FoldLeftP1--><rect codeLine="5" fill="#FFFFFF" filter="url(#fps4th5887tkz)" height="69.9612" id="FoldLeftP1" style="stroke:#1B1F23;stroke-width:1.5;" width="108" x="105.5" y="140"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="119" y="156.8015">«plist»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="70" x="108.5" y="171.8772">FoldLeftP1</text><rect fill="#FFFFFF" height="17.0757" style="stroke:#1B1F23;stroke-width:1.0;stroke-dasharray:2.0,2.0;" width="30" x="186.5" y="137"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="14" x="194.5" y="149.8015">T2</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="106.5" x2="212.5" y1="180.1514" y2="180.1514"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="28" x="111.5" y="194.962">z:T2</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="106.5" x2="212.5" y1="201.9612" y2="201.9612"/><!--MD5=[a0a306b261be2e96ac0230fd624b07cd]
+class FoldLeftP2--><rect codeLine="9" fill="#FFFFFF" filter="url(#fps4th5887tkz)" height="69.9612" id="FoldLeftP2" style="stroke:#1B1F23;stroke-width:1.5;" width="173" x="249" y="140"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="288" y="156.8015">«plist»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="70" x="277.5" y="171.8772">FoldLeftP2</text><rect fill="#FFFFFF" height="17.0757" style="stroke:#1B1F23;stroke-width:1.0;stroke-dasharray:2.0,2.0;" width="44" x="381" y="137"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="28" x="389" y="149.8015">T,T2</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="250" x2="421" y1="180.1514" y2="180.1514"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="161" x="255" y="194.962">op : Function2&lt;T2,T,T2&gt;</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="250" x2="421" y1="201.9612" y2="201.9612"/><!--MD5=[035a8e134986fed39c7903abf11e43de]
+reverse link Iterable to FoldLeftP1--><path codeLine="13" d="M215.28,92.87 C204.64,108.34 193.02,125.24 183.15,139.6 " fill="none" id="Iterable-backto-FoldLeftP1" style="stroke:#1B1F23;stroke-width:1.0;"/><ellipse cx="219.3897" cy="86.8937" fill="#FFFFFF" rx="8" ry="8" style="stroke:#1B1F23;stroke-width:1.0;"/><line style="stroke:#1B1F23;stroke-width:1.0;" x1="214.8594" x2="223.92" y1="93.4873" y2="80.3"/><line style="stroke:#1B1F23;stroke-width:1.0;" x1="212.796" x2="225.9834" y1="82.3634" y2="91.424"/><!--MD5=[5f3e7b315c6a4194bff623243b59dab4]
+reverse link Iterable to FoldLeftP2--><path codeLine="14" d="M279.72,92.87 C290.36,108.34 301.98,125.24 311.85,139.6 " fill="none" id="Iterable-backto-FoldLeftP2" style="stroke:#1B1F23;stroke-width:1.0;"/><ellipse cx="275.6103" cy="86.8937" fill="#FFFFFF" rx="8" ry="8" style="stroke:#1B1F23;stroke-width:1.0;"/><line style="stroke:#1B1F23;stroke-width:1.0;" x1="280.1406" x2="271.08" y1="93.4873" y2="80.3"/><line style="stroke:#1B1F23;stroke-width:1.0;" x1="269.0166" x2="282.204" y1="91.424" y2="82.3634"/><!--MD5=[5850cf39bf215142c8a299382456e6f1]
+@startuml
+   class Iterable < T > <<trait>> {
+       <<def>> foldLeft <T2> (p1 : FoldLeftP1<T> , p2:FoldLeftP2<T,T2> ): T2 
+   }
+
+   class FoldLeftP1 < T2 > <<plist>> {
+       z:T2   
+   }
+
+   class FoldLeftP2 < T,T2 > <<plist>> {
+       op : Function2<T2,T,T2> 
+   }
+
+Iterable +- - FoldLeftP1 
+Iterable +- - FoldLeftP2 
+
+hide circle 
+
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

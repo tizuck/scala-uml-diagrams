@@ -1,0 +1,59 @@
+@startuml need_to_find_id
+package uml{
+    class uml.Relationship << caseclass >>
+    class uml.Note << caseclass >>
+    class uml.Class << caseclass >>
+    class uml.externalReferences << object >>
+    class uml.Package << caseclass >>
+    abstract class uml.RelateableElement << trait >>
+    abstract class uml.PackageBodyElement << trait >>
+    abstract class uml.TopLevelElement << trait >>
+    abstract class uml.UMLElement << trait >>
+    class uml.Stereotype << caseclass >>
+}
+package uml::externalReferences{
+    class uml::externalReferences.ClassDefRef << caseclass >>
+}
+uml.UMLElement <|-- uml.Stereotype 
+uml.UMLElement <|-- uml.TopLevelElement 
+uml.UMLElement <|-- uml.PackageBodyElement 
+uml.UMLElement <|-- uml.RelateableElement 
+uml.TopLevelElement <|-- uml.Package 
+uml.PackageBodyElement <|-- uml.Package 
+uml.RelateableElement <|-- uml.Package 
+uml.TopLevelElement <|-- uml::externalReferences.ClassDefRef 
+uml.TopLevelElement <|-- uml.Class 
+uml.PackageBodyElement <|-- uml.Class 
+uml.RelateableElement <|-- uml.Class 
+uml.TopLevelElement <|-- uml.Note 
+uml.PackageBodyElement <|-- uml.Note 
+uml.TopLevelElement <|-- uml.Relationship 
+uml.PackageBodyElement <|-- uml.Relationship 
+
+hide circle 
+hide members 
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+
+
+@enduml

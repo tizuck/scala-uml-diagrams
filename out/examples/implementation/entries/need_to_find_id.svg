@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="265px" preserveAspectRatio="none" style="width:908px;height:265px;" version="1.1" viewBox="0 0 908 265" width="908px" zoomAndPan="magnify"><defs><filter height="300%" id="f1evamdxyuvswq" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[96aadb405c147b3ad7f79653b2af71d4]
+cluster scalameta::util::namespaces--><polygon fill="#FFFFFF" filter="url(#f1evamdxyuvswq)" points="16,6.3199,265,6.3199,272,29.9082,891,29.9082,891,258.3199,16,258.3199,16,6.3199" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="272" y1="29.9082" y2="29.9082"/><text fill="#000000" font-family="Source Code Pro" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="243" x="20" y="22.0883">scalameta::util::namespaces</text><!--MD5=[9485285148166f8a871f44734b4656ff]
+class scalameta::util::namespaces.NamespaceEntry--><rect codeLine="2" fill="#FFFFFF" filter="url(#f1evamdxyuvswq)" height="83.7711" id="scalameta::util::namespaces.NamespaceEntry" style="stroke:#1B1F23;stroke-width:1.5;" width="187" x="395.5" y="158.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="450.5" y="175.1214">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="98" x="440" y="190.1971">NamespaceEntry</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="396.5" x2="581.5" y1="198.4713" y2="198.4713"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="175" x="401.5" y="213.2819">qualifiers : List&lt;String&gt;</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="161" x="401.5" y="227.0917">targetType : TargetType</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="396.5" x2="581.5" y1="234.091" y2="234.091"/><!--MD5=[540a4064a01a056f97ca850d03c9d792]
+class scalameta::util::namespaces.DefaultNamespace--><rect codeLine="6" fill="#FFFFFF" filter="url(#f1evamdxyuvswq)" height="56.1514" id="scalameta::util::namespaces.DefaultNamespace" style="stroke:#1B1F23;stroke-width:1.5;" width="118" x="618" y="172.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="635" y="189.1214">«caseobject»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="112" x="621" y="204.1971">DefaultNamespace</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="619" x2="735" y1="212.4713" y2="212.4713"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="619" x2="735" y1="220.4713" y2="220.4713"/><!--MD5=[53f78ccf961865e8e1c3b3e78f0926da]
+class scalameta::util::namespaces.NamespaceEmpty--><rect codeLine="7" fill="#FFFFFF" filter="url(#f1evamdxyuvswq)" height="56.1514" id="scalameta::util::namespaces.NamespaceEmpty" style="stroke:#1B1F23;stroke-width:1.5;" width="104" x="771" y="172.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="781" y="189.1214">«caseobject»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="98" x="774" y="204.1971">NamespaceEmpty</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="772" x2="874" y1="212.4713" y2="212.4713"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="772" x2="874" y1="220.4713" y2="220.4713"/><!--MD5=[c7909c00240e625acca7402885352496]
+class scalameta::util::namespaces.Entry--><rect codeLine="8" fill="#FFFFFF" filter="url(#f1evamdxyuvswq)" height="56.1514" id="scalameta::util::namespaces.Entry" style="stroke:#1B1F23;stroke-width:1.5;" width="51" x="651.5" y="42.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="652.5" y="59.1214">«trait»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="35" x="659.5" y="74.1971">Entry</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="652.5" x2="701.5" y1="82.4713" y2="82.4713"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="652.5" x2="701.5" y1="90.4713" y2="90.4713"/><!--MD5=[1d8cd8368d72c14ee8ca8a8fad939596]
+class scalameta::util::namespaces.Package--><rect codeLine="10" fill="#FFFFFF" filter="url(#f1evamdxyuvswq)" height="56.1514" id="scalameta::util::namespaces.Package" style="stroke:#1B1F23;stroke-width:1.5;" width="86" x="32" y="172.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="33" y="189.1214">«caseobject»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="49" x="50.5" y="204.1971">Package</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="33" x2="117" y1="212.4713" y2="212.4713"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="33" x2="117" y1="220.4713" y2="220.4713"/><!--MD5=[d360eeab2b8279446e051cfb7fe3c345]
+class scalameta::util::namespaces.Name--><rect codeLine="11" fill="#FFFFFF" filter="url(#f1evamdxyuvswq)" height="56.1514" id="scalameta::util::namespaces.Name" style="stroke:#1B1F23;stroke-width:1.5;" width="86" x="153" y="172.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="154" y="189.1214">«caseobject»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="28" x="182" y="204.1971">Name</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="154" x2="238" y1="212.4713" y2="212.4713"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="154" x2="238" y1="220.4713" y2="220.4713"/><!--MD5=[eb42687fe2b05c3dd9436b8a402401ef]
+class scalameta::util::namespaces.Wildcard--><rect codeLine="12" fill="#FFFFFF" filter="url(#f1evamdxyuvswq)" height="56.1514" id="scalameta::util::namespaces.Wildcard" style="stroke:#1B1F23;stroke-width:1.5;" width="86" x="274" y="172.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="275" y="189.1214">«caseobject»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="56" x="289" y="204.1971">Wildcard</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="275" x2="359" y1="212.4713" y2="212.4713"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="275" x2="359" y1="220.4713" y2="220.4713"/><!--MD5=[3f59e5c4d263bd3551c944c2150d5854]
+class scalameta::util::namespaces.TargetType--><rect codeLine="13" fill="#FFFFFF" filter="url(#f1evamdxyuvswq)" height="56.1514" id="scalameta::util::namespaces.TargetType" style="stroke:#1B1F23;stroke-width:1.5;" width="76" x="158" y="42.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="171.5" y="59.1214">«trait»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="70" x="161" y="74.1971">TargetType</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="159" x2="233" y1="82.4713" y2="82.4713"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="159" x2="233" y1="90.4713" y2="90.4713"/><!--MD5=[123def64ec9d97c2e7b314732888e7c8]
+reverse link scalameta::util::namespaces.Entry to scalameta::util::namespaces.NamespaceEmpty--><path codeLine="15" d="M718.01,107.2799 C741.54,127.9099 770.6,153.3799 792.18,172.2999 " fill="none" id="scalameta::util::namespaces.Entry-backto-scalameta::util::namespaces.NamespaceEmpty" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="713.19,112.3599,702.77,93.9099,722.42,101.8299,713.19,112.3599" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[3773904e0bb4d68290625e35dea186ce]
+reverse link scalameta::util::namespaces.Entry to scalameta::util::namespaces.DefaultNamespace--><path codeLine="16" d="M677,118.7499 C677,136.7799 677,156.6899 677,172.2099 " fill="none" id="scalameta::util::namespaces.Entry-backto-scalameta::util::namespaces.DefaultNamespace" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="670,118.4699,677,98.4699,684,118.4699,670,118.4699" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[59ffcf24c6b2db9acc6470a63d745b8f]
+reverse link scalameta::util::namespaces.Entry to scalameta::util::namespaces.NamespaceEntry--><path codeLine="17" d="M634.72,100.1099 C609.5,117.2799 577.08,139.3499 549.22,158.3199 " fill="none" id="scalameta::util::namespaces.Entry-backto-scalameta::util::namespaces.NamespaceEntry" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="630.78,94.3199,651.25,88.8499,638.66,105.8899,630.78,94.3199" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[77eda84a64f963a17adff8ae68492595]
+reverse link scalameta::util::namespaces.TargetType to scalameta::util::namespaces.Wildcard--><path codeLine="19" d="M235.59,113.1999 C253.92,132.5899 275.18,155.0799 291.38,172.2099 " fill="none" id="scalameta::util::namespaces.TargetType-backto-scalameta::util::namespaces.Wildcard" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="230.31,117.8099,221.66,98.4699,240.49,108.1899,230.31,117.8099" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[83ebf05ed53f40b28ec77285dd5bfe7a]
+reverse link scalameta::util::namespaces.TargetType to scalameta::util::namespaces.Name--><path codeLine="20" d="M196,118.7499 C196,136.7799 196,156.6899 196,172.2099 " fill="none" id="scalameta::util::namespaces.TargetType-backto-scalameta::util::namespaces.Name" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="189,118.4699,196,98.4699,203,118.4699,189,118.4699" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[1e60ce764e8000bb756b03c94fb45854]
+reverse link scalameta::util::namespaces.TargetType to scalameta::util::namespaces.Package--><path codeLine="21" d="M156.41,113.1999 C138.08,132.5899 116.82,155.0799 100.62,172.2099 " fill="none" id="scalameta::util::namespaces.TargetType-backto-scalameta::util::namespaces.Package" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="151.51,108.1899,170.34,98.4699,161.69,117.8099,151.51,108.1899" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[054749895abed8c92dfc340b283a173e]
+@startuml need_to_find_id
+package scalameta::util::namespaces{
+    class scalameta::util::namespaces.NamespaceEntry << caseclass >>{
+        qualifiers : List<String>
+        targetType : TargetType 
+    }
+    class scalameta::util::namespaces.DefaultNamespace << caseobject >>
+    class scalameta::util::namespaces.NamespaceEmpty << caseobject >>
+    abstract class scalameta::util::namespaces.Entry << trait >>
+
+    class scalameta::util::namespaces.Package << caseobject >>
+    class scalameta::util::namespaces.Name << caseobject >>
+    class scalameta::util::namespaces.Wildcard << caseobject >>
+    abstract class scalameta::util::namespaces.TargetType << trait >>
+}
+scalameta::util::namespaces.Entry <|- - scalameta::util::namespaces.NamespaceEmpty 
+scalameta::util::namespaces.Entry <|- - scalameta::util::namespaces.DefaultNamespace 
+scalameta::util::namespaces.Entry <|- - scalameta::util::namespaces.NamespaceEntry
+
+scalameta::util::namespaces.TargetType <|- - scalameta::util::namespaces.Wildcard 
+scalameta::util::namespaces.TargetType <|- - scalameta::util::namespaces.Name 
+scalameta::util::namespaces.TargetType <|- - scalameta::util::namespaces.Package 
+
+hide circle 
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

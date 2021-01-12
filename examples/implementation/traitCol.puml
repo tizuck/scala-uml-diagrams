@@ -1,0 +1,13 @@
+@startuml
+
+(*) --> collect name 
+--> collect modifiers
+--> collect type parameters
+if "type parameters exist" then 
+->[true] initialize type parameters 
+--> ===typeParams===
+else 
+->[false] ===typeParams===
+endif 
+--> foo 
+@enduml 

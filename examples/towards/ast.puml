@@ -1,0 +1,38 @@
+@startuml
+package ast {
+abstract class Expression << trait>>
+abstract class BinaryOp << caseclass >> {
+    op : String  
+}  
+
+Expression <|-- BinaryOp : "   " 
+BinaryOp --> "1 " Expression : " expr1   "
+BinaryOp --> "1" Expression : " expr2"
+}
+hide circle 
+hide Expression members 
+hide methods
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml

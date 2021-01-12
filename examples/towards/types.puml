@@ -1,0 +1,38 @@
+@startuml
+class TypeContainer <<trait>> 
+
+class T <<type>> {
+    _type:UpperBound<Comparable<T>>
+}
+class Two <A> <<type>> {
+    _type:Tuple2<A,A>
+}
+
+TypeContainer +-- Two 
+TypeContainer +-- T 
+
+hide circle 
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml

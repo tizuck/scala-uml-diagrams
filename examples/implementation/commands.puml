@@ -1,0 +1,62 @@
+@startuml need_to_find_id
+package app::frontend{
+    class app::frontend.Textual << caseclass >>{
+    
+    }
+    class app::frontend.InputPath << caseclass >>{
+        path:String
+    }
+    class app::frontend.Name << caseclass >>{
+        name:String
+    }
+    class app::frontend.OutputPath << caseclass >>{
+        path:String
+    }
+    class app::frontend.Verbose << caseclass >>{
+    
+    }
+    class app::frontend.Help << caseclass >>{
+    
+    }
+
+    class app::frontend.Github << caseclass >>{
+        path : String  
+    }
+
+    abstract class app::frontend.Command << trait >>
+
+}
+app::frontend.Command <|-- app::frontend.Github 
+app::frontend.Command <|-- app::frontend.Help 
+app::frontend.Command <|-- app::frontend.Verbose 
+app::frontend.Command <|-- app::frontend.OutputPath 
+app::frontend.Command <|-- app::frontend.Name 
+app::frontend.Command <|-- app::frontend.InputPath 
+app::frontend.Command <|-- app::frontend.Textual
+
+hide circle 
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+
+@enduml

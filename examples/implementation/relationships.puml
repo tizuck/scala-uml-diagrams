@@ -1,0 +1,60 @@
+@startuml 
+uml.TopLevelElement <|-- uml.Relationship 
+uml.PackageBodyElement <|-- uml.Relationship 
+uml.StereotypeElement <|-- uml.Relationship 
+uml.RelationshipElement <|-- uml.ClassRef 
+uml.RelationshipElement <|-- uml.PackageRef 
+
+abstract class uml.RelationshipElement << trait >>
+abstract class uml.TopLevelElement << trait >>
+abstract class uml.PackageBodyElement << trait >>
+abstract class uml.StereotypeElement << trait >>
+class uml.RelationshipInfo << caseclass >>{
+        sourceMultiplicity : Option<String>
+        targetMultiplicity : Option<String>  
+        from : RelationshipElement  
+        to : RelationshipElement  
+        relationshipIdentifier : Option<String>  
+        identifierDirection : RelationshipDirection
+    }
+
+class uml.Relationship << caseclass >>{
+    relationshipType : RelationshipType
+    relationshipDirection : RelationshipDirection  
+    stereotype : List<Stereotype>
+}
+class uml.PackageRef << caseclass >>{
+        namespace : NamespaceEntry
+}
+class uml.ClassRef << caseclass >>{
+    name : String 
+    namespace : Entry
+}
+
+uml.Relationship --> "1 " uml.RelationshipInfo : relationshipInfo
+
+hide << trait >> members 
+hide circle 
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml 
