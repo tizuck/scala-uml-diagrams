@@ -1,0 +1,48 @@
+@startuml
+
+package "<<profile>> Scala" #00 {
+    class Operation <<metaclass>>
+    class Attribute <<metaclass>>
+    class Association <<metaclass>>
+
+    class Ctor <<stereotype>> {
+        pos:int [0..1]
+    }
+
+    Operation <-- Ctor 
+    Attribute <-- Ctor 
+    Association <-- Ctor 
+}
+
+hide class circle
+hide Operation members 
+hide Attribute members 
+hide Association members 
+hide Ctor methods 
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+
+hide circle
+
+@enduml 

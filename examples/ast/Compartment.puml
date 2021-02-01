@@ -1,0 +1,16 @@
+abstract class RelationshipElement <<trait>>
+
+class uml.PackageRef << caseclass >>{
+        <<ctor pos=1>> namespace : NamespaceEntry
+    -- <<scalaclass>> --
+        isSealed
+    }
+    class uml.ClassRef << caseclass >>{
+        <<ctor pos=1>> name : String
+        <<ctor pos=2>>  namespace : Entry 
+    -- <<scalaclass>> --
+        isSealed
+    }
+
+uml.RelationshipElement <|-- uml.ClassRef 
+uml.RelationshipElement <|-- uml.PackageRef 

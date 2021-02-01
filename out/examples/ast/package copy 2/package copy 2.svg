@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="288px" preserveAspectRatio="none" style="width:393px;height:288px;" version="1.1" viewBox="0 0 393 288" width="393px" zoomAndPan="magnify"><defs><filter height="300%" id="f1h905ifm7tn4t" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[e0cbd5d9ac13768cf3505d2bb427f4e9]
+cluster uml--><polygon fill="#FFFFFF" filter="url(#f1h905ifm7tn4t)" points="16,6.3199,49,6.3199,56,29.9082,376,29.9082,376,281.3199,16,281.3199,16,6.3199" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="56" y1="29.9082" y2="29.9082"/><text fill="#000000" font-family="Source Code Pro" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="20" y="22.0883">uml</text><!--MD5=[7dc5668607f5bb193dbdb04898dfc5fa]
+class uml.NamedElement--><rect codeLine="1" fill="#FFFFFF" filter="url(#f1h905ifm7tn4t)" height="56.1514" id="uml.NamedElement" style="stroke:#1B1F23;stroke-width:1.5;" width="90" x="151" y="42.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="171.5" y="59.1214">«trait»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="154" y="74.1971">NamedElement</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="152" x2="240" y1="82.4713" y2="82.4713"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="152" x2="240" y1="90.4713" y2="90.4713"/><!--MD5=[33ffeff891f29a9a7abf458cbfc5f54f]
+class uml.Stereotype--><rect codeLine="3" fill="#FFFFFF" filter="url(#f1h905ifm7tn4t)" height="107.3907" id="uml.Stereotype" style="stroke:#1B1F23;stroke-width:1.5;" width="327" x="32.5" y="158.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="157.5" y="175.1214">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="70" x="161" y="190.1971">Stereotype</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="33.5" x2="358.5" y1="198.4713" y2="198.4713"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="182" x="38.5" y="213.2819">«ctor pos=1» name : String</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="315" x="38.5" y="227.0917">«ctor pos=2» taggedValues : List&lt;TaggedValue&gt;</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="56" x="38.5" y="258.7113">isSealed</text><line style="stroke:#1B1F23;stroke-width:1.0;" x1="33.5" x2="147" y1="240.9959" y2="240.9959"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="98" x="147" y="244.4015">&lt;&lt;scalaclass&gt;&gt;</text><line style="stroke:#1B1F23;stroke-width:1.0;" x1="245" x2="358.5" y1="240.9959" y2="240.9959"/><!--MD5=[f3cbe897a6c8fd18ff737b05c661a787]
+reverse link uml.NamedElement to uml.Stereotype--><path codeLine="10" d="M196,118.5999 C196,131.3499 196,145.2199 196,158.2399 " fill="none" id="uml.NamedElement-backto-uml.Stereotype" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="189,118.5499,196,98.5499,203,118.5499,189,118.5499" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[e155c3f49316ec4778d7ed24d5a42a1d]
+@startuml
+abstract class uml.NamedElement <<trait>>
+
+class uml.Stereotype << caseclass >>{
+        <<ctor pos=1>> name : String  
+        <<ctor pos=2>> taggedValues : List<TaggedValue> 
+    - - <<scalaclass>> - -
+        isSealed
+    }
+
+uml.NamedElement <|- - uml.Stereotype 
+
+hide circle  
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

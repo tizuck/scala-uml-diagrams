@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="330px" preserveAspectRatio="none" style="width:491px;height:330px;" version="1.1" viewBox="0 0 491 330" width="491px" zoomAndPan="magnify"><defs><filter height="300%" id="fs49rxszv98ks" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[e0cbd5d9ac13768cf3505d2bb427f4e9]
+cluster uml--><polygon fill="#FFFFFF" filter="url(#fs49rxszv98ks)" points="16,6.3199,49,6.3199,56,29.9082,474,29.9082,474,323.3199,16,323.3199,16,6.3199" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="56" y1="29.9082" y2="29.9082"/><text fill="#000000" font-family="Source Code Pro" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="20" y="22.0883">uml</text><!--MD5=[57829a327a816364e8e8a3369f0ff20d]
+class uml.StereotypeElement--><rect codeLine="4" fill="#FFFFFF" filter="url(#fs49rxszv98ks)" height="56.1514" id="uml.StereotypeElement" style="stroke:#1B1F23;stroke-width:1.5;" width="125" x="325.5" y="42.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="363.5" y="59.1214">«trait»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="119" x="328.5" y="74.1971">StereotypeElement</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="326.5" x2="449.5" y1="82.4713" y2="82.4713"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="326.5" x2="449.5" y1="90.4713" y2="90.4713"/><!--MD5=[7dc5668607f5bb193dbdb04898dfc5fa]
+class uml.NamedElement--><rect codeLine="5" fill="#FFFFFF" filter="url(#fs49rxszv98ks)" height="56.1514" id="uml.NamedElement" style="stroke:#1B1F23;stroke-width:1.5;" width="90" x="200" y="42.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="220.5" y="59.1214">«trait»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="203" y="74.1971">NamedElement</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="201" x2="289" y1="82.4713" y2="82.4713"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="201" x2="289" y1="90.4713" y2="90.4713"/><!--MD5=[c01f26eb8fba3698f9691485097fb757]
+class uml.CompartmentElement--><rect codeLine="6" fill="#FFFFFF" filter="url(#fs49rxszv98ks)" height="56.1514" id="uml.CompartmentElement" style="stroke:#1B1F23;stroke-width:1.5;" width="132" x="33" y="42.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="74.5" y="59.1214">«trait»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="126" x="36" y="74.1971">CompartmentElement</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="34" x2="164" y1="82.4713" y2="82.4713"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="34" x2="164" y1="90.4713" y2="90.4713"/><!--MD5=[4f6aca297efcf092bdf943af035e19f8]
+class uml.Attribute--><rect codeLine="8" fill="#FFFFFF" filter="url(#fs49rxszv98ks)" height="148.8201" id="uml.Attribute" style="stroke:#1B1F23;stroke-width:1.5;" width="425" x="32.5" y="158.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="206.5" y="175.1214">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="63" x="213.5" y="190.1971">Attribute</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="33.5" x2="456.5" y1="198.4713" y2="198.4713"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="371" x="38.5" y="213.2819">«ctor pos=1» modificators : Option&lt;List&lt;Modificator&gt;&gt;</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="322" x="38.5" y="227.0917">«ctor pos=2» modifier : Option&lt;AccessModifier&gt;</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="413" x="38.5" y="240.9015">«ctor pos=3» name : String,  attributeType : Option&lt;String&gt;</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="294" x="38.5" y="254.7113">«ctor pos=4» stereotype : List&lt;Stereotype&gt;</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="294" x="38.5" y="268.5211">«ctor pos=5» defaultValue : Option&lt;String&gt;</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="56" x="38.5" y="300.1408">isSealed</text><line style="stroke:#1B1F23;stroke-width:1.0;" x1="33.5" x2="196" y1="282.4253" y2="282.4253"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="98" x="196" y="285.8309">&lt;&lt;scalaclass&gt;&gt;</text><line style="stroke:#1B1F23;stroke-width:1.0;" x1="294" x2="456.5" y1="282.4253" y2="282.4253"/><!--MD5=[ae844977740b85f1bd5362518ee18eec]
+reverse link uml.CompartmentElement to uml.Attribute--><path codeLine="18" d="M137.44,113.5799 C149.87,127.2399 164.04,142.8099 177.92,158.0699 " fill="none" id="uml.CompartmentElement-backto-uml.Attribute" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="132.05,118.0499,123.77,98.5499,142.4,108.6299,132.05,118.0499" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[ba4c0df47cbc1123ace32dbfc85a8cff]
+reverse link uml.StereotypeElement to uml.Attribute--><path codeLine="19" d="M350.35,113.5799 C338.18,127.2399 324.3,142.8099 310.71,158.0699 " fill="none" id="uml.StereotypeElement-backto-uml.Attribute" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="345.21,108.8199,363.74,98.5499,355.66,118.1399,345.21,108.8199" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[91adc5ff9cbdcce58436f0dc91a59110]
+reverse link uml.NamedElement to uml.Attribute--><path codeLine="20" d="M245,118.5599 C245,130.9599 245,144.6399 245,158.0699 " fill="none" id="uml.NamedElement-backto-uml.Attribute" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="238,118.5499,245,98.5499,252,118.5499,238,118.5499" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[2d799056ce5601fb59088ca2c25b3381]
+@startuml
+abstract class uml.StereotypeElement <<trait>> 
+
+
+abstract class uml.StereotypeElement <<trait>>
+abstract class uml.NamedElement <<trait>>
+abstract class uml.CompartmentElement <<trait>>
+
+    class uml.Attribute << caseclass >>{
+        <<ctor pos=1>> modificators : Option<List<Modificator>>
+        <<ctor pos=2>> modifier : Option<AccessModifier>
+        <<ctor pos=3>> name : String,  attributeType : Option<String>
+        <<ctor pos=4>> stereotype : List<Stereotype>
+        <<ctor pos=5>> defaultValue : Option<String>
+    - - <<scalaclass>> - -
+        isSealed
+    }
+
+uml.CompartmentElement <|- - uml.Attribute 
+uml.StereotypeElement <|- - uml.Attribute 
+uml.NamedElement <|- - uml.Attribute 
+
+hide circle  
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="171px" preserveAspectRatio="none" style="width:188px;height:171px;" version="1.1" viewBox="0 0 188 171" width="188px" zoomAndPan="magnify"><defs><filter height="300%" id="f3u2itddcrrbc" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[68f4607d9c5be972b102ceaffcfb626f]
+class Definable--><rect codeLine="1" fill="#FFFFFF" filter="url(#f3u2itddcrrbc)" height="46.9297" id="Definable" style="stroke:#000000;stroke-width:1.5;" width="84" x="51" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="54" x="66" y="24.457">Definable</text><line style="stroke:#000000;stroke-width:1.5;" x1="52" x2="134" y1="32.0938" y2="32.0938"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="72" x="57" y="47.5127">identifier:String</text><!--MD5=[faebc81c07309c527f2fda51bf6b78ab]
+class Annotation--><rect fill="#FFFFFF" filter="url(#f3u2itddcrrbc)" height="25.0938" id="Annotation" style="stroke:#000000;stroke-width:1.5;" width="64" x="7" y="132"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="58" x="10" y="149.457">Annotation</text><!--MD5=[a79137c130dde824eea5efec03801a72]
+class Modifier--><rect fill="#FFFFFF" filter="url(#f3u2itddcrrbc)" height="25.0938" id="Modifier" style="stroke:#000000;stroke-width:1.5;" width="49" x="123.5" y="132"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="43" x="126.5" y="149.457">Modifier</text><!--MD5=[e038b4b20a5ec260befe5953b437d919]
+link Definable to Annotation--><path codeLine="5" d="M59.51,54.05 C50.11,62.26 41.08,72.42 36,84 C30.04,97.59 31.7,114.64 34.32,127 " fill="none" id="Definable-to-Annotation" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="35.48,131.99,37.3455,122.3194,34.3515,127.119,29.552,124.125,35.48,131.99" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="67" x="37" y="98.4951">annotations</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="31.952" y="104.8472"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="21.452" y="121.1988">*</text><!--MD5=[6ed0ce96ab017aa96cd12a2a16ec0bfd]
+link Definable to Modifier--><path codeLine="6" d="M104.13,54.16 C114.78,75.85 130.58,108.02 140.02,127.26 " fill="none" id="Definable-to-Modifier" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="142.28,131.86,141.9083,122.0182,140.0783,127.3708,134.7256,125.5409,142.28,131.86" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="52" x="128" y="98.4951">modifiers</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="136.8533" y="104.6774"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="122.3533" y="121.029">*</text><!--MD5=[64bb080d1f33935173248b3bae0f7ca3]
+@startuml Defineable 
+abstract class Definable {
+    identifier:String
+}
+
+Definable - -> "    \n*" Annotation : annotations 
+Definable - -> "      \n*" Modifier : modifiers
+
+hide circle
+hide class members
+hide Definable methods
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor Black
+}
+
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

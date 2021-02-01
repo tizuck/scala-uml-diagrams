@@ -3,6 +3,10 @@
 package "<<profile>> Scala" #00 {
     class Class <<metaclass>>
     class ScalaClass <<stereotype>>
+    class Caseclass <<stereotype>>
+     class Trait <<stereotype>> {
+        isTransparent : Boolean   
+    }
 
     abstract class AccessModifierElement {
         isObjectPrivate : boolean 
@@ -28,6 +32,9 @@ package "<<profile>> Scala" #00 {
     Class <-- ScalaClass :  "\n\n{required}" 
     ModifierElement <|--left- ScalaClass 
     AccessModifierElement <|--right- ScalaClass 
+    ScalaClass <|-- Trait
+    ScalaClass <|-- Caseclass 
+
 
 }
 
@@ -36,6 +43,7 @@ hide class methods
 hide <<metaclass>> members 
 hide ScalaClass members 
 hide abstract methods
+hide Caseclass members 
 
 skinparam defaultFontName Source Code Pro
 
@@ -54,8 +62,6 @@ skinparam note {
     ArrowColor #1b1f23
     FontColor #d73a49
 }
-
-skinparam linetype ortho
 
 
 skinparam stereotype {

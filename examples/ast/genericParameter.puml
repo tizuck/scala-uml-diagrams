@@ -1,0 +1,41 @@
+
+abstract class uml.StereotypeElement <<trait>> 
+
+
+abstract class uml.StereotypeElement <<trait>>
+abstract class uml.NamedElement <<trait>>
+
+    class uml.GenericParameter << caseclass >>{
+        <<ctor pos=1>> name : String
+        <<ctor pos=2>> concreteType : Option<String>
+        <<ctor pos=3>> stereotype : List<Stereotype>
+    -- <<scalaclass>> --
+        isSealed
+    }
+
+    uml.StereotypeElement <|-- uml.GenericParameter 
+uml.NamedElement <|-- uml.GenericParameter 
+
+hide circle  
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}

@@ -1,12 +1,12 @@
 @startuml Constructorabler
 abstract class Constructorable 
 
-Constructorable *--> "*" TypeParameter : genericParameter 
-Constructorable *--> "   \n\n*" Annotation : modAnnotations 
-Constructorable *--> "\n*" AccessModifier : accessModifiers
-Constructorable *--> "*" ParameterSeqLike : parameterSeqs
+Constructorable o-down-> " *  " TypeParameter : genericParameter 
+Constructorable o-down-> "   \n\n  *" Annotation : modAnnotations 
+Constructorable o-up-> "  \n*" AccessModifier : accessModifiers
+Constructorable o-up-> " *  " ParameterSeqLike : parameterSeqs
 
-hide class circle
+hide circle
 hide class members
 
 skinparam class {

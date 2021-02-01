@@ -6,17 +6,16 @@ abstract class Defines {
 }
 
 Defines *--left> "*" ValDef : vals 
-Defines *--left> "*" DefDef : "\n defs" 
+Defines *--up> " *  " DefDef : "\n defs" 
 Defines *--> "*" VarDef : vars
-Defines *--> "*" TypeDef : types
+Defines *--> " *  " TypeDef : types
 Defines *--> "    \n*" Class : classes
 Defines *--> "\n*" Enum  : enums 
-Defines *--right> "*\n" Object : "\nobjects" 
+Defines *--up> " *  \n" Object : "\nobjects" 
 Defines *--right> "*" Given : givens 
 
-hide class circle
-hide class methods
-hide Defines methods
+hide circle
+hide members 
 
 skinparam class {
     BackgroundColor White

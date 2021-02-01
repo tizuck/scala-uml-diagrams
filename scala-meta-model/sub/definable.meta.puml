@@ -6,7 +6,7 @@ abstract class Definable {
 Definable --> "    \n*" Annotation : annotations 
 Definable --> "      \n*" Modifier : modifiers
 
-hide class circle
+hide circle
 hide class members
 hide Definable methods
 

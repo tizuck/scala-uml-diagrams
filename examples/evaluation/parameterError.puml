@@ -1,0 +1,6 @@
+  @startuml need_to_find_id
+  class foo.foo << object >>{
+    f< T, U >  (<< using >>_ : C1<T>,  << using >>_ : C2<T>,  << using >>_ : C3<U>) : R
+
+  }
+  @enduml

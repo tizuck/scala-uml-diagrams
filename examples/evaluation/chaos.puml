@@ -1,0 +1,39 @@
+@startuml
+
+package Expressions {
+abstract class Set <<trait>> {
+    --<<ScalaClass>>--
+    isSealed 
+}
+class Difference <<caseclass>> extends Set {
+    --<<ScalaClass>>--
+    isSealed 
+}
+class Intersection <<caseclass>> extends Set {
+    --<<ScalaClass>>--
+    isSealed 
+}
+class Union <<caseclass>> extends Set {
+    --<<ScalaClass>>--
+    isSealed 
+}
+class SymmetricDiff <<caseclass>> extends Set {
+    --<<ScalaClass>>--
+    isSealed 
+}
+class Complement <<caseclass>> extends Set {
+
+}
+
+Union --> "1" Set : left
+Union --> "1" Set : right
+Complement --> "1" Set : set
+Intersection --> "1" Set : left 
+Intersection --> "1" Set : right
+Difference --> "1" Set : left 
+Difference --> "1" Set : right
+
+skinparam Linetype ortho 
+skinparam groupinheritance 2
+
+@enduml 

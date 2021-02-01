@@ -1,0 +1,59 @@
+@startuml
+class Franchise< self:Franchise > {
+    <<ctor pos=1>> name:String
+}
+
+class Character <<caseclass>> {
+    <<ctor pos=1>> name:String
+}
+
+class FranchiseConcrete <<pathdep>> 
+
+FranchiseConcrete *--> "\n\n\n\n1" FranchiseConcrete : this 
+Franchise <|.. FranchiseConcrete : <<bind self -> this>>
+
+class Seq1 <<plist>> {
+    
+} 
+class Seq2 <<plist>> {
+   a:f.Character
+   b:f.Character 
+}
+
+
+Franchise +-- Character 
+
+fanFiction +-- Seq1 
+fanFiction +-- Seq2 
+
+Seq1 --> "1 " FranchiseConcrete : f 
+Seq2 --> "1"  FranchiseConcrete: f 
+
+class fanFiction <<object>> {
+  <<def>> createFanFiction(s1:Seq1,s2:Seq2)
+}
+
+hide circle 
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml

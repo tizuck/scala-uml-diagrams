@@ -1,0 +1,39 @@
+@startuml need_to_find_id
+abstract class foo.FooExpr << trait >>
+class foo.Foo << caseclass >>{
+    << ctor >>Foo (i : Int)  
+-- <<scalaclass>> --
+    isSealed
+}
+class foo.$Foo << object >>{
+    apply (i : Int) : Foo 
+
+}
+foo.$Foo --> "1" foo.FooExpr : foo   > 
+foo.Foo ..> foo.$Foo : << companion >>
+
+hide circle 
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="383px" preserveAspectRatio="none" style="width:537px;height:383px;" version="1.1" viewBox="0 0 537 383" width="537px" zoomAndPan="magnify"><defs><filter height="300%" id="fr6etkr3svxbv" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[8b4fc05e36d07b1a9826242b20f809b8]
+class Franchise--><rect codeLine="1" fill="#FFFFFF" filter="url(#fr6etkr3svxbv)" height="54.8855" id="Franchise" style="stroke:#1B1F23;stroke-width:1.5;" width="185" x="54.5" y="152.5"/><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="63" x="57.5" y="169.3015">Franchise</text><rect fill="#FFFFFF" height="17.0757" style="stroke:#1B1F23;stroke-width:1.0;stroke-dasharray:2.0,2.0;" width="114" x="128.5" y="149.5"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="98" x="136.5" y="162.3015">self:Franchise</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="55.5" x2="238.5" y1="177.5757" y2="177.5757"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="168" x="60.5" y="192.3863">«ctor pos=1» name:String</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="55.5" x2="238.5" y1="199.3855" y2="199.3855"/><!--MD5=[3eff9d4279c887ef9286477750bdaaff]
+class Character--><rect codeLine="5" fill="#FFFFFF" filter="url(#fr6etkr3svxbv)" height="69.9612" id="Character" style="stroke:#1B1F23;stroke-width:1.5;" width="180" x="7" y="300"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="58.5" y="316.8015">«caseclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="63" x="65.5" y="331.8772">Character</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="8" x2="186" y1="340.1514" y2="340.1514"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="168" x="13" y="354.962">«ctor pos=1» name:String</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="8" x2="186" y1="361.9612" y2="361.9612"/><!--MD5=[fbed4fd9d74f1273042b3039900dc1cd]
+class FranchiseConcrete--><rect codeLine="9" fill="#FFFFFF" filter="url(#fr6etkr3svxbv)" height="56.1514" id="FranchiseConcrete" style="stroke:#1B1F23;stroke-width:1.5;" width="125" x="302.5" y="307"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="63" x="333.5" y="323.8015">«pathdep»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="119" x="305.5" y="338.8772">FranchiseConcrete</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="303.5" x2="426.5" y1="347.1514" y2="347.1514"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="303.5" x2="426.5" y1="355.1514" y2="355.1514"/><!--MD5=[c38c2a78af3f9c93addc0e109509808c]
+class Seq1--><rect codeLine="14" fill="#FFFFFF" filter="url(#fr6etkr3svxbv)" height="56.1514" id="Seq1" style="stroke:#1B1F23;stroke-width:1.5;" width="51" x="300.5" y="152"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="301.5" y="168.8015">«plist»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="28" x="312" y="183.8772">Seq1</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="301.5" x2="350.5" y1="192.1514" y2="192.1514"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="301.5" x2="350.5" y1="200.1514" y2="200.1514"/><!--MD5=[dd1dc3a2230e56a8c8c2ee0a81e35ae3]
+class Seq2--><rect codeLine="17" fill="#FFFFFF" filter="url(#fr6etkr3svxbv)" height="83.7711" id="Seq2" style="stroke:#1B1F23;stroke-width:1.5;" width="103" x="386.5" y="138"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="413.5" y="154.8015">«plist»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="28" x="424" y="169.8772">Seq2</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="387.5" x2="488.5" y1="178.1514" y2="178.1514"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="91" x="392.5" y="192.962">a:f.Character</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="91" x="392.5" y="206.7718">b:f.Character</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="387.5" x2="488.5" y1="213.7711" y2="213.7711"/><!--MD5=[14f62d196c40ea7f7ab74c0c87bf7070]
+class fanFiction--><rect codeLine="31" fill="#FFFFFF" filter="url(#fr6etkr3svxbv)" height="69.9612" id="fanFiction" style="stroke:#1B1F23;stroke-width:1.5;" width="285" x="238.5" y="7"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="56" x="353" y="23.8015">«object»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="70" x="346" y="38.8772">fanFiction</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="239.5" x2="522.5" y1="47.1514" y2="47.1514"/><line style="stroke:#1B1F23;stroke-width:1.5;" x1="239.5" x2="522.5" y1="55.1514" y2="55.1514"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="273" x="244.5" y="69.962">«def» createFanFiction(s1:Seq1,s2:Seq2)</text><!--MD5=[649d059ee06facc8ac04fd68df2e8644]
+link FranchiseConcrete to FranchiseConcrete--><path codeLine="11" d="M439.7975,322.0231 C439.7975,322.0231 462.5,328.21 462.5,335 C462.5,341.79 453.74,346.09 441.05,347.89 " fill="none" id="FranchiseConcrete-FranchiseConcrete" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="427.83,348.86,437.1,352.1869,432.8164,348.4921,436.5112,344.2085,427.83,348.86" style="stroke:#1B1F23;stroke-width:1.0;"/><line style="stroke:#1B1F23;stroke-width:1.0;" x1="432.8164" x2="440.795" y1="348.4921" y2="347.91"/><polygon fill="#1B1F23" points="427.83,321.14,433.5194,325.5707,439.7975,322.0231,434.1081,317.5924,427.83,321.14" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="32" x="468.5" y="339.7775">this</text><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="443.5572" y="277.5839"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="443.5572" y="293.9063"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="443.5572" y="310.2287"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="443.5572" y="326.5512"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="435.5572" y="342.8736">1</text><!--MD5=[56da54b69c6ac900842d515fa300d695]
+reverse link Franchise to FranchiseConcrete--><path codeLine="12" d="M148.46,227.55 C151.11,242.66 156.49,258.48 167,270 C201.45,307.76 258.31,323.33 302.28,329.71 " fill="none" id="Franchise-backto-FranchiseConcrete" style="stroke:#1B1F23;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="141.49,228.16,146.31,207.53,155.41,226.66,141.49,228.16" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="168" x="168" y="265.7775">&lt;&lt;bind self -&gt; this&gt;&gt;</text><!--MD5=[618e75a7b27f705551134092ada1cd23]
+reverse link Franchise to Character--><path codeLine="23" d="M129.97,221.87 C126.14,231.66 122.26,242.14 119,252 C113.87,267.54 109.05,285.02 105.24,299.83 " fill="none" id="Franchise-backto-Character" style="stroke:#1B1F23;stroke-width:1.0;"/><ellipse cx="132.6623" cy="215.1352" fill="#FFFFFF" rx="8" ry="8" style="stroke:#1B1F23;stroke-width:1.0;"/><line style="stroke:#1B1F23;stroke-width:1.0;" x1="129.6846" x2="135.64" y1="222.5604" y2="207.71"/><line style="stroke:#1B1F23;stroke-width:1.0;" x1="125.2371" x2="140.0875" y1="212.1575" y2="218.1129"/><!--MD5=[eb7719e2d00c651014a68dc57c5f82ee]
+reverse link fanFiction to Seq1--><path codeLine="25" d="M361.48,91.26 C353.23,111.66 343.94,134.65 336.93,151.98 " fill="none" id="fanFiction-backto-Seq1" style="stroke:#1B1F23;stroke-width:1.0;"/><ellipse cx="364.1239" cy="84.7378" fill="#FFFFFF" rx="8" ry="8" style="stroke:#1B1F23;stroke-width:1.0;"/><line style="stroke:#1B1F23;stroke-width:1.0;" x1="361.1278" x2="367.12" y1="92.1556" y2="77.32"/><line style="stroke:#1B1F23;stroke-width:1.0;" x1="356.7061" x2="371.5417" y1="81.7417" y2="87.7339"/><!--MD5=[ade64aaef3628d44d2f0bae58607be24]
+reverse link fanFiction to Seq2--><path codeLine="26" d="M401.27,91.36 C407.65,106.58 414.63,123.24 420.78,137.91 " fill="none" id="fanFiction-backto-Seq2" style="stroke:#1B1F23;stroke-width:1.0;"/><ellipse cx="398.4742" cy="84.6974" fill="#FFFFFF" rx="8" ry="8" style="stroke:#1B1F23;stroke-width:1.0;"/><line style="stroke:#1B1F23;stroke-width:1.0;" x1="401.5685" x2="395.38" y1="92.0748" y2="77.32"/><line style="stroke:#1B1F23;stroke-width:1.0;" x1="391.0969" x2="405.8516" y1="87.7916" y2="81.6031"/><!--MD5=[76e6d212531e324f51076fc824505a61]
+link Seq1 to FranchiseConcrete--><path codeLine="28" d="M332.88,208 C339.55,234.17 349.67,273.87 356.77,301.7 " fill="none" id="Seq1-to-FranchiseConcrete" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="358.05,306.75,359.7209,297.0439,356.8239,301.9027,351.9652,299.0057,358.05,306.75" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="349" y="265.7775">f</text><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="338.7797" y="295.6165">1</text><!--MD5=[3a3b83e9c9ee1febb56376b609a45cf7]
+link Seq2 to FranchiseConcrete--><path codeLine="29" d="M418.44,222 C406.4,247.23 391.21,279.07 380.1,302.35 " fill="none" id="Seq2-to-FranchiseConcrete" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="377.94,306.89,385.4295,300.4941,380.0958,302.3786,378.2113,297.0449,377.94,306.89" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="405" y="265.7775">f</text><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="372.0074" y="295.3368">1</text><!--MD5=[66f624215235eaf9e3900f85b5f3eab0]
+@startuml
+class Franchise< self:Franchise > {
+    <<ctor pos=1>> name:String
+}
+
+class Character <<caseclass>> {
+    <<ctor pos=1>> name:String
+}
+
+class FranchiseConcrete <<pathdep>> 
+
+FranchiseConcrete *- -> "\n\n\n\n1" FranchiseConcrete : this 
+Franchise <|.. FranchiseConcrete : <<bind self -> this>>
+
+class Seq1 <<plist>> {
+    
+} 
+class Seq2 <<plist>> {
+   a:f.Character
+   b:f.Character 
+}
+
+
+Franchise +- - Character 
+
+fanFiction +- - Seq1 
+fanFiction +- - Seq2 
+
+Seq1 - -> "1 " FranchiseConcrete : f 
+Seq2 - -> "1"  FranchiseConcrete: f 
+
+class fanFiction <<object>> {
+  <<def>> createFanFiction(s1:Seq1,s2:Seq2)
+}
+
+hide circle 
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

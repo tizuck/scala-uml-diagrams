@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="357px" preserveAspectRatio="none" style="width:535px;height:357px;" version="1.1" viewBox="0 0 535 357" width="535px" zoomAndPan="magnify"><defs><filter height="300%" id="f9cav2sr7err7" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[19b0e03d4a5c2b73b3ce5818e4cb645a]
+class Seq--><rect codeLine="2" fill="#FFFFFF" filter="url(#f9cav2sr7err7)" height="40.1514" id="Seq" style="stroke:#1B1F23;stroke-width:1.5;" width="62" x="101" y="10"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="102" y="26.8015">«trait»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="21" x="116" y="41.8772">Seq</text><rect fill="#FFFFFF" height="17.0757" style="stroke:#1B1F23;stroke-width:1.0;stroke-dasharray:2.0,2.0;" width="9" x="157" y="7"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="7" x="158" y="19.8015">T</text><!--MD5=[c966000caa4cb685376d0d5530a0d1cb]
+class StringSeq--><rect fill="#FFFFFF" filter="url(#f9cav2sr7err7)" height="25.0757" id="StringSeq" style="stroke:#1B1F23;stroke-width:1.5;" width="69" x="97.5" y="146.5"/><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="63" x="100.5" y="163.3015">StringSeq</text><!--MD5=[6bfcf15cc25972516e1f43cee16dbcb3]
+class ss--><rect codeLine="8" fill="#FFFFFF" filter="url(#f9cav2sr7err7)" height="75.7711" id="ss" style="stroke:#1B1F23;stroke-width:1.5;" width="250" x="7" y="268"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="93.5" y="284.8015">«extension»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="14" x="125" y="299.8772">ss</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="8" x2="256" y1="308.1514" y2="308.1514"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="238" x="13" y="322.962">«def» longestStrings():Seq&lt;String&gt;</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="196" x="13" y="336.7718">«def» longestString():String</text><!--MD5=[3d4177ac58b4411586d067f34e84928f]
+class List--><rect codeLine="15" fill="#FFFFFF" filter="url(#f9cav2sr7err7)" height="40.1514" id="List" style="stroke:#1B1F23;stroke-width:1.5;" width="62" x="303" y="10"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="304" y="26.8015">«trait»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="28" x="314.5" y="41.8772">List</text><rect fill="#FFFFFF" height="17.0757" style="stroke:#1B1F23;stroke-width:1.0;stroke-dasharray:2.0,2.0;" width="9" x="359" y="7"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="7" x="360" y="19.8015">T</text><!--MD5=[f9ac182a3d65bf1b5470879ebe843635]
+class xs--><rect codeLine="16" fill="#FFFFFF" filter="url(#f9cav2sr7err7)" height="61.9612" id="xs" style="stroke:#1B1F23;stroke-width:1.5;" width="110" x="279" y="128"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="290" y="144.8015">«extension»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="14" x="321.5" y="159.8772">xs</text><rect fill="#FFFFFF" height="17.0757" style="stroke:#1B1F23;stroke-width:1.0;stroke-dasharray:2.0,2.0;" width="9" x="383" y="125"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="7" x="384" y="137.8015">T</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="280" x2="388" y1="168.1514" y2="168.1514"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="98" x="285" y="182.962">«def» second()</text><!--MD5=[e0fe0400d30553d584255ed692fcc63e]
+reverse link Seq to StringSeq--><path codeLine="6" d="M129.37,70.5 C129.22,73.72 129.09,76.91 129,80 C128.28,103.57 129.92,131.13 131.05,146.37 " fill="none" id="Seq-backto-StringSeq" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="122.41,69.63,130.56,50.07,136.39,70.44,122.41,69.63" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="160" x="130" y="93.7775">&lt;&lt;bind T -&gt; String&gt;&gt;</text><!--MD5=[37ba7972eafa6984f1a8a531df88333f]
+reverse link StringSeq to ss--><path codeLine="13" d="M132,192.18 C132,214.53 132,244.36 132,267.74 " fill="none" id="StringSeq-backto-ss" style="stroke:#1B1F23;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="125,191.87,132,171.87,139,191.87,125,191.87" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="88" x="133" y="233.7775">«extending»</text><!--MD5=[310cc72feb1427930c75d190b46bbc6c]
+reverse link List to xs--><path codeLine="20" d="M334,70.22 C334,88.83 334,110.72 334,127.98 " fill="none" id="List-backto-xs" style="stroke:#1B1F23;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="327,70.01,334,50.01,341,70.01,327,70.01" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="192" x="335" y="93.7775">&lt;&lt;extending, bind T-&gt;T&gt;&gt;</text><!--MD5=[c2f9add33c40cc124dc8085fd0703012]
+@startuml
+
+abstract class Seq<T> << trait >> {
+
+} 
+
+Seq <|- - StringSeq : <<bind T -> String>>
+
+class ss <<extension>> {
+    <<def>> longestStrings():Seq<String>
+    <<def>> longestString():String 
+}
+
+StringSeq <|.. ss : <<extending>>
+
+abstract class List<T> << trait >> 
+class xs<T> <<extension>> {
+    <<def>> second()
+}
+
+List <|..  xs : <<extending, bind T->T>> 
+
+
+hide circle 
+hide members 
+show ss methods 
+show xs methods 
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>
