@@ -1,9 +1,9 @@
 @startuml
  package Scala <<profile>> {
+    class Class <<metaclass>> 
+    abstract class ScalaClass <<stereotype>> 
 
-     class Operation <<metaclass>>
-
-     abstract class AccessModifierElement {
+    abstract class AccessModifierElement {
         isObjectPrivate : boolean 
         isClassPrivate : boolean  
         isQualifiedPrivate : boolean 
@@ -24,28 +24,43 @@
         isSealed : boolean 
     }
 
-     class Def <<stereotype>>
-     class Ctor <<stereotype>> {
-         pos : Int [0..1]
-     } 
-     class Annotated <<stereotype>>  {
-         annotations:String [1..*]
-     }
-     Operation <-- Def
-     Operation <-- Annotated  
-     Operation <-- Ctor 
-     Def --|> ModifierElement
-     Def --|> AccessModifierElement
-     Ctor --|> AccessModifierElement
+
+    class Object <<stereotype>>
+    class CaseObject <<stereotype>> 
+    class Case <<stereotype>> 
+    class Type <<stereotype>> 
+    class Plist <<stereotype>>
+    class Pathdep <<stereotype>>
+    class Annotated <<stereotype>>  {
+        annotations:String [1..*]
+    }
+
+    Class <-- ScalaClass : {required}
+    AccessModifierElement <|-- ScalaClass
+    ModifierElement <|-- ScalaClass
+    
+    ScalaClass <|-- Object
+    ScalaClass <|-- CaseObject
+    ScalaClass <|-- Case 
+    ScalaClass <|-- Type
+    Class <|-- Plist
+    Class <|-right- Annotated
+    Class <|-- Pathdep
  }
 
 hide circle 
 hide <<metaclass>> members
-hide methods  
-hide Def members 
-
+hide methods
+hide members
+show ModifierElement members
+show AccessModifierElement members
+hide ModifierElement methods 
+hide AccessModifierElement methods
+show Annotated attributes 
 
 skinparam defaultFontName Source Code Pro
+
+skinparam groupinheritance 4
 
 skinparam ClassStereotypeFontColor #1b1f23
 

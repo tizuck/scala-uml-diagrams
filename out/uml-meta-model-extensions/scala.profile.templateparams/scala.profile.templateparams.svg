@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="223px" preserveAspectRatio="none" style="width:284px;height:223px;" version="1.1" viewBox="0 0 284 223" width="284px" zoomAndPan="magnify"><defs><filter height="300%" id="fmx6t27f899l8" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[c32d901b6a3399902eae459c95bc19d1]
+cluster Scala--><polygon fill="#FFFFFF" filter="url(#fmx6t27f899l8)" points="16,6.3199,67,6.3199,74,29.9082,267,29.9082,267,216.3199,16,216.3199,16,6.3199" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="74" y1="29.9082" y2="29.9082"/><text fill="#000000" font-family="Source Code Pro" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="45" x="20" y="22.0883">Scala</text><text fill="#000000" font-family="Source Code Pro" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="72" x="109.5" y="45.6767">«profile»</text><!--MD5=[803907a81cd5fc8fbbcd300c053ab1b4]
+class TemplateParameter--><rect codeLine="2" fill="#FFFFFF" filter="url(#fmx6t27f899l8)" height="40.1514" id="TemplateParameter" style="stroke:#1B1F23;stroke-width:1.5;" width="125" x="78.5" y="60.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="77" x="102.5" y="77.1214">«metaclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="119" x="81.5" y="92.1971">TemplateParameter</text><!--MD5=[1a01c622d145822f6e7e13692bc437a7]
+class Contravariant--><rect codeLine="4" fill="#FFFFFF" filter="url(#fmx6t27f899l8)" height="40.1514" id="Contravariant" style="stroke:#1B1F23;stroke-width:1.5;" width="97" x="32.5" y="160.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="39" y="177.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="91" x="35.5" y="192.1971">Contravariant</text><!--MD5=[e4b1a922666dc5531a5fe84d9d633a0e]
+class Covariant--><rect codeLine="5" fill="#FFFFFF" filter="url(#fmx6t27f899l8)" height="40.1514" id="Covariant" style="stroke:#1B1F23;stroke-width:1.5;" width="86" x="165" y="160.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="166" y="177.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="63" x="176.5" y="192.1971">Covariant</text><!--MD5=[893172c8311060b21e6fcc5a954131a3]
+reverse link TemplateParameter to Contravariant--><path codeLine="7" d="M126.33,105.2699 C116.04,122.0999 102.44,144.3099 92.83,159.9999 " fill="none" id="TemplateParameter-backto-Contravariant" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="129.15,100.6799,121.04,106.2682,126.5399,104.9445,127.8635,110.4444,129.15,100.6799" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[37516f23821a64232656108836a784fb]
+reverse link TemplateParameter to Covariant--><path codeLine="8" d="M157.08,104.8399 C168.62,121.7199 183.97,144.1699 194.79,159.9999 " fill="none" id="TemplateParameter-backto-Covariant" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="154.24,100.6799,156.0269,110.3653,157.066,104.8047,162.6266,105.8437,154.24,100.6799" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[c7e1f10b73a92365883c83fdbcc6550e]
+@startuml
+ package Scala <<profile>> {
+     class TemplateParameter <<metaclass>>
+
+     class Contravariant <<stereotype>>
+     class Covariant <<stereotype>> 
+
+     TemplateParameter <- - Contravariant
+     TemplateParameter <- - Covariant
+     
+ }
+
+hide circle 
+hide members
+
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 11:25:05 CET 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

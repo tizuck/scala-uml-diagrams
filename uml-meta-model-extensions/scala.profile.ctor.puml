@@ -1,9 +1,20 @@
 @startuml
 
-package "<<profile>> Scala" #00 {
-    class Operation <<metaclass>>
+package Scala <<profile>> {
+
     class Attribute <<metaclass>>
     class Association <<metaclass>>
+    class Operation <<metaclass>> 
+
+    abstract class AccessModifierElement {
+        isObjectPrivate : boolean 
+        isClassPrivate : boolean  
+        isQualifiedPrivate : boolean 
+        privateAccessQualid : String 
+        isObjectProtected : boolean
+        isQualifiedProtected : boolean
+        protectedAccessQualid : String
+    }
 
     class Ctor <<stereotype>> {
         pos:int [0..1]
@@ -12,13 +23,15 @@ package "<<profile>> Scala" #00 {
     Operation <-- Ctor 
     Attribute <-- Ctor 
     Association <-- Ctor 
+    Ctor --|> AccessModifierElement
 }
 
 hide class circle
-hide Operation members 
 hide Attribute members 
 hide Association members 
 hide Ctor methods 
+hide AccessModifierElement methods
+hide <<metaclass>> members 
 
 skinparam defaultFontName Source Code Pro
 

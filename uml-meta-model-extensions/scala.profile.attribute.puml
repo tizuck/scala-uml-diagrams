@@ -1,7 +1,6 @@
 @startuml
  package Scala <<profile>> {
     class Attribute <<metaclass>> 
-    abstract class ScalaAttribute <<stereotype>> 
 
     abstract class AccessModifierElement {
         isObjectPrivate : boolean 
@@ -26,17 +25,22 @@
 
     class Var <<stereotype>> 
     class Val <<stereotype>> 
+    class Ctor <<stereotype>> {
+        pos : Int [0..1]
+    }
     class Annotated <<stereotype>>  {
         annotations:String [1..*]
     }
 
-    AccessModifierElement <|-- ScalaAttribute
-    ScalaAttribute -left-|> ModifierElement
-    Attribute <-- ScalaAttribute : {required}
-    ScalaAttribute <|-- Var 
-    ScalaAttribute <|-- Val 
+    Var --|> ModifierElement
+    Val --|> ModifierElement  
+    Var --|> AccessModifierElement
+    Val --|> AccessModifierElement
     Attribute <-- Annotated 
-
+    Attribute <-- Var 
+    Attribute <-- Val 
+    Attribute <-- Ctor 
+    Ctor --|> AccessModifierElement
  }
 
 hide circle 
@@ -44,7 +48,6 @@ hide <<metaclass>> members
 hide methods
 hide Var members 
 hide Val members 
-hide ScalaAttribute members 
 
 skinparam defaultFontName Source Code Pro
 
