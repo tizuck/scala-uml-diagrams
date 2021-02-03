@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="486px" preserveAspectRatio="none" style="width:1252px;height:486px;" version="1.1" viewBox="0 0 1252 486" width="1252px" zoomAndPan="magnify"><defs><filter height="300%" id="f1dfl75b0n0dls" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[c32d901b6a3399902eae459c95bc19d1]
+cluster Scala--><polygon fill="#FFFFFF" filter="url(#f1dfl75b0n0dls)" points="16,6.3199,67,6.3199,74,29.9082,1235,29.9082,1235,479.3199,16,479.3199,16,6.3199" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="74" y1="29.9082" y2="29.9082"/><text fill="#000000" font-family="Source Code Pro" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="45" x="20" y="22.0883">Scala</text><text fill="#000000" font-family="Source Code Pro" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="72" x="593.5" y="45.6767">«profile»</text><!--MD5=[41e1c6cf192918703501b24b2053926c]
+class Class--><rect codeLine="2" fill="#FFFFFF" filter="url(#f1dfl75b0n0dls)" height="40.1514" id="Class" style="stroke:#1B1F23;stroke-width:1.5;" width="79" x="840.5" y="112.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="77" x="841.5" y="129.1214">«metaclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="35" x="862.5" y="144.1971">Class</text><!--MD5=[e4980a4bfddd424444860b38c9f89008]
+class ScalaClass--><rect codeLine="3" fill="#FFFFFF" filter="url(#f1dfl75b0n0dls)" height="40.1514" id="ScalaClass" style="stroke:#1B1F23;stroke-width:1.5;" width="86" x="585" y="302.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="586" y="319.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="70" x="593" y="334.1971">ScalaClass</text><polygon fill="none" points="628,342.4713,635,362.4713,621,362.4713" style="stroke:#1B1F23;stroke-width:1.0;"/><line style="stroke:#1B1F23;stroke-width:1.0;" x1="628" x2="628" y1="362.4713" y2="363.3199"/><line style="stroke:#1B1F23;stroke-width:1.0;" x1="646.1889" x2="664.59" y1="302.3199" y2="282.0099"/><line style="stroke:#1B1F23;stroke-width:1.0;" x1="630.9124" x2="633.85" y1="302.3199" y2="282.0699"/><line style="stroke:#1B1F23;stroke-width:1.0;" x1="607.842" x2="587.73" y1="302.3199" y2="282.2899"/><!--MD5=[b6159fffc79125a513e5b3ae3cbe06c8]
+class AccessModifierElement--><rect codeLine="5" fill="#FFFFFF" filter="url(#f1dfl75b0n0dls)" height="129.7444" id="AccessModifierElement" style="stroke:#1B1F23;stroke-width:1.5;" width="222" x="545" y="67.3199"/><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="147" x="582.5" y="84.1214">AccessModifierElement</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="546" x2="766" y1="92.3956" y2="92.3956"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacing" textLength="175" x="551" y="107.2062">isObjectPrivate : boolean</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacing" textLength="168" x="551" y="121.016">isClassPrivate : boolean</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacing" textLength="196" x="551" y="134.8258">isQualifiedPrivate : boolean</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacing" textLength="196" x="551" y="148.6356">privateAccessQualid : String</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacing" textLength="189" x="551" y="162.4454">isObjectProtected : boolean</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacing" textLength="210" x="551" y="176.2552">isQualifiedProtected : boolean</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacing" textLength="210" x="551" y="190.065">protectedAccessQualid : String</text><!--MD5=[7fba3eb6591b280b8572623466dddd4a]
+class ModifierElement--><rect codeLine="15" fill="#FFFFFF" filter="url(#f1dfl75b0n0dls)" height="143.5542" id="ModifierElement" style="stroke:#1B1F23;stroke-width:1.5;" width="152" x="358" y="60.3199"/><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="105" x="381.5" y="77.1214">ModifierElement</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="359" x2="509" y1="85.3956" y2="85.3956"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacing" textLength="119" x="364" y="100.2062">isFinal : boolean</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacing" textLength="140" x="364" y="114.016">isImplicit : boolean</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacing" textLength="126" x="364" y="127.8258">isInline : boolean</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacing" textLength="112" x="364" y="141.6356">isLazy : boolean</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacing" textLength="126" x="364" y="155.4454">isOpaque : boolean</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacing" textLength="112" x="364" y="169.2552">isOpen : boolean</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacing" textLength="140" x="364" y="183.065">isOverride : boolean</text><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacing" textLength="126" x="364" y="196.8749">isSealed : boolean</text><!--MD5=[731225e2007e13f9ac67fff186258580]
+class Var--><rect codeLine="26" fill="#FFFFFF" filter="url(#f1dfl75b0n0dls)" height="40.1514" id="Var" style="stroke:#1B1F23;stroke-width:1.5;" width="86" x="32" y="423.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="33" y="440.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="21" x="64.5" y="455.1971">Var</text><!--MD5=[43fbf57120ad8775fec71a13d670d035]
+class Val--><rect codeLine="27" fill="#FFFFFF" filter="url(#f1dfl75b0n0dls)" height="40.1514" id="Val" style="stroke:#1B1F23;stroke-width:1.5;" width="86" x="153" y="423.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="154" y="440.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="21" x="185.5" y="455.1971">Val</text><!--MD5=[105ad2d44cdf63c3ad4304fcf3648bfa]
+class Def--><rect codeLine="28" fill="#FFFFFF" filter="url(#f1dfl75b0n0dls)" height="40.1514" id="Def" style="stroke:#1B1F23;stroke-width:1.5;" width="86" x="274" y="423.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="275" y="440.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="21" x="306.5" y="455.1971">Def</text><!--MD5=[b2aea1118518b698ec374f389bc4ef24]
+class Extension--><rect codeLine="29" fill="#FFFFFF" filter="url(#f1dfl75b0n0dls)" height="40.1514" id="Extension" style="stroke:#1B1F23;stroke-width:1.5;" width="86" x="395" y="423.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="396" y="440.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="63" x="406.5" y="455.1971">Extension</text><!--MD5=[d5d3681c577fcaaa7c7682237a411a9e]
+class Giveninstance--><rect codeLine="30" fill="#FFFFFF" filter="url(#f1dfl75b0n0dls)" height="40.1514" id="Giveninstance" style="stroke:#1B1F23;stroke-width:1.5;" width="97" x="516.5" y="423.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="523" y="440.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="91" x="519.5" y="455.1971">Giveninstance</text><!--MD5=[90f27f4891a11243cd9fe13781c4ac94]
+class ScalaEnum--><rect codeLine="31" fill="#FFFFFF" filter="url(#f1dfl75b0n0dls)" height="40.1514" id="ScalaEnum" style="stroke:#1B1F23;stroke-width:1.5;" width="86" x="649" y="423.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="650" y="440.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="63" x="660.5" y="455.1971">ScalaEnum</text><!--MD5=[aa7f586532e18719e6cefa70fc650583]
+class Object--><rect codeLine="32" fill="#FFFFFF" filter="url(#f1dfl75b0n0dls)" height="40.1514" id="Object" style="stroke:#1B1F23;stroke-width:1.5;" width="86" x="770" y="423.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="771" y="440.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="42" x="792" y="455.1971">Object</text><!--MD5=[1f32051d0518faf6efaa2b69144a1fe5]
+class CaseObject--><rect codeLine="33" fill="#FFFFFF" filter="url(#f1dfl75b0n0dls)" height="40.1514" id="CaseObject" style="stroke:#1B1F23;stroke-width:1.5;" width="86" x="891" y="423.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="892" y="440.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="70" x="899" y="455.1971">CaseObject</text><!--MD5=[e8dcfdde5c6ce5239f59acd294696d72]
+class Case--><rect codeLine="34" fill="#FFFFFF" filter="url(#f1dfl75b0n0dls)" height="40.1514" id="Case" style="stroke:#1B1F23;stroke-width:1.5;" width="86" x="1012" y="423.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="1013" y="440.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="28" x="1041" y="455.1971">Case</text><!--MD5=[4296a1ab0576a383a1a509d52c22ebf0]
+class Type--><rect codeLine="35" fill="#FFFFFF" filter="url(#f1dfl75b0n0dls)" height="40.1514" id="Type" style="stroke:#1B1F23;stroke-width:1.5;" width="86" x="1133" y="423.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="1134" y="440.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="28" x="1162" y="455.1971">Type</text><!--MD5=[b6485892caf0378aafb4b46b82d37e18]
+class Plist--><rect codeLine="36" fill="#FFFFFF" filter="url(#f1dfl75b0n0dls)" height="40.1514" id="Plist" style="stroke:#1B1F23;stroke-width:1.5;" width="86" x="726" y="302.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="727" y="319.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="35" x="751.5" y="334.1971">Plist</text><!--MD5=[0af1ada78472ae55ca48ecf673308905]
+class Pathdep--><rect codeLine="37" fill="#FFFFFF" filter="url(#f1dfl75b0n0dls)" height="40.1514" id="Pathdep" style="stroke:#1B1F23;stroke-width:1.5;" width="86" x="847" y="302.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="848" y="319.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="49" x="865.5" y="334.1971">Pathdep</text><!--MD5=[03d62278987e9d08c42fc2838ad14ad1]
+class Annotated--><rect codeLine="38" fill="#FFFFFF" filter="url(#f1dfl75b0n0dls)" height="61.9612" id="Annotated" style="stroke:#1B1F23;stroke-width:1.5;" width="187" x="968.5" y="291.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="1020" y="308.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="63" x="1030.5" y="323.1971">Annotated</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="969.5" x2="1154.5" y1="331.4713" y2="331.4713"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacing" textLength="175" x="974.5" y="346.2819">annotations:String [1..*]</text><!--MD5=[2276c72b4f8c3bce0ed07aeab30e912b]
+reverse link Class to ScalaClass--><path codeLine="42" d="M853.05,155.7899 C834.57,170.5999 809.13,189.8499 785,204.3199 C758.06,220.4699 747.01,216.7099 721,234.3199 C700.86,247.9599 680.86,265.9399 664.59,282.0099 " fill="none" id="Class-backto-ScalaClass" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="857.12,152.5099,847.5968,155.0214,853.2198,155.6386,852.6027,161.2617,857.12,152.5099" style="stroke:#1B1F23;stroke-width:1.0;"/><text fill="#000000" font-family="Source Code Pro" font-size="13" lengthAdjust="spacing" textLength="80" x="722" y="248.0974">{required}</text><!--MD5=[ad64618cef7639a8b83f5b2041888648]
+reverse link AccessModifierElement to ScalaClass--><path codeLine="43" d="M643.48,217.3999 C640.12,239.9399 636.65,263.2599 633.85,282.0699 " fill="none" id="AccessModifierElement-backto-ScalaClass" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="636.57,216.2399,646.44,197.4899,650.42,218.3099,636.57,216.2399" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[1c5b03470df29cba2c8b495bc08d40e5]
+reverse link ModifierElement to ScalaClass--><path codeLine="44" d="M521.91,218.5099 C544.9,240.7899 568.59,263.7399 587.73,282.2899 " fill="none" id="ModifierElement-backto-ScalaClass" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="516.83,223.3399,507.34,204.3899,526.58,213.2899,516.83,223.3399" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[7c5b2fbf7919375ccc6e941a36f6b877]
+reverse link ScalaClass to Var--><path codeLine="45" d="M628,363.3199 C628,363.3199 351.37,377.0399 136,423.3199 C130.14,424.5799 124.04,426.1499 118.06,427.8499 " fill="none" id="ScalaClass-backto-Var" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[72c8c644a843db4c51dc9d265b147cc6]
+reverse link ScalaClass to Val--><path codeLine="46" d="M628,363.3199 C628,363.3199 419.59,385.0499 257,423.3199 C251.17,424.6899 245.08,426.3299 239.11,428.0599 " fill="none" id="ScalaClass-backto-Val" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[83d7588b5e85195f1c04257605f261bc]
+reverse link ScalaClass to Def--><path codeLine="47" d="M628,363.3199 C628,363.3199 488.16,392.9799 378,423.3199 C372.23,424.9099 366.17,426.6799 360.22,428.4699 " fill="none" id="ScalaClass-backto-Def" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[b25685910122543a1884c76b011d59bf]
+reverse link ScalaClass to Extension--><path codeLine="48" d="M628,363.3199 C628,363.3199 537.17,401.0899 481.11,424.3899 " fill="none" id="ScalaClass-backto-Extension" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[ab90be2150f746b3efea646cf1e353ce]
+reverse link ScalaClass to Giveninstance--><path codeLine="49" d="M628,363.3199 C628,363.3199 598.9,399.8199 580.25,423.1999 " fill="none" id="ScalaClass-backto-Giveninstance" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[768ebbe84ddbee2d918b1434a3f34166]
+reverse link ScalaClass to ScalaEnum--><path codeLine="50" d="M628,363.3199 C628,363.3199 657.57,399.8199 676.51,423.1999 " fill="none" id="ScalaClass-backto-ScalaEnum" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[8c34786a6c9b26e564e848b079def435]
+reverse link ScalaClass to Object--><path codeLine="51" d="M628,363.3199 C628,363.3199 714.95,400.4499 769.63,423.7999 " fill="none" id="ScalaClass-backto-Object" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[2974015941a19af9d44a858298814ddc]
+reverse link ScalaClass to CaseObject--><path codeLine="52" d="M628,363.3199 C628,363.3199 765.63,392.9799 874,423.3199 C879.47,424.8499 885.2,426.5499 890.84,428.2699 " fill="none" id="ScalaClass-backto-CaseObject" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[28fc951eb89d1804dfac74454f88a8e2]
+reverse link ScalaClass to Case--><path codeLine="53" d="M628,363.3199 C628,363.3199 834.24,384.9399 995,423.3199 C1000.53,424.6399 1006.28,426.2099 1011.95,427.8699 " fill="none" id="ScalaClass-backto-Case" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[6274306e2f55acde69053d148869a9f0]
+reverse link ScalaClass to Type--><path codeLine="54" d="M628,363.3199 C628,363.3199 902.49,376.7999 1116,423.3199 C1121.55,424.5299 1127.32,426.0299 1133,427.6599 " fill="none" id="ScalaClass-backto-Type" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[f799f2f83448b644fe4cd5dbfccd1f20]
+reverse link Class to Plist--><path codeLine="55" d="M858.45,169.8199 C835.05,209.4499 798.59,271.2099 780.28,302.2099 " fill="none" id="Class-backto-Plist" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="852.55,166.0399,868.75,152.3799,864.61,173.1599,852.55,166.0399" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[cb97471c6993eab69f5b39e8e3730fe1]
+reverse link Class to Annotated--><path codeLine="56" d="M912.67,167.0699 C946.82,202.3499 999.92,257.1899 1032.74,291.0999 " fill="none" id="Class-backto-Annotated" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="907.33,171.6199,898.45,152.3799,917.39,161.8799,907.33,171.6199" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[289d3a58918001d2f5191884fedd6b0d]
+reverse link Class to Pathdep--><path codeLine="57" d="M882.09,172.5599 C884.2,212.2399 887.37,271.9099 888.98,302.2099 " fill="none" id="Class-backto-Pathdep" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="none" points="875.09,172.7199,881.01,152.3799,889.07,171.9799,875.09,172.7199" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[fe6c5fcbed08e378dde1399e51b3217c]
+@startuml
+ package Scala <<profile>> {
+    class Class <<metaclass>> 
+    abstract class ScalaClass <<stereotype>> 
+
+    abstract class AccessModifierElement {
+        isObjectPrivate : boolean 
+        isClassPrivate : boolean  
+        isQualifiedPrivate : boolean 
+        privateAccessQualid : String 
+        isObjectProtected : boolean
+        isQualifiedProtected : boolean
+        protectedAccessQualid : String
+    }
+
+    abstract class ModifierElement {
+        isFinal : boolean 
+        isImplicit : boolean 
+        isInline : boolean 
+        isLazy : boolean 
+        isOpaque : boolean 
+        isOpen : boolean 
+        isOverride : boolean 
+        isSealed : boolean 
+    }
+
+    class Var <<stereotype>> 
+    class Val <<stereotype>> 
+    class Def <<stereotype>> 
+    class Extension <<stereotype>> 
+    class Giveninstance <<stereotype>> 
+    class ScalaEnum <<stereotype>> 
+    class Object <<stereotype>>
+    class CaseObject <<stereotype>> 
+    class Case <<stereotype>> 
+    class Type <<stereotype>> 
+    class Plist <<stereotype>>
+    class Pathdep <<stereotype>>
+    class Annotated <<stereotype>>  {
+        annotations:String [1..*]
+    }
+
+    Class <- - ScalaClass : {required}
+    AccessModifierElement <|- - ScalaClass
+    ModifierElement <|- - ScalaClass
+    ScalaClass <|- - Var  
+    ScalaClass <|- - Val 
+    ScalaClass <|- - Def 
+    ScalaClass <|- - Extension 
+    ScalaClass <|- - Giveninstance
+    ScalaClass <|- - ScalaEnum
+    ScalaClass <|- - Object
+    ScalaClass <|- - CaseObject
+    ScalaClass <|- - Case 
+    ScalaClass <|- - Type
+    Class <|- - Plist
+    Class <|- - Annotated
+    Class <|- - Pathdep
+ }
+
+hide circle 
+hide <<metaclass>> members
+hide methods
+hide members
+show ModifierElement members
+show AccessModifierElement members
+hide ModifierElement methods 
+hide AccessModifierElement methods
+show Annotated attributes 
+
+skinparam defaultFontName Source Code Pro
+
+skinparam groupinheritance 4
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 11:25:05 CET 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

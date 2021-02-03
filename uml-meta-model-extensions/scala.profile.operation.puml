@@ -1,0 +1,72 @@
+@startuml
+ package Scala <<profile>> {
+     class Operation <<metaclass>>
+     abstract class ScalaOperation <<stereotype>> 
+
+     abstract class AccessModifierElement {
+        isObjectPrivate : boolean 
+        isClassPrivate : boolean  
+        isQualifiedPrivate : boolean 
+        privateAccessQualid : String 
+        isObjectProtected : boolean
+        isQualifiedProtected : boolean
+        protectedAccessQualid : String
+    }
+
+    abstract class ModifierElement {
+        isFinal : boolean 
+        isImplicit : boolean 
+        isInline : boolean 
+        isLazy : boolean 
+        isOpaque : boolean 
+        isOpen : boolean 
+        isOverride : boolean 
+        isSealed : boolean 
+    }
+
+     class Def <<stereotype>>
+     class Ctor <<stereotype>> {
+         pos : Int [0..1]
+     } 
+     class Annotated <<stereotype>>  {
+         annotations:String [1..*]
+     }
+
+     ModifierElement <|-- ScalaOperation
+     AccessModifierElement <|-- ScalaOperation
+     Operation <-- ScalaOperation : {required}
+     ScalaOperation <|-- Def
+     ScalaOperation <|-- Ctor 
+     Operation <|-- Annotated  
+ }
+
+hide circle 
+hide <<metaclass>> members
+hide methods  
+hide Def members 
+hide ScalaOperation members 
+
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml 

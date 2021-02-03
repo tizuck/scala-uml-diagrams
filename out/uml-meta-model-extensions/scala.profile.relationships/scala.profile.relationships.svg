@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="245px" preserveAspectRatio="none" style="width:681px;height:245px;" version="1.1" viewBox="0 0 681 245" width="681px" zoomAndPan="magnify"><defs><filter height="300%" id="fi3u2y5mo95dn" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[c32d901b6a3399902eae459c95bc19d1]
+cluster Scala--><polygon fill="#FFFFFF" filter="url(#fi3u2y5mo95dn)" points="16,6.3199,67,6.3199,74,29.9082,664,29.9082,664,238.3199,16,238.3199,16,6.3199" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="74" y1="29.9082" y2="29.9082"/><text fill="#000000" font-family="Source Code Pro" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="45" x="20" y="22.0883">Scala</text><text fill="#000000" font-family="Source Code Pro" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="72" x="308" y="45.6767">«profile»</text><!--MD5=[c1c3ddcbd44eacf04e641abe31d3f229]
+class Specialization--><rect codeLine="2" fill="#FFFFFF" filter="url(#fi3u2y5mo95dn)" height="40.1514" id="Specialization" style="stroke:#1B1F23;stroke-width:1.5;" width="104" x="530" y="60.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="77" x="543.5" y="77.1214">«metaclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="98" x="533" y="92.1971">Specialization</text><!--MD5=[1e51fb7abccb24e04227f5f9e5c04b66]
+class Realization--><rect codeLine="3" fill="#FFFFFF" filter="url(#fi3u2y5mo95dn)" height="40.1514" id="Realization" style="stroke:#1B1F23;stroke-width:1.5;" width="83" x="396.5" y="60.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="77" x="399.5" y="77.1214">«metaclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="77" x="399.5" y="92.1971">Realization</text><!--MD5=[eda04dc33b8c4f4a95d3be221bc0beb8]
+class Nesting--><rect codeLine="4" fill="#FFFFFF" filter="url(#fi3u2y5mo95dn)" height="40.1514" id="Nesting" style="stroke:#1B1F23;stroke-width:1.5;" width="79" x="95.5" y="60.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="77" x="96.5" y="77.1214">«metaclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="49" x="110.5" y="92.1971">Nesting</text><!--MD5=[fbb14acca16f1258cafe94193a278e5e]
+class Extending--><rect codeLine="7" fill="#FFFFFF" filter="url(#fi3u2y5mo95dn)" height="48.1514" id="Extending" style="stroke:#1B1F23;stroke-width:1.5;" width="86" x="274" y="167.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="275" y="184.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="63" x="285.5" y="199.1971">Extending</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="275" x2="359" y1="207.4713" y2="207.4713"/><!--MD5=[59cc430e03c2cf332b5b6549cd1727c6]
+class Given--><rect codeLine="8" fill="#FFFFFF" filter="url(#fi3u2y5mo95dn)" height="48.1514" id="Given" style="stroke:#1B1F23;stroke-width:1.5;" width="86" x="395" y="167.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="396" y="184.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="35" x="420.5" y="199.1971">Given</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="396" x2="480" y1="207.4713" y2="207.4713"/><!--MD5=[ace23fd797099c2e54533fe22153865c]
+class ObjectDef--><rect codeLine="9" fill="#FFFFFF" filter="url(#fi3u2y5mo95dn)" height="48.1514" id="ObjectDef" style="stroke:#1B1F23;stroke-width:1.5;" width="86" x="32" y="167.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="33" y="184.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="63" x="43.5" y="199.1971">ObjectDef</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="33" x2="117" y1="207.4713" y2="207.4713"/><!--MD5=[88622d0c2d15f42cf34ab1215f1f79b0]
+class Companion--><rect codeLine="10" fill="#FFFFFF" filter="url(#fi3u2y5mo95dn)" height="48.1514" id="Companion" style="stroke:#1B1F23;stroke-width:1.5;" width="86" x="153" y="167.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="154" y="184.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="63" x="164.5" y="199.1971">Companion</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="154" x2="238" y1="207.4713" y2="207.4713"/><!--MD5=[469746413ad078f0a5d2d673f8f0d652]
+class Ctorbind--><rect codeLine="11" fill="#FFFFFF" filter="url(#fi3u2y5mo95dn)" height="61.9612" id="Ctorbind" style="stroke:#1B1F23;stroke-width:1.5;" width="131" x="516.5" y="160.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="540" y="177.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="56" x="554" y="192.1971">Ctorbind</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="517.5" x2="646.5" y1="200.4713" y2="200.4713"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacing" textLength="119" x="522.5" y="215.2819">vals : String [*]</text><!--MD5=[2ed98137ab4e9d3ba48c386e0ca5c70d]
+reverse link Realization to Extending--><path codeLine="15" d="M412.92,103.9199 C392.39,122.4099 363.47,148.4599 342.76,167.1099 " fill="none" id="Realization-backto-Extending" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="416.65,100.5599,407.2845,103.6074,412.9335,103.9047,412.6362,109.5538,416.65,100.5599" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[795d0e49169977afafffb5fc1d24e8f1]
+reverse link Realization to Given--><path codeLine="16" d="M438,106.0199 C438,124.3399 438,149.1499 438,167.1099 " fill="none" id="Realization-backto-Given" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="438,100.5599,434,109.5599,438,105.5599,442,109.5599,438,100.5599" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[075f59ba6639fe0ebbe5dc56ce9a8fcd]
+reverse link Nesting to Companion--><path codeLine="17" d="M148.3,105.0799 C158.6,123.4799 172.79,148.8499 183.01,167.1099 " fill="none" id="Nesting-backto-Companion" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="145.77,100.5599,146.6823,110.3664,148.2152,104.9212,153.6604,106.4541,145.77,100.5599" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[bf98c7d4c399eacd7b19aa4ae433d388]
+reverse link Realization to Ctorbind--><path codeLine="18" d="M467.61,103.7399 C489.16,120.0499 518.57,142.3099 542.18,160.1799 " fill="none" id="Realization-backto-Ctorbind" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="463.41,100.5599,468.1559,109.1899,467.3911,103.585,472.996,102.8201,463.41,100.5599" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[33672f4ddce9577cac6f4efc4fadace8]
+reverse link Specialization to Ctorbind--><path codeLine="19" d="M582,105.7999 C582,121.8899 582,143.0499 582,160.1799 " fill="none" id="Specialization-backto-Ctorbind" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="582,100.5599,578,109.5599,582,105.5599,586,109.5599,582,100.5599" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[5b1602e2762761676c367c5d7a5419b8]
+reverse link Nesting to ObjectDef--><path codeLine="20" d="M121.92,105.0799 C111.79,123.4799 97.83,148.8499 87.77,167.1099 " fill="none" id="Nesting-backto-ObjectDef" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="124.41,100.5599,116.5574,106.5044,121.9927,104.9367,123.5604,110.372,124.41,100.5599" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[a2707ca9815e4348695034b6a07e2547]
+@startuml
+ package Scala <<profile>> {
+    class Specialization <<metaclass>> 
+    class Realization <<metaclass>> 
+    class Nesting <<metaclass>> 
+
+
+    class Extending <<stereotype>>
+    class Given <<stereotype>> 
+    class ObjectDef <<stereotype>> 
+    class Companion <<stereotype>> 
+    class Ctorbind <<stereotype>> {
+        vals : String [*]
+    }
+
+    Realization <- - Extending
+    Realization <- - Given
+    Nesting <- - Companion 
+    Realization <- - Ctorbind
+    Specialization <- - Ctorbind
+    Nesting <- - ObjectDef
+    
+ }
+
+hide circle 
+hide <<metaclass>> members
+hide methods
+
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 11:25:05 CET 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

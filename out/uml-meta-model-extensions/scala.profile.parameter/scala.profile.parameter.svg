@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="245px" preserveAspectRatio="none" style="width:896px;height:245px;" version="1.1" viewBox="0 0 896 245" width="896px" zoomAndPan="magnify"><defs><filter height="300%" id="f1fqhbu5jsbynm" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[c32d901b6a3399902eae459c95bc19d1]
+cluster Scala--><polygon fill="#FFFFFF" filter="url(#f1fqhbu5jsbynm)" points="16,6.3199,67,6.3199,74,29.9082,879,29.9082,879,238.3199,16,238.3199,16,6.3199" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="74" y1="29.9082" y2="29.9082"/><text fill="#000000" font-family="Source Code Pro" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="45" x="20" y="22.0883">Scala</text><text fill="#000000" font-family="Source Code Pro" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="72" x="415.5" y="45.6767">«profile»</text><!--MD5=[1f6362a5c8f21d8d6a0fce68f3a92a4e]
+class Parameter--><rect codeLine="2" fill="#FFFFFF" filter="url(#f1fqhbu5jsbynm)" height="40.1514" id="Parameter" style="stroke:#1B1F23;stroke-width:1.5;" width="79" x="337.5" y="60.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="77" x="338.5" y="77.1214">«metaclass»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="63" x="345.5" y="92.1971">Parameter</text><!--MD5=[8af42c1fd17dfdca90eea3caef6b31dc]
+class Implicit--><rect codeLine="4" fill="#FFFFFF" filter="url(#f1fqhbu5jsbynm)" height="40.1514" id="Implicit" style="stroke:#1B1F23;stroke-width:1.5;" width="86" x="32" y="171.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="33" y="188.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="56" x="47" y="203.1971">Implicit</text><!--MD5=[813f3ca45bee691a1dd38fc12e1fd2f1]
+class Repeated--><rect codeLine="5" fill="#FFFFFF" filter="url(#f1fqhbu5jsbynm)" height="40.1514" id="Repeated" style="stroke:#1B1F23;stroke-width:1.5;" width="86" x="153" y="171.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="154" y="188.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="56" x="168" y="203.1971">Repeated</text><!--MD5=[4a8f0dfbc5ea12e5891819172cd6774e]
+class Using--><rect codeLine="6" fill="#FFFFFF" filter="url(#f1fqhbu5jsbynm)" height="40.1514" id="Using" style="stroke:#1B1F23;stroke-width:1.5;" width="86" x="274" y="171.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="275" y="188.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="35" x="299.5" y="203.1971">Using</text><!--MD5=[f84ac665c6d866ac0a01eb7eb8d47bf6]
+class ByName--><rect codeLine="7" fill="#FFFFFF" filter="url(#f1fqhbu5jsbynm)" height="40.1514" id="ByName" style="stroke:#1B1F23;stroke-width:1.5;" width="86" x="395" y="171.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="396" y="188.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="42" x="417" y="203.1971">ByName</text><!--MD5=[4e0c00684421e185efda88a6a2d23b3c]
+class Ctor--><rect codeLine="8" fill="#FFFFFF" filter="url(#f1fqhbu5jsbynm)" height="61.9612" id="Ctor" style="stroke:#1B1F23;stroke-width:1.5;" width="124" x="516" y="160.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="536" y="177.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="28" x="564" y="192.1971">Ctor</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="517" x2="639" y1="200.4713" y2="200.4713"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacing" textLength="112" x="522" y="215.2819">pos : Int [0..1]</text><!--MD5=[03d62278987e9d08c42fc2838ad14ad1]
+class Annotated--><rect codeLine="11" fill="#FFFFFF" filter="url(#f1fqhbu5jsbynm)" height="61.9612" id="Annotated" style="stroke:#1B1F23;stroke-width:1.5;" width="187" x="675.5" y="160.3199"/><text fill="#1B1F23" font-family="Source Code Pro" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="727" y="177.1214">«stereotype»</text><text fill="#6F42C1" font-family="Source Code Pro" font-size="12" lengthAdjust="spacing" textLength="63" x="737.5" y="192.1971">Annotated</text><line style="stroke:#1B1F23;stroke-width:1.5;" x1="676.5" x2="861.5" y1="200.4713" y2="200.4713"/><text fill="#000000" font-family="Source Code Pro" font-size="11" lengthAdjust="spacing" textLength="175" x="681.5" y="215.2819">annotations:String [1..*]</text><!--MD5=[ac9f37bb0a29620b3db83f29a6fbfba8]
+reverse link Parameter to Ctor--><path codeLine="15" d="M417.21,103.1299 C447.38,119.4899 489.05,142.0899 522.41,160.1799 " fill="none" id="Parameter-backto-Ctor" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="412.47,100.5599,418.4752,108.3661,416.8655,102.9432,422.2884,101.3334,412.47,100.5599" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[ec4d1f2bc97b033377324f9cfc92b4a8]
+reverse link Parameter to Implicit--><path codeLine="16" d="M332.22,93.9499 C283.32,108.2099 203.02,133.0099 136,160.3199 C128.02,163.5699 119.63,167.4099 111.72,171.2299 " fill="none" id="Parameter-backto-Implicit" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="337.15,92.5099,327.39,91.1899,332.35,93.9099,329.63,98.8699,337.15,92.5099" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[799b21878293bd4f2c70a4b5e68bbec7]
+reverse link Parameter to Repeated--><path codeLine="17" d="M340.69,103.1799 C307.59,123.1199 259.17,152.2799 227.62,171.2799 " fill="none" id="Parameter-backto-Repeated" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="345.06,100.5599,335.2894,101.7988,340.7827,103.1492,339.4322,108.6425,345.06,100.5599" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[8e2e1e3bd993f9fdaef8bbca0d8dec21]
+reverse link Parameter to Using--><path codeLine="18" d="M363.87,105.1699 C352.95,125.0099 337.6,152.8999 327.48,171.2799 " fill="none" id="Parameter-backto-Using" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="366.41,100.5599,358.5574,106.5044,363.9927,104.9367,365.5604,110.372,366.41,100.5599" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[d9154bfe295a931b9082a0717f8f38de]
+reverse link Parameter to ByName--><path codeLine="19" d="M390.34,105.1699 C401.45,125.0099 417.06,152.8999 427.34,171.2799 " fill="none" id="Parameter-backto-ByName" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="387.77,100.5599,388.6823,110.3664,390.2152,104.9212,395.6604,106.4541,387.77,100.5599" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[736c2487fb8065b915e3efe36d25b1e9]
+reverse link Parameter to Annotated--><path codeLine="20" d="M421.8,93.7799 C483.2,110.8499 594.99,141.9399 675.15,164.2199 " fill="none" id="Parameter-backto-Annotated" style="stroke:#1B1F23;stroke-width:1.0;"/><polygon fill="#1B1F23" points="416.74,92.3699,424.3392,98.6351,421.5572,93.7096,426.4827,90.9276,416.74,92.3699" style="stroke:#1B1F23;stroke-width:1.0;"/><!--MD5=[9bb952981d131cf7ddb4ee0b8058eca5]
+@startuml
+ package Scala <<profile>> {
+    class Parameter <<metaclass>> 
+
+    class Implicit <<stereotype>> 
+    class Repeated <<stereotype>> 
+    class Using <<stereotype>> 
+    class ByName <<stereotype>>
+    class Ctor <<stereotype>> {
+        pos : Int [0..1]
+    }
+    class Annotated <<stereotype>>  {
+        annotations:String [1..*]
+    }
+
+    Parameter <- - Ctor
+    Parameter <- - Implicit
+    Parameter <- - Repeated 
+    Parameter <- - Using 
+    Parameter <- - ByName 
+    Parameter <- - Annotated 
+ }
+
+hide circle 
+hide <<metaclass>> members
+hide methods
+hide <<stereotype>> members  
+show Annotated attributes 
+show Ctor attributes
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 11:25:05 CET 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

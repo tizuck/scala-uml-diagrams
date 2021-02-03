@@ -1,0 +1,53 @@
+@startuml
+ package Scala <<profile>> {
+    class Parameter <<metaclass>> 
+
+    class Implicit <<stereotype>> 
+    class Repeated <<stereotype>> 
+    class Using <<stereotype>> 
+    class ByName <<stereotype>>
+    class Ctor <<stereotype>> {
+        pos : Int [0..1]
+    }
+    class Annotated <<stereotype>>  {
+        annotations:String [1..*]
+    }
+
+    Parameter <-- Ctor
+    Parameter <-- Implicit
+    Parameter <-- Repeated 
+    Parameter <-- Using 
+    Parameter <-- ByName 
+    Parameter <-- Annotated 
+ }
+
+hide circle 
+hide <<metaclass>> members
+hide methods
+hide <<stereotype>> members  
+show Annotated attributes 
+show Ctor attributes
+
+skinparam defaultFontName Source Code Pro
+
+skinparam ClassStereotypeFontColor #1b1f23
+
+skinparam class {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #6f42c1
+}
+
+skinparam note {
+    BackgroundColor White
+    BorderColor #1b1f23
+    ArrowColor #1b1f23
+    FontColor #d73a49
+}
+
+
+skinparam stereotype {
+    FontColor #d73a49
+}
+@enduml 

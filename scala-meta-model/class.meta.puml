@@ -10,12 +10,12 @@ class Class extends Defineable, Constructorable, Defines {
     isSuperTrait : Boolean 
 }
 
-Class --> "*" Class : innerClasses\n {refines classes}
-Class --> "*" Import : imports
-Class --> "*" Export : exports 
-Class *--left> "0..1  " Inherit : inherits
-Class *--> "*" Extension : "extensions"
-Class *--> "*" ClassParameterSeqLike : parameterSeqs \n{refines parameterSeqs}
+Class o--> "*" Class : innerClasses\n {refines classes}
+Class o--> "*" Import : imports
+Class o--> "*" Export : exports 
+Class o--left> "0..1  " Inherit : inherits
+Class o--> "*" Extension : "extensions"
+Class o--> " * " ClassParameterSeqLike : parameterSeqs \n{refines parameterSeqs}
 
 hide class circle
 hide class methods
